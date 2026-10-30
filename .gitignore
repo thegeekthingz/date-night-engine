@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+dist/
+*.local
+*.tsbuildinfo
+__pycache__/
+tmp/pdfs/
+
+# Local release artifacts
+release/

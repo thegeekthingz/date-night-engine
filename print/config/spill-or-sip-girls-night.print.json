@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0",
+  "gameId": "spill-or-sip-girls-night",
+  "contentSource": {
+    "type": "csv",
+    "path": "docs/content/exports/spill-or-sip-girls-night-125-cards-v1.2.csv",
+    "filter": {
+      "active": true,
+      "printable": true
+    },
+    "sortBy": "print_order"
+  },
+  "product": {
+    "title": "Spill or Sip",
+    "edition": "Girls Night Edition",
+    "tagline": "Secrets. Stories. Chaos.",
+    "ageLabel": "18+",
+    "footerText": "SPILL OR SIP"
+  },
+  "page": {
+    "supportedSizes": [
+      "A4",
+      "LETTER"
+    ],
+    "orientation": "portrait",
+    "columns": 3,
+    "rows": 3,
+    "cardsPerPage": 9,
+    "horizontalGutterMm": 2.5,
+    "verticalGutterMm": 2.5,
+    "dimensionsMm": {
+      "A4": [
+        210,
+        297
+      ],
+      "LETTER": [
+        215.9,
+        279.4
+      ]
+    }
+  },
+  "card": {
+    "widthMm": 63.5,
+    "heightMm": 88.9,
+    "orientation": "portrait",
+    "safeAreaMm": 4,
+    "paddingMm": 6
+  },
+  "front": {
+    "themeId": "girls-night-light-premium",
+    "showCategory": true,
+    "showIntensity": true,
+    "showPrompt": true,
+    "showCardNumber": true,
+    "showFooter": true,
+    "showInternalId": false,
+    "renderRuntimeMedia": false,
+    "categoryStyle": "badge",
+    "categoryAccentsEnabled": true,
+    "intensityStyle": "text-pill",
+    "promptFontMinPt": 15,
+    "promptFontTargetPt": 20,
+    "promptFontMaxPt": 22,
+    "promptLineHeight": 1.15,
+    "fonts": {
+      "Prompt": "print/fonts/Vera.ttf",
+      "Label": "print/fonts/VeraBd.ttf"
+    },
+    "palette": {
+      "background": "#F7EAF1",
+      "text": "#26121F",
+      "accent": "#FF3F95",
+      "muted": "#6D4B5E",
+      "pill": "#FFD8E8"
+    },
+    "promptBoxHeightMm": 53,
+    "labelFontPt": 9,
+    "footerFontPt": 7.5,
+    "headerBaselineMm": 6,
+    "accentWidthMm": 12,
+    "categoryVisuals": {
+      "dating": {
+        "icon": "heart",
+        "accent": "#B44E67"
+      },
+      "secrets": {
+        "icon": "lock",
+        "accent": "#765184"
+      },
+      "funny": {
+        "icon": "smile",
+        "accent": "#A46A18"
+      },
+      "chaos": {
+        "icon": "bolt",
+        "accent": "#C02F7D"
+      },
+      "spicy": {
+        "icon": "flame",
+        "accent": "#C04D42"
+      }
+    }
+  },
+  "back": {
+    "enabled": false,
+    "themeId": "girls-night-dark-premium",
+    "title": "Spill or Sip",
+    "edition": "Girls Night Edition",
+    "tagline": "Secrets. Stories. Chaos.",
+    "revealCategory": false,
+    "revealIntensity": false
+  },
+  "numbering": {
+    "enabled": true,
+    "format": "NNN/TOTAL",
+    "source": "print_order",
+    "position": "bottom-right"
+  },
+  "cropMarks": {
+    "enabled": true,
+    "style": "thin",
+    "color": "#6D4B5E",
+    "outsideArtwork": true,
+    "offsetMm": 0.4,
+    "lengthMm": 0.7,
+    "lineWidthPt": 0.25
+  },
+  "output": {
+    "directory": "dist/printable",
+    "modes": [
+      "fronts-only"
+    ],
+    "duplexEnabled": false,
+    "files": {
+      "A4": "03_Spill-or-Sip_Printable_A4.pdf",
+      "LETTER": "04_Spill-or-Sip_Printable_US-Letter.pdf"
+    }
+  },
+  "validation": {
+    "expectedCardCount": 125,
+    "requireUniqueIds": true,
+    "requireContinuousPrintOrder": true,
+    "requireValidCategory": true,
+    "requireValidIntensity": true,
+    "failOnPromptOverflow": true,
+    "categoryCounts": {
+      "dating": 25,
+      "secrets": 25,
+      "funny": 25,
+      "chaos": 25,
+      "spicy": 25
+    }
+  },
+  "categoryLabels": {
+    "dating": "Dating",
+    "secrets": "Secrets",
+    "funny": "Funny",
+    "chaos": "Chaos",
+    "spicy": "Spicy"
+  },
+  "intensityLabels": {
+    "mild": "Mild",
+    "spicy": "Bold",
+    "wild": "Wild"
+  }
+}

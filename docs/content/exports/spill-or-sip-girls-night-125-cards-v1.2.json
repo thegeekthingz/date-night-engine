@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "GN-DAT-001",
+    "text": "What's the funniest first-date moment you've ever had?",
+    "categoryId": "dating",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-002",
+    "text": "Tell the story of a crush you were completely convinced liked you back.",
+    "categoryId": "dating",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-003",
+    "text": "What's one dating rule you secretly think is nonsense?",
+    "categoryId": "dating",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-004",
+    "text": "What's a tiny thing someone can do that instantly makes them more attractive to you?",
+    "categoryId": "dating",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-005",
+    "text": "What's the most unexpectedly good date you've ever been on?",
+    "categoryId": "dating",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-006",
+    "text": "What's your most irrational dating dealbreaker?",
+    "categoryId": "dating",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-007",
+    "text": "Have you ever pretended to like something just because your crush liked it?",
+    "categoryId": "dating",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-008",
+    "text": "What's the green flag you notice fastest in someone new?",
+    "categoryId": "dating",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-009",
+    "text": "What's the biggest red flag you ignored because you were attracted to someone?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-010",
+    "text": "Have you ever gone back to someone after swearing you were completely done?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-011",
+    "text": "Tell the story of the most chaotic situation you've gotten into because of a crush.",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-012",
+    "text": "What's the biggest risk you've taken to turn a crush into an actual date?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-013",
+    "text": "Have you ever checked someone's social media before a first date? How deep did you go?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-014",
+    "text": "What's the pettiest reason you've stopped talking to someone?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-015",
+    "text": "Have you ever kept talking to someone mostly because the attention felt good?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-016",
+    "text": "What's the most awkward message you've ever sent to someone you were dating?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-017",
+    "text": "What's something you used to find attractive that now gives you the ick?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-018",
+    "text": "Have you ever kissed someone you knew was probably a bad idea?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-019",
+    "text": "What's the longest you've stayed interested in someone who clearly wasn't right for you?",
+    "categoryId": "dating",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-020",
+    "text": "Have you ever dated or hooked up with two people who knew each other?",
+    "categoryId": "dating",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-021",
+    "text": "Have you ever lied about where you were because you were meeting someone?",
+    "categoryId": "dating",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-022",
+    "text": "Tell the story of the messiest love triangle you've personally been part of.",
+    "categoryId": "dating",
+    "intensity": "wild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-023",
+    "text": "Have you ever gone through someone's phone or messages without permission?",
+    "categoryId": "dating",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-024",
+    "text": "What's a dating decision you'd never want your family to know about?",
+    "categoryId": "dating",
+    "intensity": "wild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-DAT-025",
+    "text": "Have you ever reconnected with an ex for a reason you knew was a terrible idea?",
+    "categoryId": "dating",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-001",
+    "text": "What's a harmless secret talent most people here don't know you have?",
+    "categoryId": "secrets",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-002",
+    "text": "What's something you pretend not to care about but actually care about a lot?",
+    "categoryId": "secrets",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-003",
+    "text": "What's a small lie you tell all the time because it's easier than explaining the truth?",
+    "categoryId": "secrets",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-004",
+    "text": "What's a childhood secret you can finally laugh about now?",
+    "categoryId": "secrets",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-005",
+    "text": "What's something you've bought and hidden because you knew someone would judge you?",
+    "categoryId": "secrets",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-006",
+    "text": "What's one opinion you usually keep to yourself in a group?",
+    "categoryId": "secrets",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-007",
+    "text": "What's something you've done just to avoid an awkward conversation?",
+    "categoryId": "secrets",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-008",
+    "text": "What's one thing you wish people understood about you without you having to explain it?",
+    "categoryId": "secrets",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-009",
+    "text": "What's something you've never admitted to someone because you were afraid of their reaction?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-010",
+    "text": "Have you ever read a message that wasn't meant for you and pretended you hadn't?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-011",
+    "text": "What's a secret a friend trusted you with that genuinely changed how you saw them?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-012",
+    "text": "Have you ever blamed someone else for something you actually did?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-013",
+    "text": "What's something you judge people for even though you know you probably shouldn't?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-014",
+    "text": "Have you ever exaggerated a story to make yourself look better?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-015",
+    "text": "What's something you've hidden from a partner or close friend because it felt easier?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-016",
+    "text": "What's the most embarrassing thing you hope nobody ever finds in your search history?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-017",
+    "text": "Have you ever secretly been jealous of a close friend?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-018",
+    "text": "Tell us about a time you got away with something you definitely shouldn't have.",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-019",
+    "text": "Have you ever pretended not to know something because you didn't want to get involved?",
+    "categoryId": "secrets",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-020",
+    "text": "What's the biggest secret you've ever kept from someone you were very close to?",
+    "categoryId": "secrets",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-021",
+    "text": "What's something about your past you'd be nervous for a new partner to discover?",
+    "categoryId": "secrets",
+    "intensity": "wild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-022",
+    "text": "Have you ever broken someone's trust and never told them?",
+    "categoryId": "secrets",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-023",
+    "text": "What's the closest you've come to accidentally revealing a secret you were determined to keep?",
+    "categoryId": "secrets",
+    "intensity": "wild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-024",
+    "text": "Have you ever had feelings for someone you absolutely should not have had feelings for?",
+    "categoryId": "secrets",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SEC-025",
+    "text": "What's one truth about yourself you only recently became willing to admit?",
+    "categoryId": "secrets",
+    "intensity": "wild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-001",
+    "text": "What's the most ridiculous thing you've ever done because you were running late?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-002",
+    "text": "What's your most useless but oddly impressive skill?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-003",
+    "text": "What's the weirdest food combination you genuinely enjoy?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-004",
+    "text": "What's your funniest autocorrect or accidental text story?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-005",
+    "text": "If your life had a warning label, what would it say?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-006",
+    "text": "What's the strangest thing you've ever believed for way too long?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-007",
+    "text": "Tell us about a time you tried to look cool and completely failed.",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-008",
+    "text": "What's the most embarrassing song you know every word to?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-009",
+    "text": "What's a totally normal task you're surprisingly bad at?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-010",
+    "text": "What's the funniest excuse you've ever used to get out of something?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-011",
+    "text": "What's the most chaotic thing currently living in your camera roll?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-012",
+    "text": "What's something childish you still do with zero shame?",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-013",
+    "text": "What's the funniest thing that's ever happened to you while flirting?",
+    "categoryId": "funny",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-014",
+    "text": "Have you ever sent a screenshot to the exact person you were screenshotting?",
+    "categoryId": "funny",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-015",
+    "text": "What's the worst outfit you once thought looked incredible?",
+    "categoryId": "funny",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-016",
+    "text": "What's your funniest 'I should have stayed home' story?",
+    "categoryId": "funny",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-017",
+    "text": "Have you ever faked being busy because you didn't want to go out?",
+    "categoryId": "funny",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-018",
+    "text": "What's the most ridiculous reason you've ever cried?",
+    "categoryId": "funny",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-019",
+    "text": "Tell us about your most dramatic overreaction to something minor.",
+    "categoryId": "funny",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-020",
+    "text": "What's the funniest thing you've confidently done while tipsy that made absolutely no sense sober?",
+    "categoryId": "funny",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-021",
+    "text": "What's your most questionable late-night purchase?",
+    "categoryId": "funny",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-022",
+    "text": "What's the funniest lie you've told that became way too complicated?",
+    "categoryId": "funny",
+    "intensity": "wild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-023",
+    "text": "Have you ever invented a fake excuse or story to avoid someone and then had to keep the lie going?",
+    "categoryId": "funny",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-024",
+    "text": "What's the most spectacularly embarrassing thing you've done trying to impress someone you were attracted to?",
+    "categoryId": "funny",
+    "intensity": "wild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-FUN-025",
+    "text": "What's the one story your friends could tell about you tonight that would make you want to disappear?",
+    "categoryId": "funny",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-001",
+    "text": "What's the best night you've had that started with absolutely no plan?",
+    "categoryId": "chaos",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-002",
+    "text": "Have you ever said 'just one drink' and known from the start that was probably a lie?",
+    "categoryId": "chaos",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-003",
+    "text": "Tell us about a time a simple plan became completely chaotic.",
+    "categoryId": "chaos",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-004",
+    "text": "What's the most impulsive thing you've done in the last year?",
+    "categoryId": "chaos",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-005",
+    "text": "Have you ever joined a plan without knowing where you were actually going?",
+    "categoryId": "chaos",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-006",
+    "text": "What's the funniest situation you've ended up in because you followed someone else's bad idea?",
+    "categoryId": "chaos",
+    "intensity": "mild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-007",
+    "text": "What's the weirdest place you've ever ended up after a night out?",
+    "categoryId": "chaos",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-008",
+    "text": "Have you ever made a decision purely because someone said 'you won't'?",
+    "categoryId": "chaos",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-009",
+    "text": "Tell us about a night that started normal and ended with a story you still tell people.",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-010",
+    "text": "Have you ever sent a risky message and immediately regretted pressing send?",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-011",
+    "text": "What's the most chaotic thing you've done because you didn't want the night to end?",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-012",
+    "text": "Have you ever agreed to something while tipsy that sober-you had to deal with later?",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-013",
+    "text": "What's the closest you've come to getting kicked out of somewhere?",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-014",
+    "text": "Have you ever made a spontaneous plan with someone you barely knew?",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-015",
+    "text": "What's the worst idea you've ever been talked into by a friend?",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-016",
+    "text": "Have you ever woken up and had to check your phone to reconstruct part of the night?",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-017",
+    "text": "Tell us about a time you became the reason the group had to change plans.",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-018",
+    "text": "Have you ever done something mostly because it would make a great story later?",
+    "categoryId": "chaos",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-019",
+    "text": "What's the wildest situation you've ever had to talk your way out of?",
+    "categoryId": "chaos",
+    "intensity": "wild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-020",
+    "text": "Have you ever gone somewhere you absolutely weren't supposed to be?",
+    "categoryId": "chaos",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-021",
+    "text": "What's the most reckless spontaneous decision you've made on a night out?",
+    "categoryId": "chaos",
+    "intensity": "wild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-022",
+    "text": "Have you ever lied about what happened because the real story sounded too unbelievable?",
+    "categoryId": "chaos",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-023",
+    "text": "Tell us about a night when you knew halfway through that tomorrow-you would have questions.",
+    "categoryId": "chaos",
+    "intensity": "wild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-024",
+    "text": "Have you ever ignored a very obvious warning sign because the story sounded more fun?",
+    "categoryId": "chaos",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-CHA-025",
+    "text": "What's the biggest mess you've created on a night out and still secretly think was worth it?",
+    "categoryId": "chaos",
+    "intensity": "wild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-001",
+    "text": "What's something subtle someone can do that you find surprisingly attractive?",
+    "categoryId": "spicy",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-002",
+    "text": "What's your biggest weakness when you're attracted to someone?",
+    "categoryId": "spicy",
+    "intensity": "mild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-003",
+    "text": "What's the fastest way someone can make the chemistry feel obvious to you?",
+    "categoryId": "spicy",
+    "intensity": "mild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-004",
+    "text": "Have you ever had a crush on someone in this room or someone very close to this group?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-005",
+    "text": "What's the boldest thing someone has done that actually worked on you?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-006",
+    "text": "Have you ever kissed someone just to see what it would feel like?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-007",
+    "text": "What's one compliment that can instantly change the energy from friendly to flirty?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-008",
+    "text": "Have you ever flirted with someone even though you knew you weren't going to pursue it?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-009",
+    "text": "Tell us about the strongest instant chemistry you've ever felt with someone.",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-010",
+    "text": "What's one thing that can turn friendly energy into flirting for you immediately?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-011",
+    "text": "Have you ever developed chemistry with someone you originally thought was completely off-limits?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-012",
+    "text": "What's something you're attracted to that you'd be slightly embarrassed to admit is your type?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-013",
+    "text": "Have you ever made the first move when everyone expected you not to?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-014",
+    "text": "What's the most memorable kiss you've had, without naming the person?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-015",
+    "text": "What's a kind of confidence that can make you lose your composure a little?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-016",
+    "text": "Have you ever kept talking to someone mainly because the chemistry was too good to ignore?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-017",
+    "text": "What's something you'd only admit about your type after a couple of drinks?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-018",
+    "text": "Have you ever hooked up with someone you had promised yourself you wouldn't?",
+    "categoryId": "spicy",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-019",
+    "text": "What's the riskiest or most unexpected place you've ever kissed or hooked up with someone?",
+    "categoryId": "spicy",
+    "intensity": "wild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-020",
+    "text": "Have you ever been attracted to someone mainly because the situation felt forbidden?",
+    "categoryId": "spicy",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-021",
+    "text": "Tell us about a time chemistry made you make a decision you normally wouldn't make.",
+    "categoryId": "spicy",
+    "intensity": "wild",
+    "type": "story",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "story",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-022",
+    "text": "Have you ever been seeing two people at once and seriously considered keeping both going?",
+    "categoryId": "spicy",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-023",
+    "text": "What's a fantasy scenario you find exciting but would be nervous to admit on a first date?",
+    "categoryId": "spicy",
+    "intensity": "wild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-024",
+    "text": "Have you ever gone back for one more night with someone you knew had no future?",
+    "categoryId": "spicy",
+    "intensity": "wild",
+    "type": "confession",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "confession",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  },
+  {
+    "id": "GN-SPI-025",
+    "text": "What's the boldest invitation you'd say yes to tonight if it came from exactly the right person?",
+    "categoryId": "spicy",
+    "intensity": "wild",
+    "type": "question",
+    "target": {
+      "type": "none"
+    },
+    "actionIds": [
+      "spill",
+      "sip"
+    ],
+    "tags": [
+      "question",
+      "girls-night",
+      "spill-or-sip"
+    ],
+    "active": true
+  }
+]

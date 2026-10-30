@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0",
+  "product": {
+    "title": "Spill or Sip",
+    "edition": "Girls Night Edition",
+    "brand": "TheGeekThingz",
+    "age": "18+",
+    "support": "Message TheGeekThingz through your Etsy order.",
+    "digitalNote": "Digital product · No physical item will be shipped."
+  },
+  "webapp": {
+    "url": "https://spill-or-sip-girls-night.netlify.app/",
+    "cta": "PLAY NOW",
+    "helper": [
+      "Opens instantly in your browser.",
+      "No app download needed."
+    ]
+  },
+  "features": [
+    "WebApp with all 125 cards",
+    "Choose Your Vibe + Surprise Me",
+    "Optional player turns + Game Length",
+    "Player stats + Night Highlights",
+    "Full 125-card US Letter printable",
+    "Full 125-card A4 printable"
+  ],
+  "categories": [
+    ["Dating", "Dates, crushes, exes, red flags and romantic stories."],
+    ["Secrets", "Hidden opinions, confessions and things you do not usually admit."],
+    ["Funny", "Cringe moments, awkward stories and stories your friends will never let you forget."],
+    ["Chaos", "Impulsive decisions, messy nights and stories that got out of hand."],
+    ["Spicy", "Flirting, chemistry, attraction and the bolder side of the conversation."]
+  ],
+  "intensities": [
+    ["Mild", "Keep it light.", "Easy, funny and lower-pressure prompts."],
+    ["Bold", "Turn up the heat.", "More personal, revealing and daring."],
+    ["Wild", "No limits.", "The boldest prompts in the deck."]
+  ],
+  "quickStart": {
+    "tagline": "Secrets. Stories. Chaos.",
+    "howToPlay": [
+      ["Choose Your Vibe", "Pick the categories and intensity levels you want."],
+      ["Surprise Me", "Mixes all categories and intensity levels for you."],
+      ["Player names — optional", "Add one name per line for automatic player turns, Game Length, player stats and Night Highlights."],
+      ["Game Length", "Quick: 2 turns each · Standard: 4 · Long: 6 · All Cards: the full matching deck."],
+      ["Read the prompt", "One card appears at a time. The current player's name appears above it when names are enabled."],
+      ["SPILL or SIP", "Answer honestly, or take a sip instead. Both use the card and move to the next player."],
+      ["Skip this card", "The skipped card is used and will not repeat. Skip keeps the same player for the next card."],
+      ["Progress and recap", "The game ends when the session is complete. Named-player games show player stats and Night Highlights — never scores, winners or rankings."]
+    ],
+    "surprise": "Select Surprise Me to use all 5 categories plus Mild, Bold and Wild. Your Game Length still controls how many cards are used."
+  },
+  "print": {
+    "summary": "Your download also includes the full 125-card printable edition in US Letter and A4.",
+    "basics": [
+      "Print at 100% / Actual Size",
+      "Do not use Fit to Page",
+      "Use the PDF that matches your paper size",
+      "Heavier paper or cardstock feels more premium",
+      "Cut along the crop marks"
+    ]
+  },
+  "files": {
+    "outputDirectory": "dist/customer-delivery",
+    "startHere": "01_START-HERE_Play-Spill-or-Sip.pdf",
+    "quickStart": "02_Spill-or-Sip_Quick-Start.pdf"
+  },
+  "palette": {
+    "background": "#26121F",
+    "surface": "#3A1B2E",
+    "lightSurface": "#FFF7FA",
+    "pink": "#FF3F95",
+    "pinkSoft": "#FFD8E8",
+    "coral": "#FF786B",
+    "blush": "#F7EAF1",
+    "text": "#26121F",
+    "muted": "#6D4B5E",
+    "line": "#DAB9C9"
+  },
+  "layout": {
+    "pageSize": "LETTER",
+    "marginMm": 16,
+    "footerMm": 11,
+    "sectionGapMm": 9
+  }
+}

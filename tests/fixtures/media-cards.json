@@ -1,0 +1,45 @@
+[
+  {
+    "id": "girls-night-001",
+    "media": [{ "id": "sample-image", "type": "image", "src": "/media/sample-image.webp", "alt": "Colorful geometric test pattern", "aspectRatio": "16/9" }],
+    "text": "What is the funniest opening line you have heard on a date?",
+    "categoryId": "dating",
+    "intensity": "mild",
+    "type": "question",
+    "active": true
+  },
+  {
+    "id": "girls-night-002",
+    "media": [{ "id": "sample-animation", "type": "gif", "src": "/media/sample-animation.gif", "alt": "Animated geometric test pattern", "aspectRatio": "16/9" }],
+    "text": "What harmless secret have you kept from your friends until now?",
+    "categoryId": "secrets",
+    "intensity": "mild",
+    "type": "confession",
+    "active": true
+  },
+  {
+    "id": "girls-night-003",
+    "media": [{ "id": "sample-video", "type": "video", "src": "/media/sample-video.mp4", "alt": "Two-second silent geometric test video", "poster": "/media/sample-image.webp", "aspectRatio": "16/9" }],
+    "text": "Tell the story of your most embarrassing accidental text.",
+    "categoryId": "funny",
+    "intensity": "mild",
+    "type": "story",
+    "active": true
+  },
+  {
+    "id": "girls-night-004",
+    "text": "What is the most impulsive thing you have done for a crush?",
+    "categoryId": "chaos",
+    "intensity": "wild",
+    "type": "confession",
+    "active": true
+  },
+  {
+    "id": "girls-night-005",
+    "text": "What unexpected quality do you find irresistible in someone?",
+    "categoryId": "spicy",
+    "intensity": "spicy",
+    "type": "question",
+    "active": true
+  }
+]

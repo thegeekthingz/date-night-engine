@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.0",
+  "product": {
+    "id": "spill-or-sip-girls-night",
+    "title": "Spill or Sip",
+    "edition": "Girls Night Edition",
+    "brand": "TheGeekThingz"
+  },
+  "canvas": {
+    "width": 2700,
+    "height": 2025,
+    "aspectRatio": "4:3"
+  },
+  "palette": {
+    "background": "#26121F",
+    "surface": "#3A1B2E",
+    "lightSurface": "#FFF7FA",
+    "pink": "#FF3F95",
+    "coral": "#FF786B",
+    "blush": "#F7EAF1",
+    "lightText": "#FFF7FA",
+    "mutedText": "#DAB9C9"
+  },
+  "typography": {
+    "display": "Arial, Helvetica, sans-serif",
+    "body": "Arial, Helvetica, sans-serif",
+    "heroSizePx": 184,
+    "titleSizePx": 118,
+    "bodySizePx": 48
+  },
+  "features": [
+    "125 conversation cards",
+    "Choose Your Vibe or Surprise Me",
+    "Optional player turns and Game Length",
+    "Player stats and Night Highlights",
+    "US Letter and A4 printable decks"
+  ],
+  "screenshots": {
+    "home": {
+      "path": "marketing-assets/source/home.jpeg",
+      "description": "WebApp home screen"
+    },
+    "setupChoose": {
+      "path": "marketing-assets/source/setup-choose.jpeg",
+      "description": "Choose Your Vibe setup screen"
+    },
+    "setupSurprise": {
+      "path": "marketing-assets/source/setup-surprise.jpeg",
+      "description": "Surprise Me setup screen"
+    },
+    "setupNames": {
+      "path": "marketing-assets/source/setup-names.jpeg",
+      "description": "Player names and Game Length setup screen"
+    },
+    "playFunny": {
+      "path": "marketing-assets/source/play-funny.jpeg",
+      "description": "Funny category play screen"
+    },
+    "playWild": {
+      "path": "marketing-assets/source/play-wild.jpeg",
+      "description": "Wild intensity play screen"
+    },
+    "endHighlights": {
+      "path": "marketing-assets/source/end-highlights.jpeg",
+      "description": "End screen with Night Highlights"
+    }
+  },
+  "slides": [
+    {
+      "order": 1,
+      "template": "hero",
+      "output": "01-spill-or-sip-girls-night-hero.png",
+      "copy": {
+        "eyebrow": "Girls Night Edition",
+        "headline": "SPILL OR SIP",
+        "subhead": "The conversation game for your next girls night.",
+        "cta": "Play on your phone or print the full deck."
+      },
+      "screenshots": ["home"]
+    },
+    {
+      "order": 2,
+      "template": "what-is-included",
+      "output": "02-one-game-two-ways-to-play.png",
+      "copy": {
+        "headline": "1 GAME · 2 WAYS TO PLAY",
+        "body": "Play instantly in the WebApp or print the full 125-card deck at home."
+      },
+      "screenshots": ["home"]
+    },
+    {
+      "order": 3,
+      "template": "feature-spotlight",
+      "output": "03-choose-your-vibe.png",
+      "copy": {
+        "headline": "CHOOSE YOUR VIBE",
+        "body": "Pick the categories and intensity levels that fit your group."
+      },
+      "screenshots": ["setupChoose"]
+    },
+    {
+      "order": 4,
+      "template": "feature-spotlight",
+      "output": "04-surprise-me.png",
+      "copy": {
+        "headline": "SURPRISE ME",
+        "body": "Mix every category and intensity level with one tap."
+      },
+      "screenshots": ["setupSurprise"]
+    },
+    {
+      "order": 5,
+      "template": "feature-spotlight",
+      "output": "05-player-turns-and-game-length.png",
+      "copy": {
+        "headline": "PLAYER TURNS + GAME LENGTH",
+        "body": "Add names for turns, then choose a session length that fits the night."
+      },
+      "screenshots": ["setupNames"]
+    },
+    {
+      "order": 6,
+      "template": "feature-spotlight",
+      "output": "06-play-on-your-phone.png",
+      "copy": {
+        "headline": "PLAY ON YOUR PHONE",
+        "body": "No app download needed — open the game instantly in your browser."
+      },
+      "screenshots": ["home"]
+    },
+    {
+      "order": 7,
+      "template": "multi-screenshot",
+      "output": "07-from-light-to-wild.png",
+      "copy": {
+        "headline": "FROM LIGHT TO WILD",
+        "body": "Set the mood from funny icebreakers to bolder conversation prompts."
+      },
+      "screenshots": ["playFunny", "playWild"]
+    },
+    {
+      "order": 8,
+      "template": "feature-spotlight",
+      "output": "08-player-stats-and-night-highlights.png",
+      "copy": {
+        "headline": "NIGHT HIGHLIGHTS",
+        "body": "See your group's Spill, Sip and Skip moments at the end of the game."
+      },
+      "screenshots": ["endHighlights"]
+    },
+    {
+      "order": 9,
+      "template": "what-is-included",
+      "output": "09-printable-whats-included.png",
+      "copy": {
+        "headline": "WHAT'S INCLUDED",
+        "body": "The WebApp plus full 125-card printable decks for US Letter and A4."
+      },
+      "screenshots": []
+    },
+    {
+      "order": 10,
+      "template": "informational",
+      "output": "10-final-details.png",
+      "copy": {
+        "headline": "READY FOR GIRLS NIGHT?",
+        "body": "Secrets. Stories. Chaos. Play your way."
+      },
+      "screenshots": []
+    }
+  ]
+}

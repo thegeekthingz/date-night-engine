@@ -1,0 +1,35 @@
+{
+  "id": "spill-or-sip-girls-night",
+  "name": "Spill or Sip",
+  "edition": "Girls Night Edition",
+  "version": "1.0.0",
+  "audience": ["adult-friends", "girls-night"],
+  "occasion": ["girls-night", "girls-trip", "party"],
+  "minPlayers": 2,
+  "maxPlayers": 20,
+  "turnMode": "none",
+  "modes": [
+    { "id": "choose-your-vibe", "label": "Choose Your Vibe", "description": "Pick categories + intensity" },
+    { "id": "random-mix", "label": "Surprise Me", "description": "Mix everything for me", "filterMode": "all" }
+  ],
+  "categories": [
+    { "id": "dating", "label": "Dating" },
+    { "id": "secrets", "label": "Secrets" },
+    { "id": "funny", "label": "Funny" },
+    { "id": "chaos", "label": "Chaos" },
+    { "id": "spicy", "label": "Spicy" }
+  ],
+  "actions": [
+    { "id": "spill", "label": "SPILL" },
+    { "id": "sip", "label": "SIP" }
+  ],
+  "intensityEnabled": true,
+  "allowedIntensities": ["mild", "spicy", "wild"],
+  "scoringEnabled": false,
+  "timerEnabled": false,
+  "allowRepeats": false,
+  "endCondition": "manual",
+  "themeId": "girls-night-hybrid-premium",
+  "adultContent": true,
+  "ageNotice": "18+"
+}

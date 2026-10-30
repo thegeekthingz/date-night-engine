@@ -1,0 +1,174 @@
+:root {
+  color-scheme: dark;
+  --background: #160A13;
+  --background-soft: #1E0D19;
+  --surface: #26121F;
+  --surface-elevated: #311728;
+  --surface-soft: #F7EAF1;
+  --primary: #FF3F95;
+  --primary-soft: #FF75B2;
+  --secondary: #FF6B72;
+  --blush: #FFD8E8;
+  --warm: #F4C6D8;
+  --text: #FFF8FC;
+  --text-secondary: #D9B9CA;
+  --muted: #A98A99;
+  --text-light: #26121F;
+  --text-light-secondary: #6D4B5E;
+  --border: #4A273D;
+  --border-soft: #E5C7D6;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: Inter, system-ui, sans-serif;
+  --radius-small: 10px;
+  --radius-button: 14px;
+  --radius-card: 20px;
+  --radius-panel: 24px;
+  font-family: var(--font-body);
+  background: var(--background);
+  color: var(--text);
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.5; }
+main { max-width: 560px; margin: auto; padding: 24px 16px; }
+.app-shell { min-height: 100svh; font-family: var(--font-body); color: var(--text); background: var(--background); }
+h1, h2, p { margin: 0; }
+h1 { font-size: 30px; line-height: 1.15; letter-spacing: -.025em; }
+h2 { font-size: 24px; font-weight: 500; }
+button, input, select, textarea { font: inherit; }
+button { min-height: 48px; padding: 12px 16px; border: 1px solid var(--border); border-radius: var(--radius-button); background: var(--surface); color: var(--text); font-size: 16px; font-weight: 600; cursor: pointer; transition: background 120ms, transform 120ms; }
+button:hover:not(:disabled) { border-color: var(--primary-soft); }
+button:active:not(:disabled) { transform: translateY(1px); }
+button:disabled { opacity: .45; cursor: default; }
+.button-primary, .button-coral { background: var(--primary); color: #fff; border-color: transparent; font-weight: 800; font-size: 20px; }
+.button-coral { background: var(--secondary); color: var(--text-light); }
+.button-quiet { background: transparent; border-color: transparent; color: var(--text-secondary); }
+.buttons { display: flex; flex-wrap: wrap; gap: 12px; }
+.buttons > button { flex: 1 1 0; }
+.stacked { flex-direction: column; }
+:focus-visible { outline: 3px solid var(--blush); outline-offset: 4px; }
+main:focus { outline: none; }
+.eyebrow { color: var(--primary-soft); font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 12px; }
+.brand-title { font-family: var(--font-display); color: var(--primary-soft); font-size: 44px; font-weight: 400; line-height: 1.1; }
+.welcome, .end-screen { text-align: center; min-height: calc(100svh - 48px); display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.brand-motif { color: var(--primary); font-family: var(--font-display); font-size: 48px; margin-bottom: 24px; }
+.edition { color: var(--text-secondary); margin-top: 12px; font-size: 16px; }
+.welcome-copy { margin: 40px 0 32px; }
+.welcome-copy p { color: var(--text-secondary); margin-top: 12px; font-size: 16px; }
+.start-button { width: 100%; max-width: 360px; display: flex; justify-content: space-between; align-items: center; }
+.age-notice { margin-top: 24px; color: var(--muted); font-size: 14px; }
+.screen-intro { margin: 12px 0 24px; color: var(--text-secondary); }
+fieldset { padding: 0; margin: 0 0 24px; border: 0; min-width: 0; }
+legend { font-size: 16px; font-weight: 600; margin-bottom: 12px; padding: 0; }
+.choices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.choice { position: relative; display: flex; align-items: center; gap: 8px; border: 1px solid var(--border); background: var(--surface); border-radius: var(--radius-button); padding: 12px; min-height: 52px; cursor: pointer; font-size: 15px; }
+.choice:has(input:checked) { background: var(--surface-elevated); border-color: var(--primary-soft); }
+.choice:has(input:focus-visible) { outline: 3px solid var(--blush); outline-offset: 3px; }
+.choice input { appearance: none; width: 16px; height: 16px; flex: 0 0 16px; border: 1px solid var(--muted); border-radius: 4px; margin: 0; }
+.choice input:checked { background: var(--blush); border-color: var(--blush); }
+.choice input:checked::after { content: '\2713'; display: block; color: var(--text-light); font-size: 13px; line-height: 14px; text-align: center; font-weight: 800; }
+.choice input:focus-visible { outline: none; }
+.choice small { display: block; color: var(--text-secondary); font-size: 13px; margin-top: 4px; }
+.intensity-label { text-transform: capitalize; }
+.intensity-choices { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.intensity-choices .choice { flex-direction: column; align-items: flex-start; }
+label { font-size: 15px; }
+textarea { display: block; width: 100%; min-height: 96px; margin: 12px 0 24px; padding: 12px; background: var(--background-soft); color: var(--text); border: 1px solid var(--border); border-radius: var(--radius-small); resize: vertical; }
+form > .buttons { flex-direction: column; }
+[role=alert] { padding: 12px; margin-bottom: 16px; border: 1px solid var(--primary-soft); border-radius: var(--radius-small); color: var(--blush); }
+.play-header { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 16px; }
+.play-header h1 { font-family: var(--font-display); font-weight: 400; font-size: 26px; color: var(--primary-soft); }
+.play-header p { color: var(--text-secondary); font-size: 13px; margin-top: 4px; }
+.play-header button { padding: 8px; font-size: 13px; font-weight: 400; color: var(--text-secondary); flex-shrink: 0; }
+.progress-row { display: flex; align-items: center; gap: 16px; font-size: 14px; color: var(--text-secondary); margin-bottom: 16px; }
+.progress-row span { white-space: nowrap; }
+progress { appearance: none; border: 0; background: var(--surface-elevated); border-radius: 10px; height: 4px; flex: 1; min-width: 0; overflow: hidden; }
+progress::-webkit-progress-bar { background: var(--surface-elevated); }
+progress::-webkit-progress-value { background: var(--primary-soft); }
+progress::-moz-progress-bar { background: var(--primary-soft); }
+.player-turn { color: var(--blush); font-size: 20px; font-weight: 700; text-align: center; margin: 20px 0; overflow-wrap: anywhere; animation: player-enter 200ms ease-out, player-emphasis 320ms ease-in-out 200ms; }
+.game-card { --category-accent: var(--primary-soft); border: 1px solid var(--border); border-top: 4px solid var(--category-accent); border-radius: var(--radius-card); background: linear-gradient(145deg, var(--surface-elevated), var(--surface)); padding: 24px; min-height: 340px; display: flex; flex-direction: column; overflow-wrap: anywhere; box-shadow: 0 12px 32px #0005, inset 0 0 0 1px #ffffff08; }
+.game-card[data-category=secrets] { --category-accent: var(--warm); }
+.game-card[data-category=funny] { --category-accent: var(--blush); }
+.game-card[data-category=chaos] { --category-accent: var(--secondary); }
+.game-card[data-category=spicy] { --category-accent: var(--primary); }
+.card-meta { color: var(--blush); font-size: 13px; letter-spacing: .06em; text-transform: uppercase; display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
+.category-icon { width: 22px; height: 22px; flex: 0 0 22px; color: var(--category-accent); }
+.card-meta .intensity-label { text-transform: uppercase; }
+.prompt { font-size: 32px; line-height: 1.3; font-weight: 500; margin: auto 0; padding: 28px 0 20px; letter-spacing: -.02em; }
+.prompt-short .prompt { font-size: 36px; }
+.prompt-long .prompt { font-size: 28px; }
+.primary-actions { margin-top: 16px; }
+.primary-actions button { min-height: 56px; }
+.play-navigation { margin-top: 8px; }
+.play-navigation button { font-size: 15px; }
+.exhausted { color: var(--text-secondary); font-size: 14px; margin-top: 12px; }
+.recovery-actions { margin-top: 12px; }
+.media { margin-top: 16px; }
+.media img, .media video { display: block; width: auto; height: auto; max-width: 100%; max-height: min(22svh, 180px); object-fit: contain; margin: auto; border-radius: var(--radius-small); background: var(--background-soft); }
+.media [role=status] { color: var(--text-secondary); font-size: 14px; }
+.end-count { color: var(--text-secondary); margin: 32px 0; }
+.end-count strong { display: block; font-size: 48px; font-weight: 500; color: var(--blush); }
+.player-results, .night-highlights { width: 100%; max-width: 440px; text-align: left; margin-bottom: 28px; }
+.player-result { padding: 12px 0; border-bottom: 1px solid var(--border); overflow-wrap: anywhere; }
+.player-result strong, .player-result span { display: block; }
+.player-result span, .night-highlights p { color: var(--text-secondary); font-size: 14px; }
+.night-highlights h2 { margin-bottom: 12px; color: var(--blush); font-size: 18px; text-transform: uppercase; letter-spacing: .06em; }
+.night-highlights p { margin-top: 8px; overflow-wrap: anywhere; }
+.end-screen .buttons { width: 100%; max-width: 360px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+@media (max-width: 359px) {
+  .brand-title { font-size: 38px; }
+  .game-card { padding: 16px; }
+  .prompt { font-size: 30px; padding: 20px 0 12px; }
+  .prompt-short .prompt { font-size: 32px; }
+  .prompt-long .prompt { font-size: 27px; }
+  .choice { padding: 8px; }
+  .length-choices { grid-template-columns: 1fr; }
+}
+@media (min-width: 768px) { main { max-width: 608px; padding: 32px 24px; } .game-card { padding: 32px; } }
+@media (min-width: 1024px) { main { max-width: 744px; padding: 40px 32px; } .prompt { font-size: 34px; } .prompt-short .prompt { font-size: 38px; } .prompt-long .prompt { font-size: 30px; } }
+@media (prefers-reduced-motion: reduce) { button { transition: none; } button:active:not(:disabled) { transform: none; } }
+.screen-home, .screen-ended { display: grid; align-items: center; }
+.welcome, .end-screen { min-height: 0; padding-block: 24px; }
+.game-card { animation: card-enter 250ms ease-out; }
+.player-turn + .game-card { animation-delay: 560ms; animation-fill-mode: backwards; }
+.progress-track { display: block; height: 4px; flex: 1; min-width: 0; overflow: hidden; border-radius: 10px; background: var(--surface-elevated); }
+.progress-fill { display: block; height: 100%; background: var(--primary-soft); transition: width 250ms ease-out; }
+.idle-hint-1 .primary-actions button:not(:disabled) { animation: hint-first 500ms ease-in-out; }
+.idle-hint-2 .primary-actions button:not(:disabled) { animation: hint-second 400ms ease-in-out; }
+.primary-actions button:active:not(:disabled) { transform: scale(.98); animation: none; }
+@keyframes player-enter { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes player-emphasis {
+  0%, 100% { text-shadow: 0 0 0 #ff75b200; transform: scale(1); }
+  45% { text-shadow: 0 0 10px #ff75b280, 0 0 22px #ff3f9538; transform: scale(1.02); }
+}
+@keyframes card-enter { from { opacity: 0; transform: translateY(6px) scale(.985); } to { opacity: 1; transform: none; } }
+@keyframes hint-first {
+  0%, 100% { transform: translateY(0) scale(1); box-shadow: 0 0 0 0 #ffd8e800; }
+  42% { transform: translateY(-2px) scale(1.045); box-shadow: 0 0 0 2px #ffd8e84d, 0 4px 18px #ff75b240; }
+  76% { transform: translateY(0) scale(.995); box-shadow: 0 0 0 1px #ffd8e81a; }
+}
+@keyframes hint-second {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 #ffd8e800; }
+  50% { transform: scale(1.025); box-shadow: 0 0 12px #ff75b230; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .player-turn, .game-card, .player-turn + .game-card, .idle-hint .primary-actions button { animation: none; }
+  .progress-fill { transition: none; }
+  .primary-actions button:active:not(:disabled) { transform: none; }
+}
+
+.length-helper, .length-summary { grid-column: 1 / -1; color: var(--text-secondary); font-size: 14px; }
+.length-summary { margin-top: 8px; }
+
+@media (max-width: 359px) { .setup-start { font-size: 16px; } }
+
+/* Compact mode choices without changing the other Setup controls. */
+.mode-choices .choice { padding: 10px; align-items: flex-start; }
+.mode-choices .choice input { position: absolute; top: 12px; right: 10px; }
+.mode-choices .choice > span { width: 100%; min-width: 0; }
+.mode-choices .choice strong { display: block; padding-right: 22px; font-size: 14px; line-height: 1.3; }
+.mode-choices .choice small { line-height: 1.4; }
+.player-helper { margin-top: 4px; color: var(--text-secondary); font-size: 13px; }
+.player-helper + textarea { margin-top: 8px; }

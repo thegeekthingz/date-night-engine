@@ -1,0 +1,18 @@
+{
+  "id": "girls-night-hybrid-premium",
+  "colors": {
+    "background": "#160A13",
+    "surface": "#26121F",
+    "primary": "#FF3F95",
+    "secondary": "#FF6B72",
+    "text": "#FFF8FC",
+    "mutedText": "#A98A99"
+  },
+  "typography": {
+    "headingFont": "Georgia, Times New Roman, serif",
+    "bodyFont": "Inter, system-ui, sans-serif"
+  },
+  "borderRadius": "20px",
+  "buttonStyle": "solid",
+  "cardStyle": "elevated"
+}
