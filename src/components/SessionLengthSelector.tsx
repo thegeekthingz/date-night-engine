@@ -1,4 +1,4 @@
-import type { SessionLengthMode } from '../types/session';
+import type { SessionLengthMode } from '../legacy/types/session';
 import { getLengthTarget, SESSION_LENGTHS } from '../engine/sessionLength';
 
 export default function SessionLengthSelector({ selected, playerCount, eligibleCount, onChange }: {

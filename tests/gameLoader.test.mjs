@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { loadCardPack, loadGame, loadManifest, loadTheme } from '../src/engine/gameLoader.ts';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
+import { loadCardPack, loadGame, loadManifest, loadTheme } from '../src/legacy/engine/gameLoader.ts';
+import { loadDefaultGame } from '../src/legacy/data/defaultGame.ts';
 
 test('loads the actual default JSON files with the expected development summary', () => {
   const { manifest, cards, theme } = loadDefaultGame();

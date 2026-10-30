@@ -1,29 +1,22 @@
-import type { GameManifest, GameModeConfig } from '../types/game.ts';
-import { array, boolean, intensity, number, object, oneOf, optional, string } from './validation.ts';
-
-// Modes, categories, and actions share the same id/label shape.
-const labeledConfig = object<Pick<GameModeConfig, 'id' | 'label'>>({ id: string, label: string });
-
-export const parseManifest = object<GameManifest>({
-  id: string,
-  name: string,
-  edition: optional(string),
-  version: string,
-  audience: array(string),
-  occasion: array(string),
-  minPlayers: number,
-  maxPlayers: optional(number),
-  turnMode: oneOf('none', 'sequential'),
-  modes: array(object<GameModeConfig>({ id: string, label: string, description: optional(string), filterMode: optional(oneOf('all')) })),
-  categories: array(labeledConfig),
-  actions: array(labeledConfig),
-  intensityEnabled: boolean,
-  allowedIntensities: optional(array(intensity)),
-  scoringEnabled: boolean,
-  timerEnabled: boolean,
-  allowRepeats: boolean,
-  endCondition: oneOf('manual', 'deck_complete', 'round_limit'),
-  themeId: string,
-  adultContent: boolean,
-  ageNotice: optional(string),
+import type { GameManifest } from '../types/game.ts';
+import { ACTIVITIES, INTENSITIES, SESSION_DURATIONS, VIBES } from '../types/game.ts';
+import { array, id, object, oneOf, string, unique } from './validation.ts';
+const manifest = object<GameManifest>({
+  id, name: string, version: id, themeId: id,
+  vibes: array(oneOf(...VIBES)), durations: array(oneOf(...SESSION_DURATIONS)),
+  allowedIntensities: array(oneOf(...INTENSITIES)),
+  categories: array(object({ id: oneOf(...ACTIVITIES), label: string })),
+  actions: array(object({ id, label: string })),
 });
+export function parseManifest(value: unknown, path = 'manifest'): GameManifest {
+  const result = manifest(value, path);
+  for (const key of ['vibes', 'durations', 'allowedIntensities'] as const) {
+    const values: (string | number)[] = result[key];
+    if (!values.length) throw new Error(`${path}.${key}: cannot be empty.`);
+    unique(values, `${path}.${key}`);
+  }
+  const categories = unique(result.categories.map(x => x.id), `${path}.categories`);
+  if (categories.length !== 4) throw new Error(`${path}.categories: all four activities required.`);
+  unique(result.actions.map(x => x.id), `${path}.actions`);
+  return result;
+}

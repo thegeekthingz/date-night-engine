@@ -1,4 +1,4 @@
-import type { Player, PlayerSessionStats } from '../types/session.ts';
+import type { Player, PlayerSessionStats } from '../legacy/types/session.ts';
 
 export type NightHighlight = { metric: 'sip' | 'spill' | 'skip'; text: string };
 

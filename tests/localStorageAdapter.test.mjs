@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { createLocalStorageAdapter, SESSION_STORAGE_KEY } from '../src/storage/localStorageAdapter.ts';
-import { createSession, recordPlayedCard, endSession, restartSession } from '../src/engine/sessionManager.ts';
+import { createLocalStorageAdapter, SESSION_STORAGE_KEY } from '../src/legacy/storage/localStorageAdapter.ts';
+import { createSession, recordPlayedCard, endSession, restartSession } from '../src/legacy/engine/sessionManager.ts';
 
 function setup() {
   const values = new Map();

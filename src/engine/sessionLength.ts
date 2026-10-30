@@ -1,4 +1,4 @@
-import type { Player, SessionLengthMode } from '../types/session.ts';
+import type { Player, SessionLengthMode } from '../legacy/types/session.ts';
 
 export const SESSION_LENGTHS = [
   { id: 'quick', label: 'Quick', turns: 2 },

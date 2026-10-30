@@ -1,4 +1,4 @@
-import type { IntensityLevel } from '../types/game';
+import type { IntensityLevel } from '../legacy/types/game';
 import { intensityLabels } from './intensityLabels';
 
 const descriptions = { mild: 'Keep it light', spicy: 'Turn up the heat', wild: 'No limits' };

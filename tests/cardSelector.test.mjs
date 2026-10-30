@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { getEligibleCards, selectCard } from '../src/engine/cardSelector.ts';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
+import { loadDefaultGame } from '../src/legacy/data/defaultGame.ts';
 
 const cards = [
   { id: 'a', text: 'A', categoryId: 'one', intensity: 'mild', type: 'question', active: true },

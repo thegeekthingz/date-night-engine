@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { loadDefaultGame } from './data/defaultGame';
-import GameplayShell from './components/GameplayShell';
+import HomeScreen from './screens/HomeScreen';
+import { themeStyle } from './theme/themeStyle';
 
 export default function App() {
   const [result] = useState(() => {
@@ -14,6 +15,9 @@ export default function App() {
     }
   });
 
-  return result.game ? <GameplayShell game={result.game} />
+  return result.game ? <main className="app-shell screen-home" data-theme={result.game.theme.id}
+    style={themeStyle(result.game.theme)}>
+    <HomeScreen manifest={result.game.manifest} />
+  </main>
     : <main><h1>Unable to load game</h1><p role="alert">{result.error}</p></main>;
 }

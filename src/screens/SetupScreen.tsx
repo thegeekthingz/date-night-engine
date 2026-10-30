@@ -1,7 +1,7 @@
-import type { LoadedGame } from '../engine/gameLoader';
-import { getEligiblePoolTotal } from '../engine/gameplayShell';
-import type { GameSession } from '../types/session';
-import type { SessionSettings } from '../engine/sessionManager';
+import type { LoadedGame } from '../legacy/engine/gameLoader';
+import { getEligiblePoolTotal } from '../legacy/engine/gameplayShell';
+import type { GameSession } from '../legacy/types/session';
+import type { SessionSettings } from '../legacy/engine/sessionManager';
 import CategorySelector from '../components/CategorySelector';
 import IntensitySelector from '../components/IntensitySelector';
 import { getLengthTarget, validPlayerCount } from '../engine/sessionLength';

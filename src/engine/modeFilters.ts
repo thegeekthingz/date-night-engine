@@ -1,5 +1,5 @@
-import type { LoadedGame } from './gameLoader.ts';
-import type { GameSession } from '../types/session.ts';
+import type { LoadedGame } from '../legacy/engine/gameLoader.ts';
+import type { GameSession } from '../legacy/types/session.ts';
 
 export function usesFullMix(session: GameSession, game: LoadedGame): boolean {
   return game.manifest.modes.find(mode => mode.id === session.modeId)?.filterMode === 'all';

@@ -1,4 +1,4 @@
-import type { ActionConfig } from '../types/game';
+import type { ActionConfig } from '../legacy/types/game';
 
 export default function ActionButtons({ actions, onAction, disabled = false }: {
   actions: ActionConfig[]; onAction: (id: string) => void; disabled?: boolean;

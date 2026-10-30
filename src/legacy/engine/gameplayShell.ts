@@ -2,9 +2,9 @@ import type { LoadedGame } from './gameLoader.ts';
 import type { GameSession } from '../types/session.ts';
 import { createSession, endSession, restartSession } from './sessionManager.ts';
 import { isSessionCompatible, selectSessionCard } from './gameSession.ts';
-import { getLengthTarget } from './sessionLength.ts';
-import { setupFilters, usesFullMix } from './modeFilters.ts';
-import { getEligibleCards } from './cardSelector.ts';
+import { getLengthTarget } from '../../engine/sessionLength.ts';
+import { setupFilters, usesFullMix } from '../../engine/modeFilters.ts';
+import { getEligibleCards } from '../../engine/cardSelector.ts';
 
 export function restoreShellSession(game: LoadedGame, saved: GameSession | null) {
   if (!saved || !isSessionCompatible(saved, game)) return null;

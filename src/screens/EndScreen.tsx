@@ -1,5 +1,5 @@
 import { getNightHighlights } from '../engine/nightHighlights';
-import type { GameSession } from '../types/session';
+import type { GameSession } from '../legacy/types/session';
 
 export default function EndScreen({ session, playedCount, onAgain, onSetup, onHome }: {
   session?: GameSession; playedCount?: number; onAgain: () => void; onSetup: () => void; onHome: () => void;

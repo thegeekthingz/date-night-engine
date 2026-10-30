@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { MediaAsset } from '../types/card';
+import type { MediaAsset } from '../legacy/types/card';
 
 function MediaItem({ asset }: { asset: MediaAsset }) {
   const [failed, setFailed] = useState(false);

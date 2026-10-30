@@ -3,10 +3,10 @@ import { after, before, test } from 'node:test';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { createServer } from 'vite';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
-import { advanceGame, consumeCard, createSetupSession, getPlayView, getSessionCardTotal, restoreShellSession, setupError, startGame } from '../src/engine/gameplayShell.ts';
-import { endSession, restartSession, updateSessionSettings } from '../src/engine/sessionManager.ts';
-import { createLocalStorageAdapter } from '../src/storage/localStorageAdapter.ts';
+import { loadDefaultGame } from '../src/legacy/data/defaultGame.ts';
+import { advanceGame, consumeCard, createSetupSession, getPlayView, getSessionCardTotal, restoreShellSession, setupError, startGame } from '../src/legacy/engine/gameplayShell.ts';
+import { endSession, restartSession, updateSessionSettings } from '../src/legacy/engine/sessionManager.ts';
+import { createLocalStorageAdapter } from '../src/legacy/storage/localStorageAdapter.ts';
 import { themeStyle } from '../src/theme/themeStyle.ts';
 let server, SetupScreen, PlayScreen, EndScreen;
 before(async () => {

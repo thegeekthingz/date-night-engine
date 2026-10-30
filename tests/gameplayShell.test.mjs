@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
-import { advanceGame, createSetupSession, getPlayView, playAgain, restoreShellSession, setupError, startGame } from '../src/engine/gameplayShell.ts';
-import { endSession, restartSession, updateSessionSettings } from '../src/engine/sessionManager.ts';
-import { createLocalStorageAdapter } from '../src/storage/localStorageAdapter.ts';
+import { loadDefaultGame } from '../src/legacy/data/defaultGame.ts';
+import { advanceGame, createSetupSession, getPlayView, playAgain, restoreShellSession, setupError, startGame } from '../src/legacy/engine/gameplayShell.ts';
+import { endSession, restartSession, updateSessionSettings } from '../src/legacy/engine/sessionManager.ts';
+import { createLocalStorageAdapter } from '../src/legacy/storage/localStorageAdapter.ts';
 
 test('home has no session; setup stores choices and starts with an eligible card', () => {
   const game = loadDefaultGame();

@@ -1,5 +1,5 @@
-import type { GameManifest } from '../types/game';
-import type { getPlayView } from '../engine/gameplayShell';
+import type { GameManifest } from '../legacy/types/game';
+import type { getPlayView } from '../legacy/engine/gameplayShell';
 import GameCard from '../components/GameCard';
 import ActionButtons from '../components/ActionButtons';
 

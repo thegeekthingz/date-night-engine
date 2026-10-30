@@ -1,4 +1,4 @@
-import type { CategoryConfig } from '../types/game';
+import type { CategoryConfig } from '../legacy/types/game';
 
 export default function CategorySelector({ categories, selected, onChange }: {
   categories: CategoryConfig[]; selected: string[]; onChange: (ids: string[]) => void;

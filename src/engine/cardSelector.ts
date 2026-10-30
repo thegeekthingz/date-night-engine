@@ -1,5 +1,5 @@
-import type { Card } from '../types/card.ts';
-import type { IntensityLevel } from '../types/game.ts';
+import type { Card } from '../legacy/types/card.ts';
+import type { IntensityLevel } from '../legacy/types/game.ts';
 
 export type CardSelectionOptions = {
   selectedCategoryIds: readonly string[];

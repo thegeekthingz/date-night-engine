@@ -1,45 +1,26 @@
-import type { Card, MediaAsset, TargetRule } from '../types/card.ts';
-import { array, boolean, intensity, number, object, oneOf, optional, string } from './validation.ts';
-import type { Parser } from './validation.ts';
+import type { Card, MediaAsset } from '../types/card.ts';
+import { ACTIVITIES, INTENSITIES, VIBES } from '../types/game.ts';
+import { array, boolean, id, object, oneOf, optional, positive, string, unique } from './validation.ts';
 
 const media = object<MediaAsset>({
-  id: string,
-  type: oneOf('image', 'gif', 'video'),
-  src: string,
-  alt: optional(string),
-  poster: optional(string),
-  aspectRatio: optional(string),
+  id, type: oneOf('image', 'gif', 'video'), src: string,
+  alt: optional(string), poster: optional(string), aspectRatio: optional(string),
 });
-
-const targetType = object<{ type: TargetRule['type'] }>({
-  type: oneOf('none', 'current-player', 'random-player', 'all-players', 'named-player'),
-});
-const namedTarget = object<Extract<TargetRule, { type: 'named-player' }>>({
-  type: oneOf('named-player'),
-  playerId: string,
-});
-const target: Parser<TargetRule> = (value, path) => {
-  const { type } = targetType(value, path);
-  return type === 'named-player' ? namedTarget(value, path) : { type };
-};
-
 const card = object<Card>({
-  id: string,
-  text: string,
-  categoryId: string,
-  intensity,
-  type: oneOf(
-    'confession', 'question', 'story', 'challenge', 'vote',
-    'most-likely', 'truth', 'dare', 'group-action', 'custom',
-  ),
-  target: optional(target),
-  actionIds: optional(array(string)),
-  points: optional(number),
-  penalty: optional(string),
-  timerSeconds: optional(number),
-  media: optional(array(media)),
-  tags: optional(array(string)),
-  active: boolean,
+  id, text: string, categoryId: oneOf(...ACTIVITIES),
+  type: oneOf('question', 'story', 'challenge', 'prediction', 'activity', 'custom'),
+  intensity: oneOf(...INTENSITIES), moods: array(oneOf(...VIBES)),
+  durationMinutes: positive, isCloser: boolean, revealText: optional(string),
+  actionIds: optional(array(id)), media: optional(array(media)), tags: optional(array(string)), active: boolean,
 });
-
-export const parseCards = array(card);
+export function parseCard(value: unknown, path = 'card'): Card {
+  const parsed = card(value, path);
+  unique(parsed.moods, `${path}.moods`);
+  if (parsed.active && !parsed.moods.length) throw new Error(`${path}.moods: active items require a mood.`);
+  return parsed;
+}
+export function parseCards(value: unknown, path = 'cards'): Card[] {
+  const cards = array(parseCard)(value, path);
+  unique(cards.map(x => x.id), `${path}.id`);
+  return cards;
+}

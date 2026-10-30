@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { createSession, updateSessionSettings, recordPlayedCard, endSession, restartSession } from '../src/engine/sessionManager.ts';
-import { isSessionCompatible, restoreOrCreateSession, selectSessionCard } from '../src/engine/gameSession.ts';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
+import { createSession, updateSessionSettings, recordPlayedCard, endSession, restartSession } from '../src/legacy/engine/sessionManager.ts';
+import { isSessionCompatible, restoreOrCreateSession, selectSessionCard } from '../src/legacy/engine/gameSession.ts';
+import { loadDefaultGame } from '../src/legacy/data/defaultGame.ts';
 
 const settings = {
   gameId: 'example', gameVersion: '1.0.0', modeId: 'free',

@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { test } from 'node:test';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
-import { loadCardPack } from '../src/engine/gameLoader.ts';
+import { loadDefaultGame } from '../src/legacy/data/defaultGame.ts';
+import { loadCardPack } from '../src/legacy/engine/gameLoader.ts';
 import { getEligibleCards, selectCard } from '../src/engine/cardSelector.ts';
 
 const { cards, manifest } = loadDefaultGame();

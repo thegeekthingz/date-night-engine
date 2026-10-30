@@ -1,4 +1,4 @@
-import type { Card } from '../types/card';
+import type { Card } from '../legacy/types/card';
 import MediaRenderer from './MediaRenderer';
 import { intensityLabels } from './intensityLabels';
 import CategoryIcon from './CategoryIcon';

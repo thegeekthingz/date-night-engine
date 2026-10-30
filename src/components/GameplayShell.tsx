@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { themeStyle } from '../theme/themeStyle';
-import type { LoadedGame } from '../engine/gameLoader';
-import type { GameSession } from '../types/session';
-import { createLocalStorageAdapter } from '../storage/localStorageAdapter';
-import { endSession, restartSession, updateSessionSettings } from '../engine/sessionManager';
-import { consumeCard, createSetupSession, getPlayView, getSessionCardTotal, playAgain, restoreShellSession, setupError, startGame } from '../engine/gameplayShell';
+import type { LoadedGame } from '../legacy/engine/gameLoader';
+import type { GameSession } from '../legacy/types/session';
+import { createLocalStorageAdapter } from '../legacy/storage/localStorageAdapter';
+import { endSession, restartSession, updateSessionSettings } from '../legacy/engine/sessionManager';
+import { consumeCard, createSetupSession, getPlayView, getSessionCardTotal, playAgain, restoreShellSession, setupError, startGame } from '../legacy/engine/gameplayShell';
 import HomeScreen from '../screens/HomeScreen';
 import SetupScreen from '../screens/SetupScreen';
 import PlayScreen from '../screens/PlayScreen';

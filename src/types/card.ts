@@ -1,46 +1,25 @@
-import type { IntensityLevel } from './game';
-
-export type CardType =
-  | 'confession'
-  | 'question'
-  | 'story'
-  | 'challenge'
-  | 'vote'
-  | 'most-likely'
-  | 'truth'
-  | 'dare'
-  | 'group-action'
-  | 'custom';
-
-export type TargetRule =
-  | { type: 'none' }
-  | { type: 'current-player' }
-  | { type: 'random-player' }
-  | { type: 'all-players' }
-  | { type: 'named-player'; playerId: string };
-
-export type MediaType = 'image' | 'gif' | 'video';
+import type { Activity, IntensityLevel, Vibe } from './game.ts';
 
 export type MediaAsset = {
   id: string;
-  type: MediaType;
+  type: 'image' | 'gif' | 'video';
   src: string;
   alt?: string;
   poster?: string;
   aspectRatio?: string;
 };
-
+export type CardType = 'question' | 'story' | 'challenge' | 'prediction' | 'activity' | 'custom';
 export type Card = {
   id: string;
   text: string;
-  categoryId: string;
-  intensity: IntensityLevel;
+  categoryId: Activity;
   type: CardType;
-  target?: TargetRule;
+  intensity: IntensityLevel;
+  moods: Vibe[];
+  durationMinutes: number;
+  isCloser: boolean;
+  revealText?: string;
   actionIds?: string[];
-  points?: number;
-  penalty?: string;
-  timerSeconds?: number;
   media?: MediaAsset[];
   tags?: string[];
   active: boolean;

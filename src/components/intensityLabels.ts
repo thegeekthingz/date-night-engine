@@ -1,4 +1,4 @@
-import type { IntensityLevel } from '../types/game';
+import type { IntensityLevel } from '../legacy/types/game';
 
 export const intensityLabels: Record<IntensityLevel, string> = {
   mild: 'Mild',

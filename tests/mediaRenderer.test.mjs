@@ -5,7 +5,7 @@ import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { createServer } from 'vite';
 import mediaCards from './fixtures/media-cards.json' with { type: 'json' };
-import { loadCardPack } from '../src/engine/gameLoader.ts';
+import { loadCardPack } from '../src/legacy/engine/gameLoader.ts';
 const fixtureCards = () => loadCardPack(mediaCards);
 
 let server, MediaRenderer, GameCard;

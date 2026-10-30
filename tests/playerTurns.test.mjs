@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
-import { consumeCard, createSetupSession, getPlayView, getSessionCardTotal, playAgain, restoreShellSession, startGame } from '../src/engine/gameplayShell.ts';
-import { restartSession, updateSessionSettings } from '../src/engine/sessionManager.ts';
-import { createLocalStorageAdapter } from '../src/storage/localStorageAdapter.ts';
+import { loadDefaultGame } from '../src/legacy/data/defaultGame.ts';
+import { consumeCard, createSetupSession, getPlayView, getSessionCardTotal, playAgain, restoreShellSession, startGame } from '../src/legacy/engine/gameplayShell.ts';
+import { restartSession, updateSessionSettings } from '../src/legacy/engine/sessionManager.ts';
+import { createLocalStorageAdapter } from '../src/legacy/storage/localStorageAdapter.ts';
 
 const game = loadDefaultGame();
 function begin(names = [' Pamela ', '', 'Jessica', 'Sarah']) {

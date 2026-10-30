@@ -1,5 +1,5 @@
 import { useId, useState } from 'react';
-import type { Player } from '../types/session';
+import type { Player } from '../legacy/types/session';
 import { createId } from '../utils/createId';
 
 export default function PlayerSetup({ players, onChange }: {

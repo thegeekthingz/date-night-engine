@@ -1,42 +1,26 @@
-export type IntensityLevel = 'mild' | 'spicy' | 'wild';
+export const VIBES = ['cozy', 'funny', 'romantic', 'competitive'] as const;
+export const INTENSITIES = ['sweet', 'flirty'] as const;
+export const ACTIVITIES = ['connect', 'predict', 'play', 'challenge'] as const;
+export const SESSION_DURATIONS = [15, 30] as const;
+export type Vibe = typeof VIBES[number];
+export type IntensityLevel = typeof INTENSITIES[number];
+export type Activity = typeof ACTIVITIES[number];
+export type SessionDuration = typeof SESSION_DURATIONS[number];
 
-export type GameModeConfig = {
-  id: string;
-  label: string;
-  description?: string;
-  filterMode?: 'all';
-};
-
-export type CategoryConfig = {
-  id: string;
-  label: string;
-};
-
-export type ActionConfig = {
-  id: string;
-  label: string;
+export type DateNightConfiguration = {
+  vibe: Vibe;
+  durationMinutes: SessionDuration;
+  intensityCeiling: IntensityLevel;
 };
 
 export type GameManifest = {
   id: string;
   name: string;
-  edition?: string;
   version: string;
-  audience: string[];
-  occasion: string[];
-  minPlayers: number;
-  maxPlayers?: number;
-  turnMode: 'none' | 'sequential';
-  modes: GameModeConfig[];
-  categories: CategoryConfig[];
-  actions: ActionConfig[];
-  intensityEnabled: boolean;
-  allowedIntensities?: IntensityLevel[];
-  scoringEnabled: boolean;
-  timerEnabled: boolean;
-  allowRepeats: boolean;
-  endCondition: 'manual' | 'deck_complete' | 'round_limit';
   themeId: string;
-  adultContent: boolean;
-  ageNotice?: string;
+  vibes: Vibe[];
+  durations: SessionDuration[];
+  allowedIntensities: IntensityLevel[];
+  categories: { id: Activity; label: string }[];
+  actions: { id: string; label: string }[];
 };

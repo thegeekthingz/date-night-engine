@@ -1,9 +1,17 @@
-import manifest from './games/spill-or-sip.json' with { type: 'json' };
-import cards from './cards/spill-or-sip-girls-night.json' with { type: 'json' };
 import theme from './themes/girls-night-hybrid-premium.json' with { type: 'json' };
 import { loadGame } from '../engine/gameLoader.ts';
 
-// The default content selection belongs to the data layer, not the UI.
+// Infrastructure fixture only: these five items are not the final product pack.
 export function loadDefaultGame() {
-  return loadGame(manifest, cards, theme);
+  return loadGame({
+    id: 'date-night', name: 'Date Night', version: '1.0.0', themeId: theme.id,
+    vibes: ['cozy', 'funny', 'romantic', 'competitive'], durations: [15, 30],
+    allowedIntensities: ['sweet', 'flirty'],
+    categories: ['connect', 'predict', 'play', 'challenge'].map(id => ({ id, label: id })),
+    actions: [],
+  }, ['connect', 'predict', 'play', 'challenge', 'connect'].map((categoryId, index) => ({
+    id: `fixture-${index + 1}`, text: `Infrastructure fixture ${index + 1}`,
+    categoryId, type: 'activity', intensity: 'sweet', moods: ['cozy'],
+    durationMinutes: 1, isCloser: index === 4, active: true,
+  })), theme);
 }

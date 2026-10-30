@@ -1,11 +1,11 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
+import { loadDefaultGame } from '../src/legacy/data/defaultGame.ts';
 import { getLengthTarget } from '../src/engine/sessionLength.ts';
-import { consumeCard, createSetupSession, getEligiblePoolTotal, getPlayView, getSessionCardTotal, playAgain, restoreShellSession, setupError, startGame } from '../src/engine/gameplayShell.ts';
-import { restartSession, updateSessionSettings } from '../src/engine/sessionManager.ts';
-import { parseSession } from '../src/engine/sessionValidation.ts';
-import { createLocalStorageAdapter } from '../src/storage/localStorageAdapter.ts';
+import { consumeCard, createSetupSession, getEligiblePoolTotal, getPlayView, getSessionCardTotal, playAgain, restoreShellSession, setupError, startGame } from '../src/legacy/engine/gameplayShell.ts';
+import { restartSession, updateSessionSettings } from '../src/legacy/engine/sessionManager.ts';
+import { parseSession } from '../src/legacy/engine/sessionValidation.ts';
+import { createLocalStorageAdapter } from '../src/legacy/storage/localStorageAdapter.ts';
 
 const game = loadDefaultGame();
 const players = count => Array.from({ length: count }, (_, i) => ({ id: `p${i}`, name: `Player ${i + 1}` }));
