@@ -1,10 +1,54 @@
+# Dependencies, build output and local caches
 node_modules/
 .pnpm-store/
 dist/
-*.local
+.vite/
+coverage/
+.cache/
 *.tsbuildinfo
 __pycache__/
-tmp/pdfs/
+*.py[cod]
 
-# Local release artifacts
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+*.pem
+*.p12
+*.pfx
+
+# Temporary work, browser reports and logs
+tmp/
+temp/
+playwright-report/
+test-results/
+*.log
 release/
+.netlify/
+.vercel/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Historical browser evidence stays local; retain two production reference images.
+docs/screenshots/*
+!docs/screenshots/phase-6-review/
+docs/screenshots/phase-6-review/*
+!docs/screenshots/phase-6-review/production-connect.png
+!docs/screenshots/phase-6-review/longest-reveal-390-actions.png
+
+# PDF page renders are reproducible; retain the latest release verification JSON.
+docs/printable-qa/*
+!docs/printable-qa/phase-6-8/
+docs/printable-qa/phase-6-8/*
+!docs/printable-qa/phase-6-8/verification.json
+
+# Final customer PDFs in output/pdf/ are intentionally versioned.

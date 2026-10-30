@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
+import { loadDefaultGame } from './fixtures/dateNightInfrastructure.ts';
 import { buildSlotPools, checkCompositionCoverage, composeSession, DURATION_BUDGETS,
   getQueueDuration, selectReplacementForSlot } from '../src/engine/sessionComposer.ts';
 import { restoreDateNight, startDateNight } from '../src/engine/sessionStart.ts';

@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "DN-CON-001",
+    "text": "Finish this sentence in turn: “A tiny thing that helps me unwind is…” Choose one you could share on an ordinary evening.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 2,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-002",
+    "text": "Give today a made-up episode title. Trade the story behind your titles, including the detail that would make the trailer.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-003",
+    "text": "Design your perfect welcome-home greeting: a phrase, a gesture or a ridiculous sound. Try each other’s version.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-004",
+    "text": "Choose one everyday talent you admire in each other. Explain where you would recruit your partner to use it on an imaginary two-person team.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 4,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-005",
+    "text": "Each describe a small comfort without naming it. Let your partner ask three yes-or-no questions, then share why it matters to you.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "competitive"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-006",
+    "text": "Trade two versions of a recent ordinary moment: how it really happened, then how a wildly dramatic narrator would tell it. Give each other time for both stories.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-007",
+    "text": "Revisit a moment you enjoyed together, from each person’s point of view. Spend a few minutes on the details each of you remembers, then imagine a new version you could share at home.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-008",
+    "text": "Teach each other a harmless skill you can demonstrate while seated: a sound, a hand shape or a way to remember something. Take a few practice rounds and celebrate the best attempt.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 7,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-009",
+    "text": "Build a three-course “menu of us”: one small comfort, one reliable laugh and one thing you would enjoy trying together. Take turns explaining each choice before agreeing on the menu.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-010",
+    "text": "Plan the same free afternoon twice: your most restful version and your most delightfully impractical version. Trade ideas for each, then borrow one detail from your partner’s plan.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-011",
+    "text": "Complete “I would happily linger here with you…” with a place you can imagine right now. Describe one detail that makes it inviting.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-012",
+    "text": "Write a spoken headline for your partner’s charm, as if you were introducing them on a date. Make it specific enough that it could only be about them.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-013",
+    "text": "Pick a small mannerism you find attractive in your partner. Describe it without naming it and let them work out what you noticed.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 4,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-014",
+    "text": "Invent the least convincing excuse to sit closer to each other. Take turns delivering it with complete confidence, then choose the one that would actually work on you.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-015",
+    "text": "Trade three tiny details that make you feel drawn to your partner: a look, a habit or a way they do something ordinary. Take turns telling the small story behind each one and leave time to hear what they noticed about you.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CON-016",
+    "text": "Imagine meeting each other in a completely different setting. Build the scene together, then each try an opening line and explain what would make you want to stay.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PRE-001",
+    "text": "Picture your partner’s ideal end to a busy day: quiet company, a long chat or something to laugh at. Choose their answer before asking them.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 2,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Say your guesses first. Each reveal your choice and the small detail that would make it feel just right."
+  },
+  {
+    "id": "DN-PRE-002",
+    "text": "An imaginary remote can mute hiccups, summon a perfect snack or translate animal thoughts. Which button would your partner press first?",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 2,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Reveal your choices together. Explain the first situation in which you would use your button."
+  },
+  {
+    "id": "DN-PRE-003",
+    "text": "Guess your partner’s “only one left” choice: the crispiest bite, the soft middle or the extra sauce. Invent a food if you need one.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Compare guesses with the real choices. Each make a case for the bite you would save for last."
+  },
+  {
+    "id": "DN-PRE-004",
+    "text": "For a surprise date at home, would your partner choose a mystery to solve, something to make or a long conversation? Pick before they answer.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Share your guesses, then your actual choices. Add one detail your partner might not have predicted."
+  },
+  {
+    "id": "DN-PRE-005",
+    "text": "Build your partner’s ideal quiet corner in three guesses: the seat, the sound and the view. Describe your version before hearing theirs.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "competitive"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Each reveal your real three choices. Compare one detail at a time and combine the best parts into a corner for two."
+  },
+  {
+    "id": "DN-PRE-006",
+    "text": "Your partner is the face of an imaginary advertisement. Predict the product, their catchphrase and the tiny detail that would make the ad unmistakably theirs.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Present your predictions, then let each partner reveal the product they would actually enjoy advertising. Try both catchphrases."
+  },
+  {
+    "id": "DN-PRE-007",
+    "text": "Privately plan three details of an evening your partner would love: the first five minutes, the main activity and the ending. Take time to picture it before sharing.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Trade your plans one detail at a time. After each prediction, reveal what you would actually choose and why."
+  },
+  {
+    "id": "DN-PRE-008",
+    "text": "Predict your partner’s role in three imaginary emergencies: a cake has vanished, a robot needs a nickname and the moon wants a party. Who investigates, improvises or charms their way through?",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Reveal the role you would choose in each scene. Compare your reasoning and act out the most surprising answer."
+  },
+  {
+    "id": "DN-PRE-009",
+    "text": "Make three small predictions about your partner: a sound they find soothing, a treat they would share and a place they could happily sit for ages. Keep the guesses to yourself first.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Reveal each guess before the real answer. For every surprise, invite the person answering to tell the little story behind it."
+  },
+  {
+    "id": "DN-PRE-010",
+    "text": "In three rounds, predict which your partner would rather master: cooking or storytelling, fixing things or finding things, planning or improvising. Give a reason for each guess.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Reveal your actual choices one pair at a time. Test one prediction with a tiny demonstration of the skill you picked."
+  },
+  {
+    "id": "DN-PRE-011",
+    "text": "Which small invitation would your partner notice first: a lingering look, an offered hand or a quiet compliment? Make your prediction.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 2,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Reveal your choices and, if you both like, demonstrate your favourite in a way that feels comfortable."
+  },
+  {
+    "id": "DN-PRE-012",
+    "text": "Your partner gets one line in a romantic comedy: a bold introduction, a terrible pun or an unexpectedly sincere compliment. Which would they choose?",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Reveal your choices, then deliver your own line. Let your partner say which part would win them over."
+  },
+  {
+    "id": "DN-PRE-013",
+    "text": "Predict your partner’s favourite kind of anticipation: a playful clue, a direct invitation or a surprise detail. Think of a tasteful example for your guess.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "flirty",
+    "moods": [
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 4,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Reveal your real preferences. Explain which detail makes anticipation fun for you, then compare your examples."
+  },
+  {
+    "id": "DN-PRE-014",
+    "text": "For a grand entrance into an imaginary date, would your partner choose a dramatic pause, a ridiculous bow or effortless cool? Prepare your prediction and a short demonstration.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 4,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Reveal the entrance you would actually pick. Try both versions and choose the detail that deserves an encore."
+  },
+  {
+    "id": "DN-PRE-015",
+    "text": "Imagine a small surprise for your partner at home. Predict the setting, the first clue and whether they would want to discover it slowly or hear the plan straight away.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Share your predictions, then reveal the surprise you would enjoy receiving. Borrow one detail from each other’s version."
+  },
+  {
+    "id": "DN-PRE-016",
+    "text": "Create a mysterious, affectionate message your partner would want to open: predict its first line, its hint and its invitation. Leave space to hear their version too.",
+    "categoryId": "predict",
+    "type": "prediction",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true,
+    "revealText": "Read your messages, then each reveal the invitation you were secretly hoping for. Compare what made you curious rather than guessing who did better."
+  },
+  {
+    "id": "DN-PLY-001",
+    "text": "Build a soundscape for a place you would both like to be. Take turns making or naming one sound until the imaginary scene feels complete.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-002",
+    "text": "Invent a useless household gadget together. Give it a name, a ridiculous feature and a sales pitch delivered by both of you.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-003",
+    "text": "Open an imaginary café for tired people. Agree on its name, its most comforting offering and one extremely silly house rule.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-004",
+    "text": "You have a private island for one afternoon, but it is only as big as this room. Design three things you would do there together.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 4,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-005",
+    "text": "Create a six-stop journey that never leaves your seats. Alternate inventing a stop and acting out your arrival there, then rearrange the route until you would both want to take it.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "competitive"
+    ],
+    "durationMinutes": 8,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-006",
+    "text": "Make a tiny film without filming: invent the title, then perform an opening, a twist and a final line. Switch who leads each scene and leave time for an encore.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 7,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-007",
+    "text": "Design an imaginary room made for the two of you. Build it aloud in four rounds: comfort, delight, quiet and one impossible feature; spend a little time exploring each other’s additions.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 8,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-008",
+    "text": "Host a two-person radio show with three short segments: an odd news report, an interview with an imaginary expert and a wonderfully unhelpful advice slot. Swap roles between segments.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 8,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-009",
+    "text": "Open a restaurant that serves experiences instead of food. Create three offerings together, then try both guest and server roles for each, describing what the experience feels like and how it would end.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 8,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-010",
+    "text": "Solve a mystery you invent together: why is there a tiny door behind the sofa? Alternate adding clues, discuss two possible explanations and agree on a final reveal.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-011",
+    "text": "Invent a private signal for “I would like a little attention.” Make two versions, try them out and keep one you both enjoy.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-012",
+    "text": "Pitch your partner as the star attraction at a very unusual museum. Create three exhibits celebrating their charm, including one delightfully exaggerated feature.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 4,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-013",
+    "text": "Build a scene with obvious chemistry and no romantic words. Choose a setting, improvise a short exchange, then swap who makes the first move in the scene.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-014",
+    "text": "Make a teasing poem together, one line at a time. It must include something ordinary in this room and end with a surprisingly charming invitation.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-015",
+    "text": "Create a choose-your-own date aloud. One person offers two tempting options at each of three turns; the other chooses, then you swap roles and discover a different ending.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-PLY-016",
+    "text": "Rescue an imaginary date from three harmless mishaps: a squeaky chair, a very confusing menu and a song that will not stop. Improvise a charming rescue for each, taking turns as the hero of the scene.",
+    "categoryId": "play",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 7,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-001",
+    "text": "Describe your day in three gestures or three words. Let your partner interpret them, then exchange roles and choose one gesture or word for how you want tonight to feel.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 2,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-002",
+    "text": "Each invent a fancy name for a completely ordinary object nearby. Deliver it as if you are announcing a very important guest.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 2,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-003",
+    "text": "Create the smallest possible celebration using only your hands. Teach it to each other and perform your two versions together.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-004",
+    "text": "Give your partner an appreciation using a real thing they did, rather than a label like “kind” or “funny”. Let them try the same challenge.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-005",
+    "text": "Build a sound sequence together: one person makes a sound, the other repeats it and adds one. Keep extending it at an easy pace, then try a second sequence with roles reversed.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "competitive"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-006",
+    "text": "Present your partner with an imaginary award for an oddly specific talent. Give a short speech, let them make an acceptance speech, then swap and choose a place of honour for both awards.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-007",
+    "text": "Guide each other through three imagined places: somewhere restful, somewhere beautiful and somewhere you would like to share. Alternate describing and asking for details, giving each scene a couple of minutes to unfold.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 7,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-008",
+    "text": "Hold three tiny debates: square pillows versus round pillows, whispering robots versus singing doors, and pockets versus capes. Each gets about a minute to make a case per round; swap sides for the last one.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 7,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-009",
+    "text": "Pack an imaginary bag for a night on the moon. Alternate adding five things each, explaining every choice, then see how much of your partner’s list you can remember.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-010",
+    "text": "Build three word chains together: comforts, imaginary places and excellent snack names. Spend about two minutes per theme, alternating words without repeating one; if you get stuck, invent a new word and explain it.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 7,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-011",
+    "text": "Offer your partner three different smiles: a secret, a welcome and a playful dare. Let them pick the one they would like to receive again, then swap.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 2,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-012",
+    "text": "Make an everyday phrase sound like an irresistible invitation. Each try “There is a seat here” in two different ways and let your partner choose their favourite.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-013",
+    "text": "Describe an imaginary date destination using only five words. Your partner gets three guesses before you reveal it; swap roles and make the second round a little more tempting.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "flirty",
+    "moods": [
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 4,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-014",
+    "text": "Sell your partner the world’s most ordinary date accessory: an imaginary cushion. Each deliver a confident pitch, then answer one playful objection without losing your charm.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 4,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-015",
+    "text": "While seated, act out getting ready for an impossibly glamorous date in slow motion. Your partner supplies the dramatic narration; swap roles and give the second scene a different ending.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 5,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CHA-016",
+    "text": "Stage a charm relay in three rounds: an introduction, a playful compliment and an invitation to another date. Alternate adding to each other’s lines, then perform your favourite exchange together.",
+    "categoryId": "challenge",
+    "type": "challenge",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 6,
+    "isCloser": false,
+    "active": true
+  },
+  {
+    "id": "DN-CLO-001",
+    "text": "Make a spoken postcard from tonight: each choose a moment, a detail and a feeling you would put on it. Share your versions with each other and end with one line you would keep.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 4,
+    "isCloser": true,
+    "active": true
+  },
+  {
+    "id": "DN-CLO-002",
+    "text": "Give tonight an affectionate review with three categories you invent together. Pick one unexpected highlight each, agree on a title and deliver the closing line of your review.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 4,
+    "isCloser": true,
+    "active": true
+  },
+  {
+    "id": "DN-CLO-003",
+    "text": "Invent a short sign-off for tonight using a detail you each enjoyed. Trade the stories behind your choices, combine them into one phrase and choose a playful or quiet way to say it together to end the date.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "funny"
+    ],
+    "durationMinutes": 4,
+    "isCloser": true,
+    "active": true
+  },
+  {
+    "id": "DN-CLO-004",
+    "text": "Each offer one tiny, no-cost date you could share at home another time. Pick the idea you are both most curious about and end by inviting each other to it.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 2,
+    "isCloser": true,
+    "active": true
+  },
+  {
+    "id": "DN-CLO-005",
+    "text": "Leave each other with a kind prediction for tomorrow. Explain the small thing that made you think of it, then finish with “I am cheering for that.”",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "sweet",
+    "moods": [
+      "cozy",
+      "romantic",
+      "competitive"
+    ],
+    "durationMinutes": 3,
+    "isCloser": true,
+    "active": true
+  },
+  {
+    "id": "DN-CLO-006",
+    "text": "Choose one small way to end with a little more spark: a warm compliment, a held gaze or an offered hand. Each suggest your preference and choose an ending you both welcome.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "romantic"
+    ],
+    "durationMinutes": 3,
+    "isCloser": true,
+    "active": true
+  },
+  {
+    "id": "DN-CLO-007",
+    "text": "Record nothing; make the spoken trailer for your next date instead. Each add a teasing opening line and one promised bit of fun, then finish together: “To be continued.”",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "funny",
+      "romantic"
+    ],
+    "durationMinutes": 4,
+    "isCloser": true,
+    "active": true
+  },
+  {
+    "id": "DN-CLO-008",
+    "text": "Take turns giving a final, completely overconfident invitation to another night like this. Let your partner answer with their best amused look, then close with the invitation you would actually say yes to.",
+    "categoryId": "connect",
+    "type": "activity",
+    "intensity": "flirty",
+    "moods": [
+      "cozy",
+      "funny",
+      "competitive"
+    ],
+    "durationMinutes": 3,
+    "isCloser": true,
+    "active": true
+  }
+]

@@ -1,0 +1,185 @@
+{
+  "title": "Date Night",
+  "subtitle": "Offline Mini-Date Pack",
+  "version": 2,
+  "sourceGameVersion": "2.0.0",
+  "positioning": "Bonus offline companion to the interactive Date Night WebApp",
+  "miniDates": [
+    {
+      "vibe": "cozy",
+      "title": "Cozy Date",
+      "moodLine": "Slow down. Make a little room for each other.",
+      "journey": "From a small comfort to an imaginary shared haven, then a gentle celebration and a memory to keep.",
+      "activities": [
+        {
+          "slot": "connect",
+          "sourceId": "DN-CON-001",
+          "intensity": "sweet",
+          "prompt": "Finish this sentence in turn: “A tiny thing that helps me unwind is…” Choose one you could share on an ordinary evening.",
+          "reasonSelected": "An easy, low-pressure opening grounded in everyday comfort."
+        },
+        {
+          "slot": "predict",
+          "sourceId": "DN-PRE-001",
+          "intensity": "sweet",
+          "prompt": "Picture your partner’s ideal end to a busy day: quiet company, a long chat or something to laugh at. Choose their answer before asking them.",
+          "compareInstruction": "Say your guesses first. Each reveal your choice and the small detail that would make it feel just right.",
+          "reasonSelected": "Discovers what helps each person settle after a busy day."
+        },
+        {
+          "slot": "play",
+          "sourceId": "DN-PLY-007",
+          "intensity": "sweet",
+          "prompt": "Design an imaginary room made for the two of you. Build it aloud in four rounds: comfort, delight, quiet and one impossible feature; spend a little time exploring each other’s additions.",
+          "reasonSelected": "A collaborative centerpiece that builds on the idea of comfort."
+        },
+        {
+          "slot": "challenge",
+          "sourceId": "DN-CHA-003",
+          "intensity": "sweet",
+          "prompt": "Create the smallest possible celebration using only your hands. Teach it to each other and perform your two versions together.",
+          "reasonSelected": "Shifts from talking to a small, gentle shared gesture."
+        },
+        {
+          "slot": "closer",
+          "sourceId": "DN-CLO-001",
+          "intensity": "sweet",
+          "prompt": "Make a spoken postcard from tonight: each choose a moment, a detail and a feeling you would put on it. Share your versions with each other and end with one line you would keep.",
+          "reasonSelected": "Collects details from this particular date into an intentional ending."
+        }
+      ]
+    },
+    {
+      "vibe": "funny",
+      "title": "Funny Date",
+      "moodLine": "Less serious. More reasons to laugh.",
+      "journey": "Warm up with an everyday story, get wonderfully impractical, try a tiny debate and finish with your own sign-off.",
+      "activities": [
+        {
+          "slot": "connect",
+          "sourceId": "DN-CON-002",
+          "intensity": "sweet",
+          "prompt": "Give today a made-up episode title. Trade the story behind your titles, including the detail that would make the trailer.",
+          "reasonSelected": "Turns an ordinary day into a light opening story."
+        },
+        {
+          "slot": "predict",
+          "sourceId": "DN-PRE-002",
+          "intensity": "sweet",
+          "prompt": "An imaginary remote can mute hiccups, summon a perfect snack or translate animal thoughts. Which button would your partner press first?",
+          "compareInstruction": "Reveal your choices together. Explain the first situation in which you would use your button.",
+          "reasonSelected": "Creates a specific absurd choice with an immediate comparison."
+        },
+        {
+          "slot": "play",
+          "sourceId": "DN-PLY-002",
+          "intensity": "sweet",
+          "prompt": "Invent a useless household gadget together. Give it a name, a ridiculous feature and a sales pitch delivered by both of you.",
+          "reasonSelected": "Makes something together rather than only answering questions."
+        },
+        {
+          "slot": "challenge",
+          "sourceId": "DN-CHA-008",
+          "intensity": "sweet",
+          "prompt": "Hold three tiny debates: square pillows versus round pillows, whispering robots versus singing doors, and pockets versus capes. Each gets about a minute to make a case per round; change sides for the last one.",
+          "reasonSelected": "Adds a performance/rivalry energy shift with harmless subjects."
+        },
+        {
+          "slot": "closer",
+          "sourceId": "DN-CLO-003",
+          "intensity": "sweet",
+          "prompt": "Invent a short sign-off for tonight using a detail you each enjoyed. Trade the stories behind your choices, combine them into one phrase and choose a playful or quiet way to say it together to end the date.",
+          "reasonSelected": "Ends with a shared phrase that belongs to this date."
+        }
+      ]
+    },
+    {
+      "vibe": "romantic",
+      "title": "Romantic Date",
+      "moodLine": "A little more attention. A little more spark.",
+      "journey": "Notice attraction in small details, discover anticipation, create a scene, guess a tempting destination and finish with an ending you both welcome.",
+      "activities": [
+        {
+          "slot": "connect",
+          "sourceId": "DN-CON-015",
+          "intensity": "flirty",
+          "prompt": "Trade three tiny details that make you feel drawn to your partner: a look, a habit or a way they do something ordinary. Take turns telling the small story behind each one and leave time to hear what they noticed about you.",
+          "reasonSelected": "Starts with specific attraction rather than forced vulnerability."
+        },
+        {
+          "slot": "predict",
+          "sourceId": "DN-PRE-013",
+          "intensity": "flirty",
+          "prompt": "Predict your partner’s favourite kind of anticipation: a playful clue, a direct invitation or a surprise detail. Think of a tasteful example for your guess.",
+          "compareInstruction": "Reveal your real preferences. Explain which detail makes anticipation fun for you, then compare your examples.",
+          "reasonSelected": "Makes anticipation personal without explicit content."
+        },
+        {
+          "slot": "play",
+          "sourceId": "DN-PLY-013",
+          "intensity": "flirty",
+          "prompt": "Build a scene with obvious chemistry and no romantic words. Choose a setting, improvise a short exchange, then change who makes the first move in the scene.",
+          "reasonSelected": "Creates a short shared scene, adding action and chemistry."
+        },
+        {
+          "slot": "challenge",
+          "sourceId": "DN-CHA-013",
+          "intensity": "flirty",
+          "prompt": "Describe an imaginary date destination using only five words. Your partner gets three guesses before you reveal it; exchange roles and make the second round a little more tempting.",
+          "reasonSelected": "A five-word destination guessing game shifts from the chemistry scene to playful discovery without a second delivery performance."
+        },
+        {
+          "slot": "closer",
+          "sourceId": "DN-CLO-006",
+          "intensity": "flirty",
+          "prompt": "Choose one small way to end with a little more spark: a warm compliment, a held gaze or an offered hand. Each suggest your preference and choose an ending you both welcome.",
+          "reasonSelected": "Ends with mutual choice and gentle, optional affection."
+        }
+      ]
+    },
+    {
+      "vibe": "competitive",
+      "title": "Competitive Date",
+      "moodLine": "Friendly rivalry. No score to settle.",
+      "journey": "Recognize each other’s strengths, test predictions, solve an invented mystery and try a shared memory challenge before choosing another date.",
+      "activities": [
+        {
+          "slot": "connect",
+          "sourceId": "DN-CON-004",
+          "intensity": "sweet",
+          "prompt": "Choose one everyday talent you admire in each other. Explain where you would recruit your partner to use it on an imaginary two-person team.",
+          "reasonSelected": "Frames the couple as a team before the playful rivalry."
+        },
+        {
+          "slot": "predict",
+          "sourceId": "DN-PRE-010",
+          "intensity": "sweet",
+          "prompt": "In three rounds, predict which your partner would rather master: cooking or storytelling, fixing things or finding things, planning or improvising. Give a reason for each guess.",
+          "compareInstruction": "Reveal your actual choices one pair at a time. Test one prediction with a tiny demonstration of the skill you picked.",
+          "reasonSelected": "Tests specific guesses without right/wrong relationship judgments."
+        },
+        {
+          "slot": "play",
+          "sourceId": "DN-PLY-010",
+          "intensity": "sweet",
+          "prompt": "Solve a mystery you invent together: why is there a tiny door behind the sofa? Alternate adding clues, discuss two possible explanations and agree on a final reveal.",
+          "reasonSelected": "An interactive problem to solve collaboratively, with no scoring."
+        },
+        {
+          "slot": "challenge",
+          "sourceId": "DN-CHA-005",
+          "intensity": "sweet",
+          "prompt": "Build a sound sequence together: one person makes a sound, the other repeats it and adds one. Keep extending it at an easy pace, then try a second sequence with roles reversed.",
+          "reasonSelected": "Adds a repeat-and-build challenge with natural turns and no loser."
+        },
+        {
+          "slot": "closer",
+          "sourceId": "DN-CLO-004",
+          "intensity": "sweet",
+          "prompt": "Each offer one tiny, no-cost date you could share at home another time. Pick the idea you are both most curious about and end by inviting each other to it.",
+          "reasonSelected": "Directs the energy toward one mutually chosen next date."
+        }
+      ]
+    }
+  ]
+}

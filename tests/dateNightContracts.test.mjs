@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { loadDefaultGame } from '../src/data/defaultGame.ts';
+import { loadDefaultGame } from './fixtures/dateNightInfrastructure.ts';
 import { loadGame } from '../src/engine/gameLoader.ts';
 import { parseCard, parseCards } from '../src/engine/cardValidation.ts';
 import { parseManifest } from '../src/engine/manifestValidation.ts';

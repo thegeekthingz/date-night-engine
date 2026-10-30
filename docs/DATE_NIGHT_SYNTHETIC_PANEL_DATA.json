@@ -1,0 +1,4300 @@
+{
+  "phase": "6.7",
+  "status": "PASS",
+  "methodology": {
+    "type": "SYNTHETIC PRODUCT RED TEAM",
+    "realParticipants": 0,
+    "primaryPersonas": 8,
+    "independence": "Eight separate briefs evaluated sequentially by the same assistant; not statistically independent people or independent model samples.",
+    "disclaimer": "Synthetic personas are not customer, market or conversion validation. All scores, decisions, dollar values, uplift and refund-risk judgments are authored hypotheses, not observations of buyer behavior or pricing evidence.",
+    "prices": {
+      "currency": "USD",
+      "intendedSellingPriceProvided": false,
+      "elicitation": "Author-assigned fictional allowances by persona, without market lookup or an intended target price.",
+      "aggregation": "Unweighted median of eight fictional values; not a price recommendation."
+    },
+    "browser": "Eight actual localhost production flows at a 390x844 browser viewport; browser inspection is not real smartphone or couple performance testing.",
+    "pdfs": "Actual four PDFs reopened, text extracted and 24 pages re-rendered with Poppler and visually inspected; PDFs were not regenerated.",
+    "notTested": [
+      "actual purchase/download/access handoff",
+      "real participants",
+      "physical home-printer output",
+      "actual elapsed date duration",
+      "formal accessibility or cross-browser certification"
+    ]
+  },
+  "personas": [
+    {
+      "id": "P1",
+      "name": "New couple",
+      "assumptions": [
+        "Together four months; private at-home date, no appetite for relationship tests.",
+        "Both can decline a performance; their concern is comfort rather than explicit content."
+      ],
+      "expectations": "An easy opening and something to do together without proving intimacy.",
+      "printableScenario": "Cozy page; briefly compare the other vibe headings and Quick Start.",
+      "positives": [
+        "Comfort-based opener avoids forced vulnerability.",
+        "Clear numbered recipe in both formats.",
+        "Paper works without hidden answers."
+      ],
+      "negatives": [
+        "A soundscape or funny voice is still a performance.",
+        "Some phrasing assumes shared memories or comfortable affection.",
+        "The PDF does not tell me how to obtain browser access."
+      ],
+      "weakActivities": [
+        {
+          "id": "DN-PLY-001",
+          "format": "WEBAPP",
+          "concern": "Making sounds could feel exposing with a new partner."
+        },
+        {
+          "id": "DN-CLO-003",
+          "format": "WEBAPP",
+          "concern": "Ridiculous voices undermine a quiet ending."
+        },
+        {
+          "id": "DN-CLO-001",
+          "format": "PRINTABLE",
+          "concern": "Read your versions is ambiguous after asking for a spoken postcard."
+        }
+      ],
+      "issues": [
+        "I01",
+        "I02",
+        "I11"
+      ],
+      "decision": "BUY",
+      "decisionReason": "The low-pressure structure is worth trying, conditional on clear browser delivery.",
+      "prices": {
+        "webApp": 9,
+        "printable": 4,
+        "bundle": 11,
+        "printableUplift": 2,
+        "upliftBand": "$1–2",
+        "upliftMeaning": "SMALL BONUS"
+      },
+      "classification": "INTERACTIVE DIGITAL PRODUCT",
+      "formatPreference": "BOTH",
+      "replay": {
+        "webApp": "occasionally",
+        "printable": "2–3 times",
+        "paperRole": "useful backup",
+        "reason": "New combinations help; fixed comfort rituals can repeat a little."
+      },
+      "antiCringe": {
+        "webApp": "MEDIUM RISK",
+        "printable": "LOW RISK",
+        "reason": "New-couple performance discomfort, not unsafe or explicit content."
+      },
+      "webAppReview": [
+        {
+          "question": "Understand product within 10 seconds?",
+          "answer": "Yes: five guided activities for two."
+        },
+        {
+          "question": "Know what to do next?",
+          "answer": "Yes: Build Your Date, then three choices."
+        },
+        {
+          "question": "Paid product or free website?",
+          "answer": "Polished small paid tool, though access entitlement is invisible."
+        },
+        {
+          "question": "Strongest part?",
+          "answer": "A finite, low-pressure sequence."
+        },
+        {
+          "question": "Weakest part?",
+          "answer": "Sound effects and silly voices can put a new partner on the spot."
+        },
+        {
+          "question": "Activity to remove first?",
+          "answer": "DN-CLO-003: ridiculous voices make the ending feel forced."
+        },
+        {
+          "question": "Activity remembered tomorrow?",
+          "answer": "DN-PLY-001: a shared imaginary soundscape, if both enjoy it."
+        },
+        {
+          "question": "Vibe matches experience?",
+          "answer": "Mostly; the humorous closer is louder than the Cozy promise."
+        },
+        {
+          "question": "Sweet / Flirty clear?",
+          "answer": "Sweet is clear; Flirty reads optional and mild."
+        },
+        {
+          "question": "Would use Swap?",
+          "answer": "Yes, particularly for voices or gestures."
+        },
+        {
+          "question": "Play another session?",
+          "answer": "Occasionally, if neither feels examined."
+        },
+        {
+          "question": "15 / 30 minutes credible?",
+          "answer": "Plausible estimates, not a measured 15-minute date."
+        },
+        {
+          "question": "Refund trigger?",
+          "answer": "Receiving a generic deck instead of working browser access, or repeated uncomfortable performance."
+        },
+        {
+          "question": "Purchase blocker?",
+          "answer": "Unclear access/delivery and uncertainty about the silliness."
+        }
+      ],
+      "printableReview": [
+        {
+          "question": "Visually appealing?",
+          "answer": "Yes, calm and inviting."
+        },
+        {
+          "question": "Professionally designed?",
+          "answer": "Yes, consistent type and rules."
+        },
+        {
+          "question": "Hierarchy easy to scan?",
+          "answer": "Yes: numbered stages."
+        },
+        {
+          "question": "Readable at normal print size?",
+          "answer": "Yes in the rendered PDF; physical print not tested."
+        },
+        {
+          "question": "Immediately understandable?",
+          "answer": "Yes, read aloud from top to bottom."
+        },
+        {
+          "question": "Mini-date coherent?",
+          "answer": "Yes: comfort, shared room, gentle celebration, remembered moment."
+        },
+        {
+          "question": "Four vibes visibly/emotionally different?",
+          "answer": "Color helps; Cozy and Competitive are visually close on paper."
+        },
+        {
+          "question": "Too crowded?",
+          "answer": "No."
+        },
+        {
+          "question": "Too empty?",
+          "answer": "Lower whitespace is comfortable, not missing content."
+        },
+        {
+          "question": "Quick Start useful?",
+          "answer": "Yes; it establishes no score and pace."
+        },
+        {
+          "question": "Cover appealing?",
+          "answer": "Clear, quiet rather than exciting."
+        },
+        {
+          "question": "Would actually print?",
+          "answer": "Yes, one Cozy page for a phone-free evening."
+        },
+        {
+          "question": "Use directly on screen?",
+          "answer": "Only as a backup; a PDF on a phone is less convenient than the app."
+        },
+        {
+          "question": "Color worth having?",
+          "answer": "Yes, for a keepsake feel."
+        },
+        {
+          "question": "Ink-Saver premium enough?",
+          "answer": "Enough for a practical bonus."
+        },
+        {
+          "question": "Ink-Saver useful?",
+          "answer": "Yes, especially a home printer."
+        },
+        {
+          "question": "A4 / Letter confidence or confusion?",
+          "answer": "Confident after paper size is explained, not necessarily before."
+        },
+        {
+          "question": "Real bonus?",
+          "answer": "Yes, a ready-made backup."
+        },
+        {
+          "question": "Pay for printable alone?",
+          "answer": "About $4 as a hypothetical personal allowance."
+        },
+        {
+          "question": "Reason to dislike or ignore?",
+          "answer": "A performative task cannot be replaced automatically; spoken postcard wording says read without writing."
+        }
+      ],
+      "bundleReview": [
+        {
+          "question": "Main component obvious?",
+          "answer": "Likely, after reading the cover; not a complete delivery explanation."
+        },
+        {
+          "question": "Printable clearly bonus?",
+          "answer": "Yes, cover explicitly says bonus companion."
+        },
+        {
+          "question": "Printable adds value?",
+          "answer": "Small practical addition."
+        },
+        {
+          "question": "Printable reduces WebApp uniqueness?",
+          "answer": "Some overlap, but 20 fixed items do not replace 72 combinations."
+        },
+        {
+          "question": "WebApp makes paper obsolete?",
+          "answer": "No, leaving the phone aside is useful."
+        },
+        {
+          "question": "Visually related?",
+          "answer": "Yes, warm palette and serif headings."
+        },
+        {
+          "question": "Same brand?",
+          "answer": "Yes."
+        },
+        {
+          "question": "More giftable?",
+          "answer": "Somewhat, if access instructions are included."
+        },
+        {
+          "question": "More complete?",
+          "answer": "Yes, online play plus offline fallback."
+        },
+        {
+          "question": "Preferred format?",
+          "answer": "BOTH"
+        },
+        {
+          "question": "Why that preference?",
+          "answer": "The app avoids planning; paper avoids needing a screen."
+        }
+      ],
+      "scores": {
+        "webApp": {
+          "productClarity": 8,
+          "perceivedValue": 8,
+          "visualAppeal": 8,
+          "premiumFeel": 8,
+          "contentQuality": 7,
+          "vibeFit": 7,
+          "sweetFlirtyClarity": 8,
+          "mobileUsability": 8,
+          "replayValue": 7
+        },
+        "printable": {
+          "clarity": 8,
+          "coverAppeal": 7,
+          "visualAppeal": 7,
+          "premiumFeel": 7,
+          "readability": 9,
+          "contentQuality": 7,
+          "vibeFit": 8,
+          "colorVersion": 8,
+          "inkSaverVersion": 7,
+          "printability": 9
+        },
+        "bundle": {
+          "brandCoherence": 8,
+          "perceivedValue": 8,
+          "completeness": 8,
+          "giftability": 8,
+          "purchaseConfidence": 7,
+          "refundRisk": 3
+        }
+      },
+      "browserEvidence": {
+        "persona": "P1",
+        "configuration": {
+          "vibe": "cozy",
+          "durationMinutes": 15,
+          "intensityCeiling": "sweet"
+        },
+        "queue": [
+          {
+            "slot": "connect",
+            "itemId": "DN-CON-001"
+          },
+          {
+            "slot": "predict",
+            "itemId": "DN-PRE-004"
+          },
+          {
+            "slot": "play",
+            "itemId": "DN-PLY-001"
+          },
+          {
+            "slot": "challenge",
+            "itemId": "DN-CHA-004"
+          },
+          {
+            "slot": "closer",
+            "itemId": "DN-CLO-003"
+          }
+        ],
+        "home": "A LITTLE TIME. JUST THE TWO OF YOU.\n\nStop planning.\nStart your date.\n\nOne guided date night.\nFive activities. Zero planning.\n\nChoose your vibe, your time, and your intensity.\nWe build the night for you.\n\nBUILD YOUR DATE\n↗\n\n5 guided activities • 1 phone • 2 people\n\nYOUR NIGHT, TAKEN CARE OF\n\n01\nCONNECT\n\nA little closer\n\n02\nPREDICT\n\nHow well do you know each other?\n\n03\nPLAY\n\nMake room for a little fun\n\n04\nCHALLENGE\n\nTry something together\n\n05\nCLOSER\n\nEnd on a good note",
+        "setup": "MAKE IT YOURS\n\nWhat kind of night?\n\nThree little choices. We’ll take it from here.\n\n01 VIBE\nCozy\nSlow down. Settle in.\nFunny\nLess serious. More smiles.\nRomantic\nMake a little space for us.\nCompetitive\nA friendly spark of rivalry.\n02 TIME\n15 min\nQuick Date\n30 min\nFull Date\n\nA little guidance, not a countdown. Go at your own pace.\n\n03 INTENSITY\nSweet\nWarm, playful, easygoing\nFlirty\nA little bolder, still couple-friendly\n\nFlirty includes Sweet activities, with room for a little more spark.\n\nBUILD MY DATE\n↗\nBack to Home",
+        "steps": [
+          {
+            "slot": 0,
+            "id": "DN-CON-001",
+            "prompt": "Finish this sentence in turn: “A tiny thing that helps me unwind is…” Choose one you could share on an ordinary evening.",
+            "revealed": null,
+            "layout": {
+              "focus": "A little closer",
+              "height": 942,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 1,
+            "id": "DN-PRE-004",
+            "prompt": "For a surprise date at home, would your partner choose a mystery to solve, something to make or a long conversation? Pick before they answer.",
+            "revealed": "THE REVEAL\n\nShare your guesses, then your actual choices. Add one detail your partner might not have predicted.",
+            "layout": {
+              "focus": "THE REVEALShare your guesses, then your actual cho",
+              "height": 1234,
+              "overflow": false,
+              "scrollY": 171
+            }
+          },
+          {
+            "slot": 2,
+            "id": "DN-PLY-001",
+            "prompt": "Make a soundscape for a place you would both like to be. Add one sound each in turn until the imaginary scene feels complete.",
+            "revealed": null,
+            "layout": {
+              "focus": "Make room for a little fun",
+              "height": 942,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 3,
+            "id": "DN-CHA-004",
+            "prompt": "Give your partner an appreciation without using any describing words. Use a real action you noticed, then let them try the same challenge.",
+            "revealed": null,
+            "layout": {
+              "focus": "Try something together",
+              "height": 981,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 4,
+            "id": "DN-CLO-003",
+            "prompt": "Invent a short sign-off for tonight using a detail you each enjoyed. Trade the stories behind your choices, combine them into one phrase and try it in two ridiculous voices before saying goodbye.",
+            "revealed": null,
+            "layout": {
+              "focus": "End on a good note",
+              "height": 1061,
+              "overflow": false,
+              "scrollY": 133
+            }
+          }
+        ],
+        "ended": "completed"
+      },
+      "formatRatings": {
+        "printableOnly": {
+          "easeOfUse": 8,
+          "visualAppeal": 7,
+          "novelty": 6,
+          "replay": 5,
+          "giftability": 8,
+          "convenience": 7,
+          "premiumFeel": 7,
+          "perceivedValue": 7
+        },
+        "webAppOnly": {
+          "easeOfUse": 9,
+          "visualAppeal": 8,
+          "novelty": 7,
+          "replay": 7,
+          "giftability": 7,
+          "convenience": 9,
+          "premiumFeel": 8,
+          "perceivedValue": 8
+        },
+        "bundle": {
+          "easeOfUse": 8,
+          "visualAppeal": 8,
+          "novelty": 7,
+          "replay": 7,
+          "giftability": 8,
+          "convenience": 8,
+          "premiumFeel": 8,
+          "perceivedValue": 8
+        }
+      }
+    },
+    {
+      "id": "P2",
+      "name": "Long-term couple",
+      "assumptions": [
+        "Together eleven years; experienced with conversation decks.",
+        "Open to playful chemistry but impatient with generic preference questions."
+      ],
+      "expectations": "New interaction rather than facts already known.",
+      "printableScenario": "Romantic page and its relation to the selected Flirty WebApp date.",
+      "positives": [
+        "Interactive tasks exceed basic questionnaires.",
+        "No intrusive scores or tests.",
+        "Good screen/paper visual family."
+      ],
+      "negatives": [
+        "Some facts are already known after years together.",
+        "Flirty can select mostly Sweet.",
+        "Fixed paper replay is limited."
+      ],
+      "weakActivities": [
+        {
+          "id": "DN-PRE-009",
+          "format": "WEBAPP",
+          "concern": "Three familiar preferences may not discover much."
+        },
+        {
+          "id": "DN-CHA-007",
+          "format": "WEBAPP",
+          "concern": "Long guided imagery risks a wellness exercise tone."
+        },
+        {
+          "id": "DN-PLY-013",
+          "format": "PRINTABLE",
+          "concern": "Obvious chemistry without romantic words can sound forced."
+        }
+      ],
+      "issues": [
+        "I02",
+        "I03",
+        "I06",
+        "I07",
+        "I09",
+        "I12",
+        "I13"
+      ],
+      "decision": "MAYBE",
+      "decisionReason": "Would need stronger examples of novelty; the printable does not move the decision.",
+      "prices": {
+        "webApp": 8,
+        "printable": 2,
+        "bundle": 8,
+        "printableUplift": 0,
+        "upliftBand": "$0",
+        "upliftMeaning": "NO VALUE"
+      },
+      "classification": "STANDARD DIGITAL BUNDLE",
+      "formatPreference": "WEBAPP ONLY",
+      "replay": {
+        "webApp": "2–3 times",
+        "printable": "once",
+        "paperRole": "redundant duplicate",
+        "reason": "Dynamic variation might last; the fixed Romantic routine has little novelty after one use."
+      },
+      "antiCringe": {
+        "webApp": "MEDIUM RISK",
+        "printable": "MEDIUM RISK",
+        "reason": "Imagery and scripted attraction need buy-in; no explicit or coercive material."
+      },
+      "webAppReview": [
+        {
+          "question": "Understand product within 10 seconds?",
+          "answer": "Yes, guided date rather than a standalone card."
+        },
+        {
+          "question": "Know what to do next?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Paid product or free website?",
+          "answer": "Paid-looking interface, content still has to earn the price."
+        },
+        {
+          "question": "Strongest part?",
+          "answer": "DN-PLY-016 gives us something new to improvise."
+        },
+        {
+          "question": "Weakest part?",
+          "answer": "Comfort preferences and imagined places can feel familiar."
+        },
+        {
+          "question": "Activity to remove first?",
+          "answer": "DN-CHA-007: seven minutes of guided imagined places feels overextended."
+        },
+        {
+          "question": "Activity remembered tomorrow?",
+          "answer": "DN-PLY-016: rescuing imaginary mishaps."
+        },
+        {
+          "question": "Vibe matches experience?",
+          "answer": "Warm, but the sampled Flirty date has only one Flirty card."
+        },
+        {
+          "question": "Sweet / Flirty clear?",
+          "answer": "The ceiling explanation is explicit; emotional expectations may still exceed it."
+        },
+        {
+          "question": "Would use Swap?",
+          "answer": "Yes, to replace familiar prompts."
+        },
+        {
+          "question": "Play another session?",
+          "answer": "2–3 times before judging variety."
+        },
+        {
+          "question": "15 / 30 minutes credible?",
+          "answer": "Thirty minutes is possible with discussion; not a pacing guarantee."
+        },
+        {
+          "question": "Refund trigger?",
+          "answer": "Promised endless novelty or bolder content that never arrives."
+        },
+        {
+          "question": "Purchase blocker?",
+          "answer": "Not enough evidence of variation beyond familiar prompts."
+        }
+      ],
+      "printableReview": [
+        {
+          "question": "Visually appealing?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Professionally designed?",
+          "answer": "Yes, restrained editorial design."
+        },
+        {
+          "question": "Hierarchy easy to scan?",
+          "answer": "Very clear."
+        },
+        {
+          "question": "Readable at normal print size?",
+          "answer": "Yes in the render."
+        },
+        {
+          "question": "Immediately understandable?",
+          "answer": "Yes, although it is a fixed script."
+        },
+        {
+          "question": "Mini-date coherent?",
+          "answer": "Yes, attraction leads to anticipation and invitation."
+        },
+        {
+          "question": "Four vibes visibly/emotionally different?",
+          "answer": "Different language; the page architecture is intentionally identical."
+        },
+        {
+          "question": "Too crowded?",
+          "answer": "No."
+        },
+        {
+          "question": "Too empty?",
+          "answer": "Not too empty, though less emotionally rich than the app."
+        },
+        {
+          "question": "Quick Start useful?",
+          "answer": "Useful once; most of it is obvious to us."
+        },
+        {
+          "question": "Cover appealing?",
+          "answer": "Professional but not a strong emotional hook."
+        },
+        {
+          "question": "Would actually print?",
+          "answer": "Probably not."
+        },
+        {
+          "question": "Use directly on screen?",
+          "answer": "Could read it on a tablet once."
+        },
+        {
+          "question": "Color worth having?",
+          "answer": "Adds appeal, not major utility."
+        },
+        {
+          "question": "Ink-Saver premium enough?",
+          "answer": "Practical, but the plainer version reduces perceived premium."
+        },
+        {
+          "question": "Ink-Saver useful?",
+          "answer": "Useful for people who print; not for my habits."
+        },
+        {
+          "question": "A4 / Letter confidence or confusion?",
+          "answer": "Useful international formats, no need to remove either."
+        },
+        {
+          "question": "Real bonus?",
+          "answer": "A small redundant extra for me."
+        },
+        {
+          "question": "Pay for printable alone?",
+          "answer": "At most $2 hypothetically."
+        },
+        {
+          "question": "Reason to dislike or ignore?",
+          "answer": "Same five activities every time; flirted scene/phrase performances can feel scripted."
+        }
+      ],
+      "bundleReview": [
+        {
+          "question": "Main component obvious?",
+          "answer": "Yes, from positioning, not from a completed purchase flow."
+        },
+        {
+          "question": "Printable clearly bonus?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Printable adds value?",
+          "answer": "No incremental dollar value for me."
+        },
+        {
+          "question": "Printable reduces WebApp uniqueness?",
+          "answer": "Some: familiar exported prompts reduce a sense of exclusivity."
+        },
+        {
+          "question": "WebApp makes paper obsolete?",
+          "answer": "Mostly for my use, though others want offline use."
+        },
+        {
+          "question": "Visually related?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Same brand?",
+          "answer": "Yes."
+        },
+        {
+          "question": "More giftable?",
+          "answer": "A little; access continuity is untested."
+        },
+        {
+          "question": "More complete?",
+          "answer": "Technically more complete, not twice as valuable."
+        },
+        {
+          "question": "Preferred format?",
+          "answer": "WEBAPP ONLY"
+        },
+        {
+          "question": "Why that preference?",
+          "answer": "I want combinations and replacements, not another fixed prompt sheet."
+        }
+      ],
+      "scores": {
+        "webApp": {
+          "productClarity": 8,
+          "perceivedValue": 6,
+          "visualAppeal": 8,
+          "premiumFeel": 7,
+          "contentQuality": 6,
+          "vibeFit": 7,
+          "sweetFlirtyClarity": 8,
+          "mobileUsability": 8,
+          "replayValue": 6
+        },
+        "printable": {
+          "clarity": 8,
+          "coverAppeal": 6,
+          "visualAppeal": 7,
+          "premiumFeel": 6,
+          "readability": 9,
+          "contentQuality": 6,
+          "vibeFit": 7,
+          "colorVersion": 7,
+          "inkSaverVersion": 6,
+          "printability": 9
+        },
+        "bundle": {
+          "brandCoherence": 8,
+          "perceivedValue": 6,
+          "completeness": 7,
+          "giftability": 7,
+          "purchaseConfidence": 6,
+          "refundRisk": 5
+        }
+      },
+      "browserEvidence": {
+        "persona": "P2",
+        "configuration": {
+          "vibe": "romantic",
+          "durationMinutes": 30,
+          "intensityCeiling": "flirty"
+        },
+        "queue": [
+          {
+            "slot": "connect",
+            "itemId": "DN-CON-009"
+          },
+          {
+            "slot": "predict",
+            "itemId": "DN-PRE-009"
+          },
+          {
+            "slot": "play",
+            "itemId": "DN-PLY-016"
+          },
+          {
+            "slot": "challenge",
+            "itemId": "DN-CHA-007"
+          },
+          {
+            "slot": "closer",
+            "itemId": "DN-CLO-001"
+          }
+        ],
+        "home": "A LITTLE TIME. JUST THE TWO OF YOU.\n\nStop planning.\nStart your date.\n\nOne guided date night.\nFive activities. Zero planning.\n\nChoose your vibe, your time, and your intensity.\nWe build the night for you.\n\nBUILD YOUR DATE\n↗\n\n5 guided activities • 1 phone • 2 people\n\nYOUR NIGHT, TAKEN CARE OF\n\n01\nCONNECT\n\nA little closer\n\n02\nPREDICT\n\nHow well do you know each other?\n\n03\nPLAY\n\nMake room for a little fun\n\n04\nCHALLENGE\n\nTry something together\n\n05\nCLOSER\n\nEnd on a good note",
+        "setup": "MAKE IT YOURS\n\nWhat kind of night?\n\nThree little choices. We’ll take it from here.\n\n01 VIBE\nCozy\nSlow down. Settle in.\nFunny\nLess serious. More smiles.\nRomantic\nMake a little space for us.\nCompetitive\nA friendly spark of rivalry.\n02 TIME\n15 min\nQuick Date\n30 min\nFull Date\n\nA little guidance, not a countdown. Go at your own pace.\n\n03 INTENSITY\nSweet\nWarm, playful, easygoing\nFlirty\nA little bolder, still couple-friendly\n\nFlirty includes Sweet activities, with room for a little more spark.\n\nBUILD MY DATE\n↗\nBack to Home",
+        "steps": [
+          {
+            "slot": 0,
+            "id": "DN-CON-009",
+            "prompt": "Build a three-course “menu of us”: one small comfort, one reliable laugh and one thing you would enjoy trying together. Take turns explaining each choice before agreeing on the menu.",
+            "revealed": null,
+            "layout": {
+              "focus": "A little closer",
+              "height": 1059,
+              "overflow": false,
+              "scrollY": 0
+            }
+          },
+          {
+            "slot": 1,
+            "id": "DN-PRE-009",
+            "prompt": "Make three small predictions about your partner: a sound they find soothing, a treat they would share and a place they could happily sit for ages. Keep the guesses to yourself first.",
+            "revealed": "THE REVEAL\n\nReveal each guess before the real answer. For every surprise, invite the person answering to tell the little story behind it.",
+            "layout": {
+              "focus": "THE REVEALReveal each guess before the real answer",
+              "height": 1304,
+              "overflow": false,
+              "scrollY": 210
+            }
+          },
+          {
+            "slot": 2,
+            "id": "DN-PLY-016",
+            "prompt": "Rescue an imaginary date from three harmless mishaps: a squeaky chair, a very confusing menu and a song that will not stop. Improvise a charming rescue for each, taking turns as the hero of the scene.",
+            "revealed": null,
+            "layout": {
+              "focus": "Make room for a little fun",
+              "height": 1099,
+              "overflow": false,
+              "scrollY": 0
+            }
+          },
+          {
+            "slot": 3,
+            "id": "DN-CHA-007",
+            "prompt": "Guide each other through three imagined places: somewhere restful, somewhere beautiful and somewhere you would like to share. Alternate describing and asking for details, giving each scene a couple of minutes to unfold.",
+            "revealed": null,
+            "layout": {
+              "focus": "Try something together",
+              "height": 1138,
+              "overflow": false,
+              "scrollY": 0
+            }
+          },
+          {
+            "slot": 4,
+            "id": "DN-CLO-001",
+            "prompt": "Make a spoken postcard from tonight: each choose a moment, a detail and a feeling you would put on it. Read your versions to each other and end with one line you would keep.",
+            "revealed": null,
+            "layout": {
+              "focus": "End on a good note",
+              "height": 1061,
+              "overflow": false,
+              "scrollY": 0
+            }
+          }
+        ],
+        "ended": "completed"
+      },
+      "formatRatings": {
+        "printableOnly": {
+          "easeOfUse": 8,
+          "visualAppeal": 7,
+          "novelty": 4,
+          "replay": 3,
+          "giftability": 5,
+          "convenience": 6,
+          "premiumFeel": 6,
+          "perceivedValue": 4
+        },
+        "webAppOnly": {
+          "easeOfUse": 8,
+          "visualAppeal": 8,
+          "novelty": 6,
+          "replay": 6,
+          "giftability": 6,
+          "convenience": 8,
+          "premiumFeel": 7,
+          "perceivedValue": 6
+        },
+        "bundle": {
+          "easeOfUse": 7,
+          "visualAppeal": 8,
+          "novelty": 6,
+          "replay": 6,
+          "giftability": 7,
+          "convenience": 7,
+          "premiumFeel": 7,
+          "perceivedValue": 6
+        }
+      }
+    },
+    {
+      "id": "P3",
+      "name": "Busy couple",
+      "assumptions": [
+        "Only a short evening window and low energy after work.",
+        "Access link is already available for the live scenario; printing is not automatic convenience."
+      ],
+      "expectations": "Start fast, minimal prep, understandable time commitment.",
+      "printableScenario": "Quick Start and Cozy page, especially steps and prep costs.",
+      "positives": [
+        "No names or elaborate setup.",
+        "Done and five stages give a stopping point.",
+        "PDF is complete on one page."
+      ],
+      "negatives": [
+        "Creative performance is not low effort for everyone.",
+        "Four editions require a choice.",
+        "A fixed printable has no 15-minute budget selector."
+      ],
+      "weakActivities": [
+        {
+          "id": "DN-CHA-003",
+          "format": "WEBAPP",
+          "concern": "A low-value gesture task when time is scarce."
+        },
+        {
+          "id": "DN-PLY-007",
+          "format": "PRINTABLE",
+          "concern": "Four design rounds are a sizeable commitment for a quick backup."
+        },
+        {
+          "id": "DN-CLO-001",
+          "format": "PRINTABLE",
+          "concern": "Spoken postcard and read your versions add effort/ambiguity."
+        }
+      ],
+      "issues": [
+        "I01",
+        "I02",
+        "I08",
+        "I10",
+        "I11"
+      ],
+      "decision": "BUY",
+      "decisionReason": "Would pay for immediate app convenience; treats the PDF as optional rather than essential.",
+      "prices": {
+        "webApp": 12,
+        "printable": 1,
+        "bundle": 12,
+        "printableUplift": 0,
+        "upliftBand": "$0",
+        "upliftMeaning": "NO VALUE"
+      },
+      "classification": "INTERACTIVE DIGITAL PRODUCT",
+      "formatPreference": "WEBAPP ONLY",
+      "replay": {
+        "webApp": "occasionally",
+        "printable": "once",
+        "paperRole": "useful backup",
+        "reason": "The app removes prep; a specific printed date may be used only during an outage."
+      },
+      "antiCringe": {
+        "webApp": "MEDIUM RISK",
+        "printable": "LOW RISK",
+        "reason": "Tired users may resist small performances rather than object to intimacy."
+      },
+      "webAppReview": [
+        {
+          "question": "Understand product within 10 seconds?",
+          "answer": "Yes: five activities, one phone."
+        },
+        {
+          "question": "Know what to do next?",
+          "answer": "Yes; three familiar setup groups are manageable."
+        },
+        {
+          "question": "Paid product or free website?",
+          "answer": "A paid convenience tool if the link works immediately."
+        },
+        {
+          "question": "Strongest part?",
+          "answer": "A ready queue eliminates planning."
+        },
+        {
+          "question": "Weakest part?",
+          "answer": "Imaginary tasks still require creative effort when tired."
+        },
+        {
+          "question": "Activity to remove first?",
+          "answer": "DN-CHA-003: hand celebration adds little for my limited time."
+        },
+        {
+          "question": "Activity remembered tomorrow?",
+          "answer": "DN-PLY-004: an island only as big as the room."
+        },
+        {
+          "question": "Vibe matches experience?",
+          "answer": "Mostly, with a sillier activity than I expected."
+        },
+        {
+          "question": "Sweet / Flirty clear?",
+          "answer": "Yes, descriptions are short."
+        },
+        {
+          "question": "Would use Swap?",
+          "answer": "Yes, but I do not want repeated choosing."
+        },
+        {
+          "question": "Play another session?",
+          "answer": "Occasionally on a spare evening."
+        },
+        {
+          "question": "15 / 30 minutes credible?",
+          "answer": "The not-a-countdown helper helps, but I cannot verify real duration by fast-clicking."
+        },
+        {
+          "question": "Refund trigger?",
+          "answer": "A promised exact timer or a cumbersome access process."
+        },
+        {
+          "question": "Purchase blocker?",
+          "answer": "Needing to find links, choose downloads and prepare a printer."
+        }
+      ],
+      "printableReview": [
+        {
+          "question": "Visually appealing?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Professionally designed?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Hierarchy easy to scan?",
+          "answer": "Very clear stage order."
+        },
+        {
+          "question": "Readable at normal print size?",
+          "answer": "Readable at page scale; not physically printed."
+        },
+        {
+          "question": "Immediately understandable?",
+          "answer": "Yes after one scan."
+        },
+        {
+          "question": "Mini-date coherent?",
+          "answer": "Coherent comfort journey."
+        },
+        {
+          "question": "Four vibes visibly/emotionally different?",
+          "answer": "Enough difference in names/tone; similar layouts are helpful."
+        },
+        {
+          "question": "Too crowded?",
+          "answer": "No."
+        },
+        {
+          "question": "Too empty?",
+          "answer": "Whitespace makes it less demanding."
+        },
+        {
+          "question": "Quick Start useful?",
+          "answer": "Useful, but five steps plus reminders are more than I need."
+        },
+        {
+          "question": "Cover appealing?",
+          "answer": "Pleasant, not useful during the date."
+        },
+        {
+          "question": "Would actually print?",
+          "answer": "Only if already printed; otherwise no."
+        },
+        {
+          "question": "Use directly on screen?",
+          "answer": "Maybe, but it adds zoom/scroll versus the app."
+        },
+        {
+          "question": "Color worth having?",
+          "answer": "Nice but not worth extra effort for me."
+        },
+        {
+          "question": "Ink-Saver premium enough?",
+          "answer": "Yes for a backup."
+        },
+        {
+          "question": "Ink-Saver useful?",
+          "answer": "Useful if I do print."
+        },
+        {
+          "question": "A4 / Letter confidence or confusion?",
+          "answer": "Four files are a small decision tax."
+        },
+        {
+          "question": "Real bonus?",
+          "answer": "Backup value, not added willingness to pay."
+        },
+        {
+          "question": "Pay for printable alone?",
+          "answer": "About $1 hypothetically."
+        },
+        {
+          "question": "Reason to dislike or ignore?",
+          "answer": "Eight-minute imagined room and four-minute postcard can make Cozy paper longer than a quick date; read your versions is unclear."
+        }
+      ],
+      "bundleReview": [
+        {
+          "question": "Main component obvious?",
+          "answer": "The app appears primary once explained."
+        },
+        {
+          "question": "Printable clearly bonus?",
+          "answer": "Yes on the PDF cover."
+        },
+        {
+          "question": "Printable adds value?",
+          "answer": "No additional dollar value for my use."
+        },
+        {
+          "question": "Printable reduces WebApp uniqueness?",
+          "answer": "No, the fixed bonus has a different job."
+        },
+        {
+          "question": "WebApp makes paper obsolete?",
+          "answer": "Usually, for my convenience preference."
+        },
+        {
+          "question": "Visually related?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Same brand?",
+          "answer": "Yes."
+        },
+        {
+          "question": "More giftable?",
+          "answer": "Only if getting started is effortless."
+        },
+        {
+          "question": "More complete?",
+          "answer": "Yes, but more files can feel like more work."
+        },
+        {
+          "question": "Preferred format?",
+          "answer": "WEBAPP ONLY"
+        },
+        {
+          "question": "Why that preference?",
+          "answer": "A link beats print preparation when we have fifteen minutes."
+        }
+      ],
+      "scores": {
+        "webApp": {
+          "productClarity": 9,
+          "perceivedValue": 8,
+          "visualAppeal": 8,
+          "premiumFeel": 8,
+          "contentQuality": 7,
+          "vibeFit": 8,
+          "sweetFlirtyClarity": 8,
+          "mobileUsability": 8,
+          "replayValue": 7
+        },
+        "printable": {
+          "clarity": 8,
+          "coverAppeal": 7,
+          "visualAppeal": 7,
+          "premiumFeel": 7,
+          "readability": 9,
+          "contentQuality": 7,
+          "vibeFit": 8,
+          "colorVersion": 7,
+          "inkSaverVersion": 7,
+          "printability": 9
+        },
+        "bundle": {
+          "brandCoherence": 8,
+          "perceivedValue": 7,
+          "completeness": 8,
+          "giftability": 7,
+          "purchaseConfidence": 7,
+          "refundRisk": 4
+        }
+      },
+      "browserEvidence": {
+        "persona": "P3",
+        "configuration": {
+          "vibe": "cozy",
+          "durationMinutes": 15,
+          "intensityCeiling": "sweet"
+        },
+        "queue": [
+          {
+            "slot": "connect",
+            "itemId": "DN-CON-001"
+          },
+          {
+            "slot": "predict",
+            "itemId": "DN-PRE-001"
+          },
+          {
+            "slot": "play",
+            "itemId": "DN-PLY-004"
+          },
+          {
+            "slot": "challenge",
+            "itemId": "DN-CHA-003"
+          },
+          {
+            "slot": "closer",
+            "itemId": "DN-CLO-001"
+          }
+        ],
+        "home": "A LITTLE TIME. JUST THE TWO OF YOU.\n\nStop planning.\nStart your date.\n\nOne guided date night.\nFive activities. Zero planning.\n\nChoose your vibe, your time, and your intensity.\nWe build the night for you.\n\nBUILD YOUR DATE\n↗\n\n5 guided activities • 1 phone • 2 people\n\nYOUR NIGHT, TAKEN CARE OF\n\n01\nCONNECT\n\nA little closer\n\n02\nPREDICT\n\nHow well do you know each other?\n\n03\nPLAY\n\nMake room for a little fun\n\n04\nCHALLENGE\n\nTry something together\n\n05\nCLOSER\n\nEnd on a good note",
+        "setup": "MAKE IT YOURS\n\nWhat kind of night?\n\nThree little choices. We’ll take it from here.\n\n01 VIBE\nCozy\nSlow down. Settle in.\nFunny\nLess serious. More smiles.\nRomantic\nMake a little space for us.\nCompetitive\nA friendly spark of rivalry.\n02 TIME\n15 min\nQuick Date\n30 min\nFull Date\n\nA little guidance, not a countdown. Go at your own pace.\n\n03 INTENSITY\nSweet\nWarm, playful, easygoing\nFlirty\nA little bolder, still couple-friendly\n\nFlirty includes Sweet activities, with room for a little more spark.\n\nBUILD MY DATE\n↗\nBack to Home",
+        "steps": [
+          {
+            "slot": 0,
+            "id": "DN-CON-001",
+            "prompt": "Finish this sentence in turn: “A tiny thing that helps me unwind is…” Choose one you could share on an ordinary evening.",
+            "revealed": null,
+            "layout": {
+              "focus": "A little closer",
+              "height": 942,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 1,
+            "id": "DN-PRE-001",
+            "prompt": "Picture your partner’s ideal end to a busy day: quiet company, a long chat or something to laugh at. Choose their answer before asking them.",
+            "revealed": "THE REVEAL\n\nSay your guesses first. Each reveal your choice and the small detail that would make it feel just right.",
+            "layout": {
+              "focus": "THE REVEALSay your guesses first. Each reveal your",
+              "height": 1234,
+              "overflow": false,
+              "scrollY": 171
+            }
+          },
+          {
+            "slot": 2,
+            "id": "DN-PLY-004",
+            "prompt": "You have a private island for one afternoon, but it is only as big as this room. Design three things you would do there together.",
+            "revealed": null,
+            "layout": {
+              "focus": "Make room for a little fun",
+              "height": 981,
+              "overflow": false,
+              "scrollY": 133
+            }
+          },
+          {
+            "slot": 3,
+            "id": "DN-CHA-003",
+            "prompt": "Create the smallest possible celebration using only your hands. Teach it to each other and perform your two versions together.",
+            "revealed": null,
+            "layout": {
+              "focus": "Try something together",
+              "height": 942,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 4,
+            "id": "DN-CLO-001",
+            "prompt": "Make a spoken postcard from tonight: each choose a moment, a detail and a feeling you would put on it. Read your versions to each other and end with one line you would keep.",
+            "revealed": null,
+            "layout": {
+              "focus": "End on a good note",
+              "height": 1061,
+              "overflow": false,
+              "scrollY": 98
+            }
+          }
+        ],
+        "ended": "completed"
+      },
+      "formatRatings": {
+        "printableOnly": {
+          "easeOfUse": 6,
+          "visualAppeal": 7,
+          "novelty": 6,
+          "replay": 4,
+          "giftability": 6,
+          "convenience": 4,
+          "premiumFeel": 7,
+          "perceivedValue": 4
+        },
+        "webAppOnly": {
+          "easeOfUse": 9,
+          "visualAppeal": 8,
+          "novelty": 7,
+          "replay": 7,
+          "giftability": 7,
+          "convenience": 9,
+          "premiumFeel": 8,
+          "perceivedValue": 8
+        },
+        "bundle": {
+          "easeOfUse": 7,
+          "visualAppeal": 8,
+          "novelty": 7,
+          "replay": 7,
+          "giftability": 7,
+          "convenience": 7,
+          "premiumFeel": 7,
+          "perceivedValue": 7
+        }
+      }
+    },
+    {
+      "id": "P4",
+      "name": "Introverted couple",
+      "assumptions": [
+        "Enjoy quiet conversation and imagination, dislike acting for each other.",
+        "Romantic does not mean a willingness to perform a flirtatious scene."
+      ],
+      "expectations": "Calm connection with an easy way out of awkward tasks.",
+      "printableScenario": "Romantic printable, contrasted with Romantic / Sweet in the app.",
+      "positives": [
+        "Readable, composed visual system.",
+        "No coercive intimacy or scoring.",
+        "One small real invitation is a useful closer."
+      ],
+      "negatives": [
+        "Role-play and miming are concentrated.",
+        "Sweet is not a quiet-activity filter.",
+        "Romantic paper is all Flirty and fixed."
+      ],
+      "weakActivities": [
+        {
+          "id": "DN-CHA-001",
+          "format": "WEBAPP",
+          "concern": "Miming is being put on the spot."
+        },
+        {
+          "id": "DN-PLY-013",
+          "format": "PRINTABLE",
+          "concern": "Improvised chemistry is overt performance pressure."
+        },
+        {
+          "id": "DN-CHA-012",
+          "format": "PRINTABLE",
+          "concern": "Delivering an irresistible phrase may feel unnatural."
+        }
+      ],
+      "issues": [
+        "I02",
+        "I03",
+        "I12"
+      ],
+      "decision": "NOT BUY",
+      "decisionReason": "The preferred quiet experience is not reliably represented; attractive design does not resolve that.",
+      "prices": {
+        "webApp": 6,
+        "printable": 2,
+        "bundle": 6,
+        "printableUplift": 0,
+        "upliftBand": "$0",
+        "upliftMeaning": "NO VALUE"
+      },
+      "classification": "STANDARD DIGITAL BUNDLE",
+      "formatPreference": "WEBAPP ONLY",
+      "replay": {
+        "webApp": "once",
+        "printable": "once",
+        "paperRole": "redundant duplicate",
+        "reason": "Would try a quiet subset once; no wish to replay the fixed Romantic script."
+      },
+      "antiCringe": {
+        "webApp": "HIGH RISK",
+        "printable": "HIGH RISK",
+        "reason": "High persona-specific performance discomfort; this is not a general unsafe-content finding."
+      },
+      "webAppReview": [
+        {
+          "question": "Understand product within 10 seconds?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Know what to do next?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Paid product or free website?",
+          "answer": "Polished interface; content fit is the issue."
+        },
+        {
+          "question": "Strongest part?",
+          "answer": "Sweet configuration and the possibility of Swap."
+        },
+        {
+          "question": "Weakest part?",
+          "answer": "Sweet still includes miming and invented scenarios."
+        },
+        {
+          "question": "Activity to remove first?",
+          "answer": "DN-CHA-001: mime my day with hands and face."
+        },
+        {
+          "question": "Activity remembered tomorrow?",
+          "answer": "DN-CLO-004: an actual small invitation to another date."
+        },
+        {
+          "question": "Vibe matches experience?",
+          "answer": "Affectionate but too performative at points."
+        },
+        {
+          "question": "Sweet / Flirty clear?",
+          "answer": "Clear mechanically; Sweet does not mean no acting."
+        },
+        {
+          "question": "Would use Swap?",
+          "answer": "Definitely."
+        },
+        {
+          "question": "Play another session?",
+          "answer": "Only if quiet alternatives feel reliable."
+        },
+        {
+          "question": "15 / 30 minutes credible?",
+          "answer": "Enough material for the window, but comfort matters more than minutes."
+        },
+        {
+          "question": "Refund trigger?",
+          "answer": "Being sold low-pressure calm and repeatedly being asked to perform."
+        },
+        {
+          "question": "Purchase blocker?",
+          "answer": "The Romantic printable offers no Sweet alternative to its Flirty routine."
+        }
+      ],
+      "printableReview": [
+        {
+          "question": "Visually appealing?",
+          "answer": "Attractive."
+        },
+        {
+          "question": "Professionally designed?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Hierarchy easy to scan?",
+          "answer": "Clear and calm."
+        },
+        {
+          "question": "Readable at normal print size?",
+          "answer": "Yes in the PDF render."
+        },
+        {
+          "question": "Immediately understandable?",
+          "answer": "Instructions are understandable; not all are comfortable."
+        },
+        {
+          "question": "Mini-date coherent?",
+          "answer": "Coherent invitation theme, but several consecutive performances."
+        },
+        {
+          "question": "Four vibes visibly/emotionally different?",
+          "answer": "Romantic feels distinct, not necessarily suited to me."
+        },
+        {
+          "question": "Too crowded?",
+          "answer": "No."
+        },
+        {
+          "question": "Too empty?",
+          "answer": "No; white space is welcome."
+        },
+        {
+          "question": "Quick Start useful?",
+          "answer": "Useful permission to make activities your own, not a replacement option."
+        },
+        {
+          "question": "Cover appealing?",
+          "answer": "Restrained and appropriate."
+        },
+        {
+          "question": "Would actually print?",
+          "answer": "Not the Romantic page."
+        },
+        {
+          "question": "Use directly on screen?",
+          "answer": "Would inspect it once, not use it for our date."
+        },
+        {
+          "question": "Color worth having?",
+          "answer": "Color helps the mood, not the task fit."
+        },
+        {
+          "question": "Ink-Saver premium enough?",
+          "answer": "Professional enough."
+        },
+        {
+          "question": "Ink-Saver useful?",
+          "answer": "Yes for a quiet selected page, if one fits."
+        },
+        {
+          "question": "A4 / Letter confidence or confusion?",
+          "answer": "Format choice is not the main problem."
+        },
+        {
+          "question": "Real bonus?",
+          "answer": "Not this Romantic date for me."
+        },
+        {
+          "question": "Pay for printable alone?",
+          "answer": "Only a couple of dollars for a suitable quieter subset."
+        },
+        {
+          "question": "Reason to dislike or ignore?",
+          "answer": "No equivalent of replacement; chemistry scene and irresistible phrase are precisely what I avoid."
+        }
+      ],
+      "bundleReview": [
+        {
+          "question": "Main component obvious?",
+          "answer": "Yes after explanation."
+        },
+        {
+          "question": "Printable clearly bonus?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Printable adds value?",
+          "answer": "No incremental value for this preference."
+        },
+        {
+          "question": "Printable reduces WebApp uniqueness?",
+          "answer": "Not materially; the content fit is the problem."
+        },
+        {
+          "question": "WebApp makes paper obsolete?",
+          "answer": "Paper loses the useful replacement affordance."
+        },
+        {
+          "question": "Visually related?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Same brand?",
+          "answer": "Yes."
+        },
+        {
+          "question": "More giftable?",
+          "answer": "Not without knowing the recipient likes performing."
+        },
+        {
+          "question": "More complete?",
+          "answer": "More formats, not more suitable content."
+        },
+        {
+          "question": "Preferred format?",
+          "answer": "WEBAPP ONLY"
+        },
+        {
+          "question": "Why that preference?",
+          "answer": "At least the app lets us replace an awkward activity."
+        }
+      ],
+      "scores": {
+        "webApp": {
+          "productClarity": 8,
+          "perceivedValue": 5,
+          "visualAppeal": 8,
+          "premiumFeel": 7,
+          "contentQuality": 5,
+          "vibeFit": 5,
+          "sweetFlirtyClarity": 7,
+          "mobileUsability": 8,
+          "replayValue": 5
+        },
+        "printable": {
+          "clarity": 7,
+          "coverAppeal": 6,
+          "visualAppeal": 7,
+          "premiumFeel": 6,
+          "readability": 9,
+          "contentQuality": 5,
+          "vibeFit": 5,
+          "colorVersion": 7,
+          "inkSaverVersion": 6,
+          "printability": 9
+        },
+        "bundle": {
+          "brandCoherence": 8,
+          "perceivedValue": 5,
+          "completeness": 6,
+          "giftability": 5,
+          "purchaseConfidence": 4,
+          "refundRisk": 7
+        }
+      },
+      "browserEvidence": {
+        "persona": "P4",
+        "configuration": {
+          "vibe": "romantic",
+          "durationMinutes": 15,
+          "intensityCeiling": "sweet"
+        },
+        "queue": [
+          {
+            "slot": "connect",
+            "itemId": "DN-CON-001"
+          },
+          {
+            "slot": "predict",
+            "itemId": "DN-PRE-009"
+          },
+          {
+            "slot": "play",
+            "itemId": "DN-PLY-003"
+          },
+          {
+            "slot": "challenge",
+            "itemId": "DN-CHA-001"
+          },
+          {
+            "slot": "closer",
+            "itemId": "DN-CLO-004"
+          }
+        ],
+        "home": "A LITTLE TIME. JUST THE TWO OF YOU.\n\nStop planning.\nStart your date.\n\nOne guided date night.\nFive activities. Zero planning.\n\nChoose your vibe, your time, and your intensity.\nWe build the night for you.\n\nBUILD YOUR DATE\n↗\n\n5 guided activities • 1 phone • 2 people\n\nYOUR NIGHT, TAKEN CARE OF\n\n01\nCONNECT\n\nA little closer\n\n02\nPREDICT\n\nHow well do you know each other?\n\n03\nPLAY\n\nMake room for a little fun\n\n04\nCHALLENGE\n\nTry something together\n\n05\nCLOSER\n\nEnd on a good note",
+        "setup": "MAKE IT YOURS\n\nWhat kind of night?\n\nThree little choices. We’ll take it from here.\n\n01 VIBE\nCozy\nSlow down. Settle in.\nFunny\nLess serious. More smiles.\nRomantic\nMake a little space for us.\nCompetitive\nA friendly spark of rivalry.\n02 TIME\n15 min\nQuick Date\n30 min\nFull Date\n\nA little guidance, not a countdown. Go at your own pace.\n\n03 INTENSITY\nSweet\nWarm, playful, easygoing\nFlirty\nA little bolder, still couple-friendly\n\nFlirty includes Sweet activities, with room for a little more spark.\n\nBUILD MY DATE\n↗\nBack to Home",
+        "steps": [
+          {
+            "slot": 0,
+            "id": "DN-CON-001",
+            "prompt": "Finish this sentence in turn: “A tiny thing that helps me unwind is…” Choose one you could share on an ordinary evening.",
+            "revealed": null,
+            "layout": {
+              "focus": "A little closer",
+              "height": 942,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 1,
+            "id": "DN-PRE-009",
+            "prompt": "Make three small predictions about your partner: a sound they find soothing, a treat they would share and a place they could happily sit for ages. Keep the guesses to yourself first.",
+            "revealed": "THE REVEAL\n\nReveal each guess before the real answer. For every surprise, invite the person answering to tell the little story behind it.",
+            "layout": {
+              "focus": "THE REVEALReveal each guess before the real answer",
+              "height": 1304,
+              "overflow": false,
+              "scrollY": 210
+            }
+          },
+          {
+            "slot": 2,
+            "id": "DN-PLY-003",
+            "prompt": "Open an imaginary café for tired people. Agree on its name, its most comforting offering and one extremely silly house rule.",
+            "revealed": null,
+            "layout": {
+              "focus": "Make room for a little fun",
+              "height": 942,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 3,
+            "id": "DN-CHA-001",
+            "prompt": "Show how your day felt using only your hands and face. Let your partner translate, then swap roles and finish with a gesture for how you want tonight to feel.",
+            "revealed": null,
+            "layout": {
+              "focus": "Try something together",
+              "height": 1020,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 4,
+            "id": "DN-CLO-004",
+            "prompt": "Each offer one tiny, no-cost date you could share at home another time. Pick the idea you are both most curious about and end by inviting each other to it.",
+            "revealed": null,
+            "layout": {
+              "focus": "End on a good note",
+              "height": 983,
+              "overflow": false,
+              "scrollY": 133
+            }
+          }
+        ],
+        "ended": "completed"
+      },
+      "formatRatings": {
+        "printableOnly": {
+          "easeOfUse": 7,
+          "visualAppeal": 7,
+          "novelty": 4,
+          "replay": 3,
+          "giftability": 4,
+          "convenience": 6,
+          "premiumFeel": 6,
+          "perceivedValue": 3
+        },
+        "webAppOnly": {
+          "easeOfUse": 8,
+          "visualAppeal": 8,
+          "novelty": 5,
+          "replay": 5,
+          "giftability": 5,
+          "convenience": 8,
+          "premiumFeel": 7,
+          "perceivedValue": 5
+        },
+        "bundle": {
+          "easeOfUse": 7,
+          "visualAppeal": 8,
+          "novelty": 5,
+          "replay": 5,
+          "giftability": 5,
+          "convenience": 7,
+          "premiumFeel": 6,
+          "perceivedValue": 5
+        }
+      }
+    },
+    {
+      "id": "P5",
+      "name": "Playful couple",
+      "assumptions": [
+        "Enjoy absurd invention and mini performances.",
+        "Dislike serious questionnaires; expect Flirty to add teasing, not explicitness."
+      ],
+      "expectations": "Laughter and doing something together, not another survey.",
+      "printableScenario": "Funny page with its absurd remote, gadget and tiny debates.",
+      "positives": [
+        "Several activities create interaction rather than ask facts.",
+        "Funny printable has a clear rising energy.",
+        "Bold primary action and vivid atmosphere support momentum."
+      ],
+      "negatives": [
+        "Gentle opening can feel below the Funny promise.",
+        "Flirty may mean less spark than some buyers imagine.",
+        "Fixed-route repeat value is limited."
+      ],
+      "weakActivities": [
+        {
+          "id": "DN-CON-003",
+          "format": "WEBAPP",
+          "concern": "Welcome-home greeting is a soft opening for a laugh-focused date."
+        },
+        {
+          "id": "DN-CLO-003",
+          "format": "PRINTABLE",
+          "concern": "The ridiculous voice instruction can become a forced ritual on repeat."
+        },
+        {
+          "id": "DN-CON-002",
+          "format": "PRINTABLE",
+          "concern": "Retelling a day may turn into reflection instead of comedy."
+        }
+      ],
+      "issues": [
+        "I06",
+        "I09",
+        "I13"
+      ],
+      "decision": "BUY",
+      "decisionReason": "The app and Funny sheet offer the kind of collaborative silliness this brief wants.",
+      "prices": {
+        "webApp": 12,
+        "printable": 5,
+        "bundle": 15,
+        "printableUplift": 3,
+        "upliftBand": "$3–5",
+        "upliftMeaning": "MEANINGFUL BONUS"
+      },
+      "classification": "INTERACTIVE DIGITAL PRODUCT",
+      "formatPreference": "BOTH",
+      "replay": {
+        "webApp": "regularly",
+        "printable": "2–3 times",
+        "paperRole": "repeatable standalone",
+        "reason": "Inputs change even in a fixed improv task; the app still has more variety."
+      },
+      "antiCringe": {
+        "webApp": "LOW RISK",
+        "printable": "LOW RISK",
+        "reason": "Willing performers enjoy these mechanics; no claim that other couples will."
+      },
+      "webAppReview": [
+        {
+          "question": "Understand product within 10 seconds?",
+          "answer": "Yes, five things to do together."
+        },
+        {
+          "question": "Know what to do next?",
+          "answer": "Yes, starting is obvious."
+        },
+        {
+          "question": "Paid product or free website?",
+          "answer": "Paid-looking interactive mini experience."
+        },
+        {
+          "question": "Strongest part?",
+          "answer": "The unusual museum pitch about my partner."
+        },
+        {
+          "question": "Weakest part?",
+          "answer": "Welcome-home and sign-off content are gentler than the Funny name."
+        },
+        {
+          "question": "Activity to remove first?",
+          "answer": "DN-CON-003: domestic greeting is the least funny part."
+        },
+        {
+          "question": "Activity remembered tomorrow?",
+          "answer": "DN-PLY-012: three museum exhibits about my partner."
+        },
+        {
+          "question": "Vibe matches experience?",
+          "answer": "Mostly yes; the middle of the session delivers."
+        },
+        {
+          "question": "Sweet / Flirty clear?",
+          "answer": "Clear, but Flirty is very gentle."
+        },
+        {
+          "question": "Would use Swap?",
+          "answer": "Yes, if an activity becomes too reflective."
+        },
+        {
+          "question": "Play another session?",
+          "answer": "Regularly initially, if combinations do not repeat too much."
+        },
+        {
+          "question": "15 / 30 minutes credible?",
+          "answer": "Enough prompts; laughter can extend fifteen minutes, which is fine if not promised exact."
+        },
+        {
+          "question": "Refund trigger?",
+          "answer": "A promise of spicy/adult content or unlimited never-repeated dates."
+        },
+        {
+          "question": "Purchase blocker?",
+          "answer": "Not seeing examples proving this is more than questions."
+        }
+      ],
+      "printableReview": [
+        {
+          "question": "Visually appealing?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Professionally designed?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Hierarchy easy to scan?",
+          "answer": "Very easy."
+        },
+        {
+          "question": "Readable at normal print size?",
+          "answer": "Yes in the render."
+        },
+        {
+          "question": "Immediately understandable?",
+          "answer": "Yes, a self-contained route."
+        },
+        {
+          "question": "Mini-date coherent?",
+          "answer": "Strong Funny arc from ordinary story to absurd invention and a shared sign-off."
+        },
+        {
+          "question": "Four vibes visibly/emotionally different?",
+          "answer": "Names and content are clearer differences than light pastel headers alone."
+        },
+        {
+          "question": "Too crowded?",
+          "answer": "No."
+        },
+        {
+          "question": "Too empty?",
+          "answer": "The lower space is acceptable, but the sheet is calmer than the app."
+        },
+        {
+          "question": "Quick Start useful?",
+          "answer": "Useful once."
+        },
+        {
+          "question": "Cover appealing?",
+          "answer": "Nice, not as energetic as the Funny screen."
+        },
+        {
+          "question": "Would actually print?",
+          "answer": "Yes, for a phone-free evening."
+        },
+        {
+          "question": "Use directly on screen?",
+          "answer": "Could use on a tablet without printing."
+        },
+        {
+          "question": "Color worth having?",
+          "answer": "Yes, coral makes it more inviting."
+        },
+        {
+          "question": "Ink-Saver premium enough?",
+          "answer": "Enough; it is a utility version, not the emotional hero."
+        },
+        {
+          "question": "Ink-Saver useful?",
+          "answer": "Useful backup, not my first choice."
+        },
+        {
+          "question": "A4 / Letter confidence or confusion?",
+          "answer": "Keep both paper sizes; I need a simple choice explanation."
+        },
+        {
+          "question": "Real bonus?",
+          "answer": "Meaningful because it stays fun without a device."
+        },
+        {
+          "question": "Pay for printable alone?",
+          "answer": "Around $5 hypothetically."
+        },
+        {
+          "question": "Reason to dislike or ignore?",
+          "answer": "A fixed route becomes familiar; exaggerated voices may feel forced after repeated uses."
+        }
+      ],
+      "bundleReview": [
+        {
+          "question": "Main component obvious?",
+          "answer": "Yes with the stated offer."
+        },
+        {
+          "question": "Printable clearly bonus?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Printable adds value?",
+          "answer": "Meaningful bonus."
+        },
+        {
+          "question": "Printable reduces WebApp uniqueness?",
+          "answer": "Only a little; randomization and replacements remain exclusive."
+        },
+        {
+          "question": "WebApp makes paper obsolete?",
+          "answer": "No, paper helps put the phone away."
+        },
+        {
+          "question": "Visually related?",
+          "answer": "Yes, although much quieter."
+        },
+        {
+          "question": "Same brand?",
+          "answer": "Yes."
+        },
+        {
+          "question": "More giftable?",
+          "answer": "Yes, as a ready evening rather than homework."
+        },
+        {
+          "question": "More complete?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Preferred format?",
+          "answer": "BOTH"
+        },
+        {
+          "question": "Why that preference?",
+          "answer": "Choose the app for variety, paper for a no-screen evening."
+        }
+      ],
+      "scores": {
+        "webApp": {
+          "productClarity": 9,
+          "perceivedValue": 8,
+          "visualAppeal": 9,
+          "premiumFeel": 8,
+          "contentQuality": 8,
+          "vibeFit": 9,
+          "sweetFlirtyClarity": 8,
+          "mobileUsability": 8,
+          "replayValue": 8
+        },
+        "printable": {
+          "clarity": 9,
+          "coverAppeal": 7,
+          "visualAppeal": 8,
+          "premiumFeel": 7,
+          "readability": 9,
+          "contentQuality": 8,
+          "vibeFit": 9,
+          "colorVersion": 8,
+          "inkSaverVersion": 7,
+          "printability": 9
+        },
+        "bundle": {
+          "brandCoherence": 9,
+          "perceivedValue": 8,
+          "completeness": 8,
+          "giftability": 8,
+          "purchaseConfidence": 8,
+          "refundRisk": 3
+        }
+      },
+      "browserEvidence": {
+        "persona": "P5",
+        "configuration": {
+          "vibe": "funny",
+          "durationMinutes": 15,
+          "intensityCeiling": "flirty"
+        },
+        "queue": [
+          {
+            "slot": "connect",
+            "itemId": "DN-CON-003"
+          },
+          {
+            "slot": "predict",
+            "itemId": "DN-PRE-002"
+          },
+          {
+            "slot": "play",
+            "itemId": "DN-PLY-012"
+          },
+          {
+            "slot": "challenge",
+            "itemId": "DN-CHA-002"
+          },
+          {
+            "slot": "closer",
+            "itemId": "DN-CLO-003"
+          }
+        ],
+        "home": "A LITTLE TIME. JUST THE TWO OF YOU.\n\nStop planning.\nStart your date.\n\nOne guided date night.\nFive activities. Zero planning.\n\nChoose your vibe, your time, and your intensity.\nWe build the night for you.\n\nBUILD YOUR DATE\n↗\n\n5 guided activities • 1 phone • 2 people\n\nYOUR NIGHT, TAKEN CARE OF\n\n01\nCONNECT\n\nA little closer\n\n02\nPREDICT\n\nHow well do you know each other?\n\n03\nPLAY\n\nMake room for a little fun\n\n04\nCHALLENGE\n\nTry something together\n\n05\nCLOSER\n\nEnd on a good note",
+        "setup": "MAKE IT YOURS\n\nWhat kind of night?\n\nThree little choices. We’ll take it from here.\n\n01 VIBE\nCozy\nSlow down. Settle in.\nFunny\nLess serious. More smiles.\nRomantic\nMake a little space for us.\nCompetitive\nA friendly spark of rivalry.\n02 TIME\n15 min\nQuick Date\n30 min\nFull Date\n\nA little guidance, not a countdown. Go at your own pace.\n\n03 INTENSITY\nSweet\nWarm, playful, easygoing\nFlirty\nA little bolder, still couple-friendly\n\nFlirty includes Sweet activities, with room for a little more spark.\n\nBUILD MY DATE\n↗\nBack to Home",
+        "steps": [
+          {
+            "slot": 0,
+            "id": "DN-CON-003",
+            "prompt": "Design your perfect welcome-home greeting: a phrase, a gesture or a ridiculous sound. Try each other’s version.",
+            "revealed": null,
+            "layout": {
+              "focus": "A little closer",
+              "height": 942,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 1,
+            "id": "DN-PRE-002",
+            "prompt": "An imaginary remote can mute hiccups, summon a perfect snack or translate animal thoughts. Which button would your partner press first?",
+            "revealed": "THE REVEAL\n\nReveal your choices together. Explain the first situation in which you would use your button.",
+            "layout": {
+              "focus": "THE REVEALReveal your choices together. Explain th",
+              "height": 1234,
+              "overflow": false,
+              "scrollY": 171
+            }
+          },
+          {
+            "slot": 2,
+            "id": "DN-PLY-012",
+            "prompt": "Pitch your partner as the star attraction at a very unusual museum. Create three exhibits celebrating their charm, including one delightfully exaggerated feature.",
+            "revealed": null,
+            "layout": {
+              "focus": "Make room for a little fun",
+              "height": 1020,
+              "overflow": false,
+              "scrollY": 0
+            }
+          },
+          {
+            "slot": 3,
+            "id": "DN-CHA-002",
+            "prompt": "Each invent a fancy name for a completely ordinary object nearby. Deliver it as if you are announcing a very important guest.",
+            "revealed": null,
+            "layout": {
+              "focus": "Try something together",
+              "height": 942,
+              "overflow": false,
+              "scrollY": 98
+            }
+          },
+          {
+            "slot": 4,
+            "id": "DN-CLO-003",
+            "prompt": "Invent a short sign-off for tonight using a detail you each enjoyed. Trade the stories behind your choices, combine them into one phrase and try it in two ridiculous voices before saying goodbye.",
+            "revealed": null,
+            "layout": {
+              "focus": "End on a good note",
+              "height": 1061,
+              "overflow": false,
+              "scrollY": 98
+            }
+          }
+        ],
+        "ended": "completed"
+      },
+      "formatRatings": {
+        "printableOnly": {
+          "easeOfUse": 9,
+          "visualAppeal": 8,
+          "novelty": 7,
+          "replay": 6,
+          "giftability": 8,
+          "convenience": 8,
+          "premiumFeel": 7,
+          "perceivedValue": 8
+        },
+        "webAppOnly": {
+          "easeOfUse": 9,
+          "visualAppeal": 9,
+          "novelty": 8,
+          "replay": 8,
+          "giftability": 8,
+          "convenience": 9,
+          "premiumFeel": 8,
+          "perceivedValue": 8
+        },
+        "bundle": {
+          "easeOfUse": 9,
+          "visualAppeal": 9,
+          "novelty": 8,
+          "replay": 8,
+          "giftability": 9,
+          "convenience": 9,
+          "premiumFeel": 8,
+          "perceivedValue": 8
+        }
+      }
+    },
+    {
+      "id": "P6",
+      "name": "Competitive couple",
+      "assumptions": [
+        "Enjoy guessing, memory and a sense of challenge.",
+        "Do not want bookkeeping, humiliation or a serious winner/loser system."
+      ],
+      "expectations": "Game-like tension and quick feedback without needing a score sheet.",
+      "printableScenario": "Competitive mini-date, especially mystery and sound sequence.",
+      "positives": [
+        "No scorekeeping burden.",
+        "Prediction and sound sequence are interactive.",
+        "The closer returns rivalry to a joint future plan."
+      ],
+      "negatives": [
+        "Competitive selection includes long improv.",
+        "No authored puzzle/answer tension in the mystery.",
+        "Repeated conversation may slow momentum."
+      ],
+      "weakActivities": [
+        {
+          "id": "DN-PLY-008",
+          "format": "WEBAPP",
+          "concern": "Radio improv does not feel competitive."
+        },
+        {
+          "id": "DN-PLY-010",
+          "format": "PRINTABLE",
+          "concern": "The couple invents the solution; no external puzzle to solve."
+        },
+        {
+          "id": "DN-PRE-010",
+          "format": "PRINTABLE",
+          "concern": "Skills preferences are self-reported, not a test of guessing ability; tiny demonstration may imply props."
+        }
+      ],
+      "issues": [
+        "I04",
+        "I06",
+        "I07",
+        "I12"
+      ],
+      "decision": "MAYBE",
+      "decisionReason": "Could work as friendly social play, but the Competitive label needs examples to set game-depth expectations.",
+      "prices": {
+        "webApp": 7,
+        "printable": 3,
+        "bundle": 9,
+        "printableUplift": 2,
+        "upliftBand": "$1–2",
+        "upliftMeaning": "SMALL BONUS"
+      },
+      "classification": "STANDARD DIGITAL BUNDLE",
+      "formatPreference": "BOTH",
+      "replay": {
+        "webApp": "2–3 times",
+        "printable": "2–3 times",
+        "paperRole": "useful backup",
+        "reason": "The memory chain can vary; fixed mystery instructions lose novelty."
+      },
+      "antiCringe": {
+        "webApp": "MEDIUM RISK",
+        "printable": "LOW RISK",
+        "reason": "Main concern is forced performance/game mismatch, not romantic language."
+      },
+      "webAppReview": [
+        {
+          "question": "Understand product within 10 seconds?",
+          "answer": "Yes, guided date; game depth is less clear."
+        },
+        {
+          "question": "Know what to do next?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Paid product or free website?",
+          "answer": "Paid interface, more social improv than a game."
+        },
+        {
+          "question": "Strongest part?",
+          "answer": "Three tiny debates create actual playful friction."
+        },
+        {
+          "question": "Weakest part?",
+          "answer": "Inventing a radio show is a performance, not a contest."
+        },
+        {
+          "question": "Activity to remove first?",
+          "answer": "DN-PLY-008: the radio show has no game constraint or answer."
+        },
+        {
+          "question": "Activity remembered tomorrow?",
+          "answer": "DN-CHA-008: switching sides in ridiculous debates."
+        },
+        {
+          "question": "Vibe matches experience?",
+          "answer": "Partly: playful rivalry, but substantial unstructured talking."
+        },
+        {
+          "question": "Sweet / Flirty clear?",
+          "answer": "Yes; Sweet is safe but not a difficulty setting."
+        },
+        {
+          "question": "Would use Swap?",
+          "answer": "Yes, for a more game-like activity."
+        },
+        {
+          "question": "Play another session?",
+          "answer": "2–3 times if challenges vary."
+        },
+        {
+          "question": "15 / 30 minutes credible?",
+          "answer": "Thirty minutes is plausible for long improv, not necessarily the momentum I want."
+        },
+        {
+          "question": "Refund trigger?",
+          "answer": "Advertising a competitive challenge game with puzzles or winners when it is mostly imagination."
+        },
+        {
+          "question": "Purchase blocker?",
+          "answer": "Not enough examples of actual challenge mechanics."
+        }
+      ],
+      "printableReview": [
+        {
+          "question": "Visually appealing?",
+          "answer": "Yes, clean rather than exciting."
+        },
+        {
+          "question": "Professionally designed?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Hierarchy easy to scan?",
+          "answer": "Clear numbered sequence."
+        },
+        {
+          "question": "Readable at normal print size?",
+          "answer": "Readable at page scale."
+        },
+        {
+          "question": "Immediately understandable?",
+          "answer": "Mostly; inventing a mystery means creating the answer, not solving a supplied puzzle."
+        },
+        {
+          "question": "Mini-date coherent?",
+          "answer": "Team opening and future invitation frame it well."
+        },
+        {
+          "question": "Four vibes visibly/emotionally different?",
+          "answer": "Content differs; visual contrast from Cozy is modest."
+        },
+        {
+          "question": "Too crowded?",
+          "answer": "No."
+        },
+        {
+          "question": "Too empty?",
+          "answer": "No need to fill unused space with scoring boxes."
+        },
+        {
+          "question": "Quick Start useful?",
+          "answer": "Useful and appropriately says no score."
+        },
+        {
+          "question": "Cover appealing?",
+          "answer": "Clear but quiet."
+        },
+        {
+          "question": "Would actually print?",
+          "answer": "Possibly the Competitive page for a short challenge round."
+        },
+        {
+          "question": "Use directly on screen?",
+          "answer": "Maybe on a tablet, but not better than the app."
+        },
+        {
+          "question": "Color worth having?",
+          "answer": "Some added appeal."
+        },
+        {
+          "question": "Ink-Saver premium enough?",
+          "answer": "Yes, the structure survives."
+        },
+        {
+          "question": "Ink-Saver useful?",
+          "answer": "Useful when the printer is basic."
+        },
+        {
+          "question": "A4 / Letter confidence or confusion?",
+          "answer": "Both useful, selection guide needed for unfamiliar buyers."
+        },
+        {
+          "question": "Real bonus?",
+          "answer": "Small practical bonus."
+        },
+        {
+          "question": "Pay for printable alone?",
+          "answer": "Roughly $3 hypothetically."
+        },
+        {
+          "question": "Reason to dislike or ignore?",
+          "answer": "A mystery without an authored solution may feel like a worksheet prompt, not a game."
+        }
+      ],
+      "bundleReview": [
+        {
+          "question": "Main component obvious?",
+          "answer": "Yes after positioning."
+        },
+        {
+          "question": "Printable clearly bonus?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Printable adds value?",
+          "answer": "Small bonus."
+        },
+        {
+          "question": "Printable reduces WebApp uniqueness?",
+          "answer": "Overlap is acceptable for a fallback."
+        },
+        {
+          "question": "WebApp makes paper obsolete?",
+          "answer": "Not obsolete, but it has fewer recovery choices."
+        },
+        {
+          "question": "Visually related?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Same brand?",
+          "answer": "Yes."
+        },
+        {
+          "question": "More giftable?",
+          "answer": "Moderately, if recipient expects a social date rather than a board game."
+        },
+        {
+          "question": "More complete?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Preferred format?",
+          "answer": "BOTH"
+        },
+        {
+          "question": "Why that preference?",
+          "answer": "Interactive variety plus a ready-to-use memory challenge page."
+        }
+      ],
+      "scores": {
+        "webApp": {
+          "productClarity": 8,
+          "perceivedValue": 6,
+          "visualAppeal": 8,
+          "premiumFeel": 7,
+          "contentQuality": 6,
+          "vibeFit": 5,
+          "sweetFlirtyClarity": 8,
+          "mobileUsability": 8,
+          "replayValue": 6
+        },
+        "printable": {
+          "clarity": 8,
+          "coverAppeal": 7,
+          "visualAppeal": 7,
+          "premiumFeel": 7,
+          "readability": 9,
+          "contentQuality": 6,
+          "vibeFit": 5,
+          "colorVersion": 7,
+          "inkSaverVersion": 7,
+          "printability": 9
+        },
+        "bundle": {
+          "brandCoherence": 8,
+          "perceivedValue": 6,
+          "completeness": 7,
+          "giftability": 7,
+          "purchaseConfidence": 6,
+          "refundRisk": 5
+        }
+      },
+      "browserEvidence": {
+        "persona": "P6",
+        "configuration": {
+          "vibe": "competitive",
+          "durationMinutes": 30,
+          "intensityCeiling": "sweet"
+        },
+        "queue": [
+          {
+            "slot": "connect",
+            "itemId": "DN-CON-005"
+          },
+          {
+            "slot": "predict",
+            "itemId": "DN-PRE-008"
+          },
+          {
+            "slot": "play",
+            "itemId": "DN-PLY-008"
+          },
+          {
+            "slot": "challenge",
+            "itemId": "DN-CHA-008"
+          },
+          {
+            "slot": "closer",
+            "itemId": "DN-CLO-002"
+          }
+        ],
+        "home": "A LITTLE TIME. JUST THE TWO OF YOU.\n\nStop planning.\nStart your date.\n\nOne guided date night.\nFive activities. Zero planning.\n\nChoose your vibe, your time, and your intensity.\nWe build the night for you.\n\nBUILD YOUR DATE\n↗\n\n5 guided activities • 1 phone • 2 people\n\nYOUR NIGHT, TAKEN CARE OF\n\n01\nCONNECT\n\nA little closer\n\n02\nPREDICT\n\nHow well do you know each other?\n\n03\nPLAY\n\nMake room for a little fun\n\n04\nCHALLENGE\n\nTry something together\n\n05\nCLOSER\n\nEnd on a good note",
+        "setup": "MAKE IT YOURS\n\nWhat kind of night?\n\nThree little choices. We’ll take it from here.\n\n01 VIBE\nCozy\nSlow down. Settle in.\nFunny\nLess serious. More smiles.\nRomantic\nMake a little space for us.\nCompetitive\nA friendly spark of rivalry.\n02 TIME\n15 min\nQuick Date\n30 min\nFull Date\n\nA little guidance, not a countdown. Go at your own pace.\n\n03 INTENSITY\nSweet\nWarm, playful, easygoing\nFlirty\nA little bolder, still couple-friendly\n\nFlirty includes Sweet activities, with room for a little more spark.\n\nBUILD MY DATE\n↗\nBack to Home",
+        "steps": [
+          {
+            "slot": 0,
+            "id": "DN-CON-005",
+            "prompt": "Each describe a small comfort without naming it. Let your partner ask three yes-or-no questions, then share why it matters to you.",
+            "revealed": null,
+            "layout": {
+              "focus": "A little closer",
+              "height": 981,
+              "overflow": false,
+              "scrollY": 133
+            }
+          },
+          {
+            "slot": 1,
+            "id": "DN-PRE-008",
+            "prompt": "Predict your partner’s role in three imaginary emergencies: a cake has vanished, a robot needs a nickname and the moon wants a party. Who investigates, improvises or charms their way through?",
+            "revealed": "THE REVEAL\n\nReveal the role you would choose in each scene. Compare your reasoning and act out the most surprising answer.",
+            "layout": {
+              "focus": "THE REVEALReveal the role you would choose in each",
+              "height": 1343,
+              "overflow": false,
+              "scrollY": 249
+            }
+          },
+          {
+            "slot": 2,
+            "id": "DN-PLY-008",
+            "prompt": "Host a two-person radio show with three short segments: an odd news report, an interview with an imaginary expert and a wonderfully unhelpful advice slot. Swap roles between segments.",
+            "revealed": null,
+            "layout": {
+              "focus": "Make room for a little fun",
+              "height": 1059,
+              "overflow": false,
+              "scrollY": 0
+            }
+          },
+          {
+            "slot": 3,
+            "id": "DN-CHA-008",
+            "prompt": "Hold three tiny debates: square pillows versus round pillows, whispering robots versus singing doors, and pockets versus capes. Each gets about a minute to make a case per round; swap sides for the last one.",
+            "revealed": null,
+            "layout": {
+              "focus": "Try something together",
+              "height": 1099,
+              "overflow": false,
+              "scrollY": 0
+            }
+          },
+          {
+            "slot": 4,
+            "id": "DN-CLO-002",
+            "prompt": "Give tonight an affectionate review with three categories you invent together. Pick one unexpected highlight each, agree on a title and deliver the closing line of your review.",
+            "revealed": null,
+            "layout": {
+              "focus": "End on a good note",
+              "height": 1061,
+              "overflow": false,
+              "scrollY": 0
+            }
+          }
+        ],
+        "ended": "completed"
+      },
+      "formatRatings": {
+        "printableOnly": {
+          "easeOfUse": 8,
+          "visualAppeal": 7,
+          "novelty": 5,
+          "replay": 5,
+          "giftability": 6,
+          "convenience": 7,
+          "premiumFeel": 7,
+          "perceivedValue": 5
+        },
+        "webAppOnly": {
+          "easeOfUse": 8,
+          "visualAppeal": 8,
+          "novelty": 6,
+          "replay": 6,
+          "giftability": 6,
+          "convenience": 8,
+          "premiumFeel": 7,
+          "perceivedValue": 6
+        },
+        "bundle": {
+          "easeOfUse": 8,
+          "visualAppeal": 8,
+          "novelty": 6,
+          "replay": 6,
+          "giftability": 7,
+          "convenience": 8,
+          "premiumFeel": 7,
+          "perceivedValue": 6
+        }
+      }
+    },
+    {
+      "id": "P7",
+      "name": "Skeptical Etsy buyer",
+      "assumptions": [
+        "Uses a hypothetical cheap-PDF comparison, not a verified current market price.",
+        "Wants to know what payment unlocks and whether the bonus is simply repackaged prompts."
+      ],
+      "expectations": "Visible functional value beyond a free webpage and a clear delivery model.",
+      "printableScenario": "All Color pages as a post-purchase bundle, cover and Quick Start in particular.",
+      "positives": [
+        "Polished visual family.",
+        "Four complete printable journeys, not random filler.",
+        "Swap/Reveal offer visible digital utility."
+      ],
+      "negatives": [
+        "Access and entitlement are not a customer-ready journey.",
+        "Premium price cannot be justified by page count.",
+        "Creative/performance tasks can resemble generic decks."
+      ],
+      "weakActivities": [
+        {
+          "id": "DN-CON-010",
+          "format": "WEBAPP",
+          "concern": "Two imagined afternoon plans feel generic."
+        },
+        {
+          "id": "DN-PRE-010",
+          "format": "PRINTABLE",
+          "concern": "Preference pairs are familiar prompt-deck material."
+        },
+        {
+          "id": "DN-CHA-012",
+          "format": "PRINTABLE",
+          "concern": "Irresistible invitation wording risks forced flirting."
+        }
+      ],
+      "issues": [
+        "I01",
+        "I02",
+        "I03",
+        "I04",
+        "I06",
+        "I07",
+        "I08",
+        "I09",
+        "I12",
+        "I13"
+      ],
+      "decision": "MAYBE",
+      "decisionReason": "The interactive value exists, but delivery and examples must make it concrete before I would trust a purchase.",
+      "prices": {
+        "webApp": 6,
+        "printable": 3,
+        "bundle": 7,
+        "printableUplift": 1,
+        "upliftBand": "$1–2",
+        "upliftMeaning": "SMALL BONUS"
+      },
+      "classification": "STANDARD DIGITAL BUNDLE",
+      "formatPreference": "BOTH",
+      "replay": {
+        "webApp": "2–3 times",
+        "printable": "once",
+        "paperRole": "teaser",
+        "reason": "Paper can introduce the format; app replay must be shown rather than assumed from 72."
+      },
+      "antiCringe": {
+        "webApp": "MEDIUM RISK",
+        "printable": "MEDIUM RISK",
+        "reason": "Paid expectations amplify generic or performative wording."
+      },
+      "webAppReview": [
+        {
+          "question": "Understand product within 10 seconds?",
+          "answer": "The date activity is clear; the paid deliverable is not."
+        },
+        {
+          "question": "Know what to do next?",
+          "answer": "Yes, Build Your Date is obvious."
+        },
+        {
+          "question": "Paid product or free website?",
+          "answer": "Premium-looking free site until paid access and delivery are explained."
+        },
+        {
+          "question": "Strongest part?",
+          "answer": "A complete queue and separate Reveal/progression actions."
+        },
+        {
+          "question": "Weakest part?",
+          "answer": "The value of 72 activities is a quantity claim, not a demonstrated replay promise."
+        },
+        {
+          "question": "Activity to remove first?",
+          "answer": "DN-CON-010: two imaginary afternoon plans feel like filler."
+        },
+        {
+          "question": "Activity remembered tomorrow?",
+          "answer": "DN-PLY-006: making a tiny film without filming."
+        },
+        {
+          "question": "Vibe matches experience?",
+          "answer": "Funny mostly works; some reflection feels quieter."
+        },
+        {
+          "question": "Sweet / Flirty clear?",
+          "answer": "Understandable once Setup is read, but mild Flirty needs examples."
+        },
+        {
+          "question": "Would use Swap?",
+          "answer": "Yes; replacement is an advantage over PDF."
+        },
+        {
+          "question": "Play another session?",
+          "answer": "2–3 times if there is real variation."
+        },
+        {
+          "question": "15 / 30 minutes credible?",
+          "answer": "A pacing estimate seems credible; not independently timed."
+        },
+        {
+          "question": "Refund trigger?",
+          "answer": "A bundle sold as a downloadable app, 72 printable cards or endless new content."
+        },
+        {
+          "question": "Purchase blocker?",
+          "answer": "No delivered access guide, unclear entitlement/support and insufficient differentiated examples."
+        }
+      ],
+      "printableReview": [
+        {
+          "question": "Visually appealing?",
+          "answer": "Pleasant, not striking."
+        },
+        {
+          "question": "Professionally designed?",
+          "answer": "Yes, systematic and restrained."
+        },
+        {
+          "question": "Hierarchy easy to scan?",
+          "answer": "Good."
+        },
+        {
+          "question": "Readable at normal print size?",
+          "answer": "Yes in rendered pages."
+        },
+        {
+          "question": "Immediately understandable?",
+          "answer": "Offline dates are clear; how to get the main WebApp is not."
+        },
+        {
+          "question": "Mini-date coherent?",
+          "answer": "Each page has an intentional arc."
+        },
+        {
+          "question": "Four vibes visibly/emotionally different?",
+          "answer": "Tone differs more than the small light header colors."
+        },
+        {
+          "question": "Too crowded?",
+          "answer": "No."
+        },
+        {
+          "question": "Too empty?",
+          "answer": "Cover lower space can make the pack look light in value at a glance."
+        },
+        {
+          "question": "Quick Start useful?",
+          "answer": "Helpful, but the app reminder cannot substitute for access instructions."
+        },
+        {
+          "question": "Cover appealing?",
+          "answer": "Clear title; bonus statement is present but small."
+        },
+        {
+          "question": "Would actually print?",
+          "answer": "Maybe one page, not necessarily all six."
+        },
+        {
+          "question": "Use directly on screen?",
+          "answer": "Yes on a larger screen, which competes with the app for me."
+        },
+        {
+          "question": "Color worth having?",
+          "answer": "Some incremental appeal."
+        },
+        {
+          "question": "Ink-Saver premium enough?",
+          "answer": "Practical but modest premium impression."
+        },
+        {
+          "question": "Ink-Saver useful?",
+          "answer": "Useful, low marginal maintenance if one source is kept."
+        },
+        {
+          "question": "A4 / Letter confidence or confusion?",
+          "answer": "Four clear filenames still need a one-line chooser."
+        },
+        {
+          "question": "Real bonus?",
+          "answer": "A real but small bonus; not four additional digital experiences."
+        },
+        {
+          "question": "Pay for printable alone?",
+          "answer": "Around $3 hypothetically, not a pricing recommendation."
+        },
+        {
+          "question": "Reason to dislike or ignore?",
+          "answer": "Too much talk, fixed repeat limits or a generic-looking bonus sold as major added value."
+        }
+      ],
+      "bundleReview": [
+        {
+          "question": "Main component obvious?",
+          "answer": "Intended yes; purchase delivery still needs evidence."
+        },
+        {
+          "question": "Printable clearly bonus?",
+          "answer": "Yes after reading the small supporting line."
+        },
+        {
+          "question": "Printable adds value?",
+          "answer": "Small increase, not a reason to double a price."
+        },
+        {
+          "question": "Printable reduces WebApp uniqueness?",
+          "answer": "Some overlap; should be disclosed as a curated subset."
+        },
+        {
+          "question": "WebApp makes paper obsolete?",
+          "answer": "Not if offline backup is the stated use."
+        },
+        {
+          "question": "Visually related?",
+          "answer": "Yes, light/dark adaptation is sensible."
+        },
+        {
+          "question": "Same brand?",
+          "answer": "Yes."
+        },
+        {
+          "question": "More giftable?",
+          "answer": "Only with clear access and gift-use instructions."
+        },
+        {
+          "question": "More complete?",
+          "answer": "Operationally incomplete as a customer package until delivery is defined."
+        },
+        {
+          "question": "Preferred format?",
+          "answer": "BOTH"
+        },
+        {
+          "question": "Why that preference?",
+          "answer": "A backup is useful, but I judge the app on interactive features, not inflated file count."
+        }
+      ],
+      "scores": {
+        "webApp": {
+          "productClarity": 7,
+          "perceivedValue": 5,
+          "visualAppeal": 8,
+          "premiumFeel": 7,
+          "contentQuality": 6,
+          "vibeFit": 7,
+          "sweetFlirtyClarity": 7,
+          "mobileUsability": 8,
+          "replayValue": 6
+        },
+        "printable": {
+          "clarity": 8,
+          "coverAppeal": 6,
+          "visualAppeal": 7,
+          "premiumFeel": 6,
+          "readability": 9,
+          "contentQuality": 7,
+          "vibeFit": 7,
+          "colorVersion": 7,
+          "inkSaverVersion": 6,
+          "printability": 9
+        },
+        "bundle": {
+          "brandCoherence": 8,
+          "perceivedValue": 6,
+          "completeness": 7,
+          "giftability": 6,
+          "purchaseConfidence": 4,
+          "refundRisk": 6
+        }
+      },
+      "browserEvidence": {
+        "persona": "P7",
+        "configuration": {
+          "vibe": "funny",
+          "durationMinutes": 30,
+          "intensityCeiling": "sweet"
+        },
+        "queue": [
+          {
+            "slot": "connect",
+            "itemId": "DN-CON-010"
+          },
+          {
+            "slot": "predict",
+            "itemId": "DN-PRE-010"
+          },
+          {
+            "slot": "play",
+            "itemId": "DN-PLY-006"
+          },
+          {
+            "slot": "challenge",
+            "itemId": "DN-CHA-008"
+          },
+          {
+            "slot": "closer",
+            "itemId": "DN-CLO-003"
+          }
+        ],
+        "home": "A LITTLE TIME. JUST THE TWO OF YOU.\n\nStop planning.\nStart your date.\n\nOne guided date night.\nFive activities. Zero planning.\n\nChoose your vibe, your time, and your intensity.\nWe build the night for you.\n\nBUILD YOUR DATE\n↗\n\n5 guided activities • 1 phone • 2 people\n\nYOUR NIGHT, TAKEN CARE OF\n\n01\nCONNECT\n\nA little closer\n\n02\nPREDICT\n\nHow well do you know each other?\n\n03\nPLAY\n\nMake room for a little fun\n\n04\nCHALLENGE\n\nTry something together\n\n05\nCLOSER\n\nEnd on a good note",
+        "setup": "MAKE IT YOURS\n\nWhat kind of night?\n\nThree little choices. We’ll take it from here.\n\n01 VIBE\nCozy\nSlow down. Settle in.\nFunny\nLess serious. More smiles.\nRomantic\nMake a little space for us.\nCompetitive\nA friendly spark of rivalry.\n02 TIME\n15 min\nQuick Date\n30 min\nFull Date\n\nA little guidance, not a countdown. Go at your own pace.\n\n03 INTENSITY\nSweet\nWarm, playful, easygoing\nFlirty\nA little bolder, still couple-friendly\n\nFlirty includes Sweet activities, with room for a little more spark.\n\nBUILD MY DATE\n↗\nBack to Home",
+        "steps": [
+          {
+            "slot": 0,
+            "id": "DN-CON-010",
+            "prompt": "Plan the same free afternoon twice: your most restful version and your most delightfully impractical version. Trade ideas for each, then borrow one detail from your partner’s plan.",
+            "revealed": null,
+            "layout": {
+              "focus": "A little closer",
+              "height": 1059,
+              "overflow": false,
+              "scrollY": 0
+            }
+          },
+          {
+            "slot": 1,
+            "id": "DN-PRE-010",
+            "prompt": "In three rounds, predict which your partner would rather master: cooking or storytelling, fixing things or finding things, planning or improvising. Give a reason for each guess.",
+            "revealed": "THE REVEAL\n\nReveal your actual choices one pair at a time. Test one prediction with a tiny demonstration of the skill you picked.",
+            "layout": {
+              "focus": "THE REVEALReveal your actual choices one pair at a",
+              "height": 1304,
+              "overflow": false,
+              "scrollY": 210
+            }
+          },
+          {
+            "slot": 2,
+            "id": "DN-PLY-006",
+            "prompt": "Make a tiny film without filming: invent the title, then perform an opening, a twist and a final line. Switch who leads each scene and leave time for an encore.",
+            "revealed": null,
+            "layout": {
+              "focus": "Make room for a little fun",
+              "height": 1020,
+              "overflow": false,
+              "scrollY": 0
+            }
+          },
+          {
+            "slot": 3,
+            "id": "DN-CHA-008",
+            "prompt": "Hold three tiny debates: square pillows versus round pillows, whispering robots versus singing doors, and pockets versus capes. Each gets about a minute to make a case per round; swap sides for the last one.",
+            "revealed": null,
+            "layout": {
+              "focus": "Try something together",
+              "height": 1099,
+              "overflow": false,
+              "scrollY": 0
+            }
+          },
+          {
+            "slot": 4,
+            "id": "DN-CLO-003",
+            "prompt": "Invent a short sign-off for tonight using a detail you each enjoyed. Trade the stories behind your choices, combine them into one phrase and try it in two ridiculous voices before saying goodbye.",
+            "revealed": null,
+            "layout": {
+              "focus": "End on a good note",
+              "height": 1061,
+              "overflow": false,
+              "scrollY": 0
+            }
+          }
+        ],
+        "ended": "completed"
+      },
+      "formatRatings": {
+        "printableOnly": {
+          "easeOfUse": 8,
+          "visualAppeal": 7,
+          "novelty": 4,
+          "replay": 3,
+          "giftability": 5,
+          "convenience": 6,
+          "premiumFeel": 6,
+          "perceivedValue": 4
+        },
+        "webAppOnly": {
+          "easeOfUse": 8,
+          "visualAppeal": 8,
+          "novelty": 6,
+          "replay": 6,
+          "giftability": 6,
+          "convenience": 8,
+          "premiumFeel": 7,
+          "perceivedValue": 5
+        },
+        "bundle": {
+          "easeOfUse": 7,
+          "visualAppeal": 8,
+          "novelty": 6,
+          "replay": 6,
+          "giftability": 6,
+          "convenience": 7,
+          "premiumFeel": 7,
+          "perceivedValue": 6
+        }
+      }
+    },
+    {
+      "id": "P8",
+      "name": "Low-tech Etsy buyer",
+      "assumptions": [
+        "Uses a smartphone browser but expects Etsy purchases to arrive as files.",
+        "No assumption of app-store familiarity, subscriptions or printing expertise."
+      ],
+      "expectations": "Know which thing to open, what requires internet and which PDF matches the printer.",
+      "printableScenario": "All four filenames, Cover and Quick Start; Cozy as the easiest full page.",
+      "positives": [
+        "Usable controls once the site is reached.",
+        "Paper route is complete without clicking anything.",
+        "Ink-saver suits basic home printing."
+      ],
+      "negatives": [
+        "The purchased access path is not present.",
+        "Four editions can look like four different content packs.",
+        "Timing and intensity may be interpreted as timer/difficulty."
+      ],
+      "weakActivities": [
+        {
+          "id": "DN-CHA-001",
+          "format": "WEBAPP",
+          "concern": "Silent gesture task is not automatically intuitive or comfortable."
+        },
+        {
+          "id": "DN-CLO-001",
+          "format": "PRINTABLE",
+          "concern": "Read a spoken postcard may imply an unmentioned writing step."
+        },
+        {
+          "id": "DN-CLO-003",
+          "format": "WEBAPP",
+          "concern": "Saying goodbye can feel odd when the couple is staying home together."
+        }
+      ],
+      "issues": [
+        "I01",
+        "I08",
+        "I10",
+        "I11"
+      ],
+      "decision": "NOT BUY",
+      "decisionReason": "Would not buy the combined browser product until delivery and internet requirements are plain; the printable itself is acceptable.",
+      "prices": {
+        "webApp": 5,
+        "printable": 5,
+        "bundle": 8,
+        "printableUplift": 3,
+        "upliftBand": "$3–5",
+        "upliftMeaning": "MEANINGFUL BONUS"
+      },
+      "classification": "LOW-COST PRINTABLE",
+      "formatPreference": "PRINTABLE ONLY",
+      "replay": {
+        "webApp": "occasionally",
+        "printable": "occasionally",
+        "paperRole": "repeatable standalone",
+        "reason": "A familiar page can be reused with different answers; frequency is hypothetical, not observed."
+      },
+      "antiCringe": {
+        "webApp": "MEDIUM RISK",
+        "printable": "LOW RISK",
+        "reason": "Awkward gesture/voice instructions are the concern, not explicit romance."
+      },
+      "webAppReview": [
+        {
+          "question": "Understand product within 10 seconds?",
+          "answer": "I understand date activities, not whether I downloaded an app or opened a website."
+        },
+        {
+          "question": "Know what to do next?",
+          "answer": "Once on Home, yes."
+        },
+        {
+          "question": "Paid product or free website?",
+          "answer": "Looks paid, but I do not know what I receive."
+        },
+        {
+          "question": "Strongest part?",
+          "answer": "Large obvious Done action and a fixed five-stage route."
+        },
+        {
+          "question": "Weakest part?",
+          "answer": "No received-file-to-browser explanation in these materials."
+        },
+        {
+          "question": "Activity to remove first?",
+          "answer": "DN-CHA-001: acting my day without speech is awkward."
+        },
+        {
+          "question": "Activity remembered tomorrow?",
+          "answer": "DN-CON-002: giving the day an episode title."
+        },
+        {
+          "question": "Vibe matches experience?",
+          "answer": "Generally warm; humorous sign-off is a little unexpected."
+        },
+        {
+          "question": "Sweet / Flirty clear?",
+          "answer": "Descriptions help, but I could confuse intensity with difficulty."
+        },
+        {
+          "question": "Would use Swap?",
+          "answer": "After reading its helper, yes."
+        },
+        {
+          "question": "Play another session?",
+          "answer": "Occasionally once access is straightforward."
+        },
+        {
+          "question": "15 / 30 minutes credible?",
+          "answer": "Time choices look like estimated duration; I might still look for a timer."
+        },
+        {
+          "question": "Refund trigger?",
+          "answer": "Not finding an access link, expecting an installed app or believing a PDF contains all 72 activities."
+        },
+        {
+          "question": "Purchase blocker?",
+          "answer": "Unclear internet, delivery and file-opening requirements."
+        }
+      ],
+      "printableReview": [
+        {
+          "question": "Visually appealing?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Professionally designed?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Hierarchy easy to scan?",
+          "answer": "Clear numbered sections."
+        },
+        {
+          "question": "Readable at normal print size?",
+          "answer": "Readable on a normal-size rendered page; my actual printer is untested."
+        },
+        {
+          "question": "Immediately understandable?",
+          "answer": "The activity route is clear, choosing the correct edition less so."
+        },
+        {
+          "question": "Mini-date coherent?",
+          "answer": "Yes, Cozy gives a gentle full evening."
+        },
+        {
+          "question": "Four vibes visibly/emotionally different?",
+          "answer": "Named vibes are understandable; grayscale intentionally loses color distinctions."
+        },
+        {
+          "question": "Too crowded?",
+          "answer": "No."
+        },
+        {
+          "question": "Too empty?",
+          "answer": "No; empty space is easier than cramped text."
+        },
+        {
+          "question": "Quick Start useful?",
+          "answer": "Useful once the right file is chosen."
+        },
+        {
+          "question": "Cover appealing?",
+          "answer": "Offline Mini-Date Pack makes sense after I read the supporting line."
+        },
+        {
+          "question": "Would actually print?",
+          "answer": "Yes, this is the familiar part of the purchase."
+        },
+        {
+          "question": "Use directly on screen?",
+          "answer": "Possibly, but whole-page PDF reading on a phone would require zoom."
+        },
+        {
+          "question": "Color worth having?",
+          "answer": "Nice if my printer is color."
+        },
+        {
+          "question": "Ink-Saver premium enough?",
+          "answer": "Yes for practical use."
+        },
+        {
+          "question": "Ink-Saver useful?",
+          "answer": "Definitely useful if I only have black ink."
+        },
+        {
+          "question": "A4 / Letter confidence or confusion?",
+          "answer": "Confusing: A4/Letter are not explained as alternative paper sizes, not extra dates."
+        },
+        {
+          "question": "Real bonus?",
+          "answer": "Yes, perhaps the part I would use first."
+        },
+        {
+          "question": "Pay for printable alone?",
+          "answer": "About $5 hypothetically for four clear dates."
+        },
+        {
+          "question": "Reason to dislike or ignore?",
+          "answer": "Unclear edition choice, tiny PDFs on the phone or spoken postcard instructions that sound like writing is required."
+        }
+      ],
+      "bundleReview": [
+        {
+          "question": "Main component obvious?",
+          "answer": "Not entirely; four PDF downloads can look like the main purchase."
+        },
+        {
+          "question": "Printable clearly bonus?",
+          "answer": "Cover says bonus, but I may not connect that to a separate browser link."
+        },
+        {
+          "question": "Printable adds value?",
+          "answer": "Meaningful if it guarantees an offline way to use the purchase."
+        },
+        {
+          "question": "Printable reduces WebApp uniqueness?",
+          "answer": "For me, it may replace the app because it is familiar."
+        },
+        {
+          "question": "WebApp makes paper obsolete?",
+          "answer": "No, I may rely on paper instead."
+        },
+        {
+          "question": "Visually related?",
+          "answer": "Yes."
+        },
+        {
+          "question": "Same brand?",
+          "answer": "Yes."
+        },
+        {
+          "question": "More giftable?",
+          "answer": "Potentially, if the recipient gets plain instructions."
+        },
+        {
+          "question": "More complete?",
+          "answer": "Not complete from a delivery standpoint yet."
+        },
+        {
+          "question": "Preferred format?",
+          "answer": "PRINTABLE ONLY"
+        },
+        {
+          "question": "Why that preference?",
+          "answer": "Familiar files feel safer than unexplained browser access."
+        }
+      ],
+      "scores": {
+        "webApp": {
+          "productClarity": 6,
+          "perceivedValue": 6,
+          "visualAppeal": 8,
+          "premiumFeel": 7,
+          "contentQuality": 7,
+          "vibeFit": 7,
+          "sweetFlirtyClarity": 6,
+          "mobileUsability": 7,
+          "replayValue": 6
+        },
+        "printable": {
+          "clarity": 7,
+          "coverAppeal": 7,
+          "visualAppeal": 7,
+          "premiumFeel": 7,
+          "readability": 8,
+          "contentQuality": 7,
+          "vibeFit": 7,
+          "colorVersion": 7,
+          "inkSaverVersion": 8,
+          "printability": 8
+        },
+        "bundle": {
+          "brandCoherence": 8,
+          "perceivedValue": 6,
+          "completeness": 6,
+          "giftability": 7,
+          "purchaseConfidence": 3,
+          "refundRisk": 7
+        }
+      },
+      "browserEvidence": {
+        "persona": "P8",
+        "configuration": {
+          "vibe": "cozy",
+          "durationMinutes": 15,
+          "intensityCeiling": "sweet"
+        },
+        "queue": [
+          {
+            "slot": "connect",
+            "itemId": "DN-CON-002"
+          },
+          {
+            "slot": "predict",
+            "itemId": "DN-PRE-001"
+          },
+          {
+            "slot": "play",
+            "itemId": "DN-PLY-004"
+          },
+          {
+            "slot": "challenge",
+            "itemId": "DN-CHA-001"
+          },
+          {
+            "slot": "closer",
+            "itemId": "DN-CLO-003"
+          }
+        ],
+        "home": "A LITTLE TIME. JUST THE TWO OF YOU.\n\nStop planning.\nStart your date.\n\nOne guided date night.\nFive activities. Zero planning.\n\nChoose your vibe, your time, and your intensity.\nWe build the night for you.\n\nBUILD YOUR DATE\n↗\n\n5 guided activities • 1 phone • 2 people\n\nYOUR NIGHT, TAKEN CARE OF\n\n01\nCONNECT\n\nA little closer\n\n02\nPREDICT\n\nHow well do you know each other?\n\n03\nPLAY\n\nMake room for a little fun\n\n04\nCHALLENGE\n\nTry something together\n\n05\nCLOSER\n\nEnd on a good note",
+        "setup": "MAKE IT YOURS\n\nWhat kind of night?\n\nThree little choices. We’ll take it from here.\n\n01 VIBE\nCozy\nSlow down. Settle in.\nFunny\nLess serious. More smiles.\nRomantic\nMake a little space for us.\nCompetitive\nA friendly spark of rivalry.\n02 TIME\n15 min\nQuick Date\n30 min\nFull Date\n\nA little guidance, not a countdown. Go at your own pace.\n\n03 INTENSITY\nSweet\nWarm, playful, easygoing\nFlirty\nA little bolder, still couple-friendly\n\nFlirty includes Sweet activities, with room for a little more spark.\n\nBUILD MY DATE\n↗\nBack to Home",
+        "steps": [
+          {
+            "slot": 0,
+            "id": "DN-CON-002",
+            "prompt": "Give today a made-up episode title. Trade the story behind your titles, including the detail that would make the trailer.",
+            "revealed": null,
+            "layout": {
+              "focus": "A little closer",
+              "height": 903,
+              "overflow": false,
+              "scrollY": 59
+            }
+          },
+          {
+            "slot": 1,
+            "id": "DN-PRE-001",
+            "prompt": "Picture your partner’s ideal end to a busy day: quiet company, a long chat or something to laugh at. Choose their answer before asking them.",
+            "revealed": "THE REVEAL\n\nSay your guesses first. Each reveal your choice and the small detail that would make it feel just right.",
+            "layout": {
+              "focus": "THE REVEALSay your guesses first. Each reveal your",
+              "height": 1234,
+              "overflow": false,
+              "scrollY": 171
+            }
+          },
+          {
+            "slot": 2,
+            "id": "DN-PLY-004",
+            "prompt": "You have a private island for one afternoon, but it is only as big as this room. Design three things you would do there together.",
+            "revealed": null,
+            "layout": {
+              "focus": "Make room for a little fun",
+              "height": 981,
+              "overflow": false,
+              "scrollY": 133
+            }
+          },
+          {
+            "slot": 3,
+            "id": "DN-CHA-001",
+            "prompt": "Show how your day felt using only your hands and face. Let your partner translate, then swap roles and finish with a gesture for how you want tonight to feel.",
+            "revealed": null,
+            "layout": {
+              "focus": "Try something together",
+              "height": 1020,
+              "overflow": false,
+              "scrollY": 133
+            }
+          },
+          {
+            "slot": 4,
+            "id": "DN-CLO-003",
+            "prompt": "Invent a short sign-off for tonight using a detail you each enjoyed. Trade the stories behind your choices, combine them into one phrase and try it in two ridiculous voices before saying goodbye.",
+            "revealed": null,
+            "layout": {
+              "focus": "End on a good note",
+              "height": 1061,
+              "overflow": false,
+              "scrollY": 0
+            }
+          }
+        ],
+        "ended": "completed"
+      },
+      "formatRatings": {
+        "printableOnly": {
+          "easeOfUse": 7,
+          "visualAppeal": 7,
+          "novelty": 6,
+          "replay": 6,
+          "giftability": 7,
+          "convenience": 7,
+          "premiumFeel": 7,
+          "perceivedValue": 7
+        },
+        "webAppOnly": {
+          "easeOfUse": 7,
+          "visualAppeal": 8,
+          "novelty": 6,
+          "replay": 6,
+          "giftability": 6,
+          "convenience": 6,
+          "premiumFeel": 7,
+          "perceivedValue": 6
+        },
+        "bundle": {
+          "easeOfUse": 5,
+          "visualAppeal": 8,
+          "novelty": 6,
+          "replay": 6,
+          "giftability": 7,
+          "convenience": 5,
+          "premiumFeel": 6,
+          "perceivedValue": 6
+        }
+      }
+    }
+  ],
+  "aggregate": {
+    "scores": {
+      "webApp": {
+        "productClarity": 7.9,
+        "perceivedValue": 6.5,
+        "visualAppeal": 8.1,
+        "premiumFeel": 7.4,
+        "contentQuality": 6.5,
+        "vibeFit": 6.9,
+        "sweetFlirtyClarity": 7.5,
+        "mobileUsability": 7.9,
+        "replayValue": 6.4
+      },
+      "printable": {
+        "clarity": 7.9,
+        "coverAppeal": 6.6,
+        "visualAppeal": 7.1,
+        "premiumFeel": 6.6,
+        "readability": 8.9,
+        "contentQuality": 6.6,
+        "vibeFit": 7,
+        "colorVersion": 7.3,
+        "inkSaverVersion": 6.8,
+        "printability": 8.9
+      },
+      "bundle": {
+        "brandCoherence": 8.1,
+        "perceivedValue": 6.5,
+        "completeness": 7.1,
+        "giftability": 6.9,
+        "purchaseConfidence": 5.6,
+        "refundRisk": 5
+      }
+    },
+    "decisions": {
+      "BUY": 3,
+      "MAYBE": 3,
+      "NOT BUY": 2
+    },
+    "prices": {
+      "webApp": {
+        "lowest": 5,
+        "median": 7.5,
+        "highest": 12
+      },
+      "printable": {
+        "lowest": 1,
+        "median": 3,
+        "highest": 5
+      },
+      "bundle": {
+        "lowest": 6,
+        "median": 8.5,
+        "highest": 15
+      }
+    },
+    "uplift": {
+      "median": 1.5,
+      "counts": {
+        "NO VALUE": 3,
+        "SMALL BONUS": 3,
+        "MEANINGFUL BONUS": 2,
+        "MAJOR VALUE ADD": 0
+      }
+    },
+    "formatPreference": {
+      "WEBAPP ONLY": 3,
+      "PRINTABLE ONLY": 1,
+      "BOTH": 4
+    }
+  },
+  "issues": [
+    {
+      "id": "I01",
+      "issue": "Delivery/access expectations are not resolved by the current Home and PDF materials",
+      "format": "BUNDLE",
+      "personasReporting": [
+        "P1",
+        "P3",
+        "P7",
+        "P8"
+      ],
+      "frequency": 4,
+      "severity": "P1",
+      "recommendedAction": "Propose a plain browser-access and file-choice handoff before launch; verify the eventual real delivery route.",
+      "threshold": "A,D",
+      "decision": "RECOMMEND CHANGE"
+    },
+    {
+      "id": "I02",
+      "issue": "Performance pressure conflicts with low-pressure use for some couples",
+      "format": "WEBAPP + PRINTABLE",
+      "personasReporting": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P7"
+      ],
+      "frequency": 5,
+      "severity": "P1",
+      "recommendedAction": "Approve a targeted review of miming, sound and voice tasks; test optional quiet ways to participate, not a broad redesign.",
+      "threshold": "A,F",
+      "decision": "RECOMMEND TARGETED REVIEW"
+    },
+    {
+      "id": "I03",
+      "issue": "Fixed Romantic paper is all Flirty and concentrates invitation performances",
+      "format": "PRINTABLE",
+      "personasReporting": [
+        "P2",
+        "P4",
+        "P7"
+      ],
+      "frequency": 3,
+      "severity": "P1",
+      "recommendedAction": "Make the fixed intensity/performative nature explicit in the offer and review low-performance wording alternatives.",
+      "threshold": "A,D,F",
+      "decision": "RECOMMEND CHANGE"
+    },
+    {
+      "id": "I04",
+      "issue": "Competitive can mean long social improv rather than challenge-game tension",
+      "format": "WEBAPP + PRINTABLE",
+      "personasReporting": [
+        "P6",
+        "P7"
+      ],
+      "frequency": 2,
+      "severity": "P2",
+      "recommendedAction": "Observe with actual game-oriented couples and show representative examples; do not add scores or rename on this panel alone.",
+      "threshold": "below A; preference-specific, current copy already says friendly rivalry",
+      "decision": "OBSERVE / NO PRODUCT CHANGE"
+    },
+    {
+      "id": "I06",
+      "issue": "Fixed four-date replay is materially narrower than the WebApp",
+      "format": "BUNDLE",
+      "personasReporting": [
+        "P2",
+        "P5",
+        "P6",
+        "P7"
+      ],
+      "frequency": 4,
+      "severity": "P2",
+      "recommendedAction": "Explain four fixed offline journeys versus dynamic combinations; retain the 20-item boundary.",
+      "threshold": "A,D for messaging only",
+      "decision": "RECOMMEND EXPECTATION CLARITY; NO INVENTORY CHANGE"
+    },
+    {
+      "id": "I07",
+      "issue": "Paid interactive advantage is not fully concrete for skeptical buyers",
+      "format": "WEBAPP + BUNDLE",
+      "personasReporting": [
+        "P2",
+        "P6",
+        "P7"
+      ],
+      "frequency": 3,
+      "severity": "P1",
+      "recommendedAction": "Plan evidence of the existing five-stage flow, replacement and randomized combinations for the eventual offer; do not redesign Home automatically.",
+      "threshold": "A,D",
+      "decision": "RECOMMEND CHANGE TO VALUE EXPLANATION"
+    },
+    {
+      "id": "I08",
+      "issue": "Four edition files need a simple paper-size/color chooser",
+      "format": "BUNDLE",
+      "personasReporting": [
+        "P3",
+        "P7",
+        "P8"
+      ],
+      "frequency": 3,
+      "severity": "P1",
+      "recommendedAction": "Propose one delivery guide explaining equivalent content, paper size and printer mode; keep all editions.",
+      "threshold": "A,D",
+      "decision": "RECOMMEND CHANGE TO HANDOFF"
+    },
+    {
+      "id": "I09",
+      "issue": "Fresh combinations may be interpreted as never-repeated content",
+      "format": "WEBAPP + BUNDLE",
+      "personasReporting": [
+        "P2",
+        "P5",
+        "P7"
+      ],
+      "frequency": 3,
+      "severity": "P2",
+      "recommendedAction": "State finite 72-item inventory and possible cross-session repeats; keep current session-local no-repeat semantics.",
+      "threshold": "A,D",
+      "decision": "RECOMMEND MESSAGING CLARITY; NO ENGINE CHANGE"
+    },
+    {
+      "id": "I10",
+      "issue": "15/30 choice may imply a timer or identical paper duration",
+      "format": "WEBAPP + BUNDLE",
+      "personasReporting": [
+        "P3",
+        "P8"
+      ],
+      "frequency": 2,
+      "severity": "P2",
+      "recommendedAction": "Observe; existing Setup says not a countdown and paper does not promise 15 minutes. Avoid exact-time launch claims.",
+      "threshold": "below A; existing mitigation present",
+      "decision": "OBSERVE / NO PRODUCT CHANGE"
+    },
+    {
+      "id": "I11",
+      "issue": "Spoken postcard asks users to read an unwritten version",
+      "format": "PRINTABLE",
+      "personasReporting": [
+        "P1",
+        "P3",
+        "P8"
+      ],
+      "frequency": 3,
+      "severity": "P2",
+      "recommendedAction": "Propose a narrowly scoped wording clarification for CLO-001 after approval; no new writing requirement.",
+      "threshold": "A",
+      "decision": "RECOMMEND COPY CLARIFICATION"
+    },
+    {
+      "id": "I12",
+      "issue": "Imagination/improv concentration may reduce novelty or fit",
+      "format": "WEBAPP + PRINTABLE",
+      "personasReporting": [
+        "P2",
+        "P4",
+        "P6",
+        "P7"
+      ],
+      "frequency": 4,
+      "severity": "P1",
+      "recommendedAction": "Review repeated mechanics against actual quiet and long-term couples; prioritize tested alternatives, not adding a new filter now.",
+      "threshold": "A",
+      "decision": "RECOMMEND TARGETED CONTENT REVIEW"
+    },
+    {
+      "id": "I13",
+      "issue": "Mild Flirty may be interpreted as stronger adult content",
+      "format": "WEBAPP + BUNDLE",
+      "personasReporting": [
+        "P2",
+        "P5",
+        "P7"
+      ],
+      "frequency": 3,
+      "severity": "P2",
+      "recommendedAction": "Use tasteful actual examples and explicitly non-explicit positioning in future offer; do not intensify content.",
+      "threshold": "A,D",
+      "decision": "RECOMMEND EXPECTATION CLARITY"
+    }
+  ],
+  "printableContentReview": [
+    {
+      "id": "DN-CON-001",
+      "vibe": "cozy",
+      "intensity": "sweet",
+      "wording": "Finish this sentence in turn: “A tiny thing that helps me unwind is…” Choose one you could share on an ordinary evening.",
+      "reviewed": true,
+      "severity": "P2",
+      "problem": "Generic completion-style comfort opener; useful for newer couples, familiar for long-term ones.",
+      "recommendation": "OBSERVE / NO CHANGE",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-PRE-001",
+      "vibe": "cozy",
+      "intensity": "sweet",
+      "wording": "Picture your partner’s ideal end to a busy day: quiet company, a long chat or something to laugh at. Choose their answer before asking them.",
+      "reviewed": true,
+      "severity": "P2",
+      "problem": "Comfort choice may be predictable after years together.",
+      "recommendation": "OBSERVE / NO CHANGE",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-PLY-007",
+      "vibe": "cozy",
+      "intensity": "sweet",
+      "wording": "Design an imaginary room made for the two of you. Build it aloud in four rounds: comfort, delight, quiet and one impossible feature; spend a little time exploring each other’s additions.",
+      "reviewed": true,
+      "severity": "P2",
+      "problem": "Four-round room design is the long centerpiece, not a quick question.",
+      "recommendation": "OBSERVE; do not advertise paper as a 15-minute equivalent",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-CHA-003",
+      "vibe": "cozy",
+      "intensity": "sweet",
+      "wording": "Create the smallest possible celebration using only your hands. Teach it to each other and perform your two versions together.",
+      "reviewed": true,
+      "severity": "P2",
+      "problem": "Small hand celebration can feel performative or low-value.",
+      "recommendation": "Targeted low-pressure review under I02; no automatic replacement",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-CLO-001",
+      "vibe": "cozy",
+      "intensity": "sweet",
+      "wording": "Make a spoken postcard from tonight: each choose a moment, a detail and a feeling you would put on it. Read your versions to each other and end with one line you would keep.",
+      "reviewed": true,
+      "severity": "P2",
+      "problem": "Spoken postcard / read your versions ambiguity.",
+      "recommendation": "Recommend copy clarification under I11",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-CON-002",
+      "vibe": "funny",
+      "intensity": "sweet",
+      "wording": "Give today a made-up episode title. Trade the story behind your titles, including the detail that would make the trailer.",
+      "reviewed": true,
+      "severity": "P3",
+      "problem": "No material defect observed. Preference boundary: Day retelling can drift toward reflection rather than comedy.",
+      "recommendation": "OBSERVE / NO CHANGE",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": false
+    },
+    {
+      "id": "DN-PRE-002",
+      "vibe": "funny",
+      "intensity": "sweet",
+      "wording": "An imaginary remote can mute hiccups, summon a perfect snack or translate animal thoughts. Which button would your partner press first?",
+      "reviewed": true,
+      "severity": "P3",
+      "problem": "No material defect observed. Preference boundary: Absurd remote may feel juvenile to humor-averse couples.",
+      "recommendation": "OBSERVE; intended Funny fit is strong",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": false
+    },
+    {
+      "id": "DN-PLY-002",
+      "vibe": "funny",
+      "intensity": "sweet",
+      "wording": "Invent a useless household gadget together. Give it a name, a ridiculous feature and a sales pitch delivered by both of you.",
+      "reviewed": true,
+      "severity": "P3",
+      "problem": "No material defect observed. Preference boundary: Invent-and-pitch asks for improv energy.",
+      "recommendation": "OBSERVE; central Funny purpose, no blanket removal",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": false
+    },
+    {
+      "id": "DN-CHA-008",
+      "vibe": "funny",
+      "intensity": "sweet",
+      "wording": "Hold three tiny debates: square pillows versus round pillows, whispering robots versus singing doors, and pockets versus capes. Each gets about a minute to make a case per round; change sides for the last one.",
+      "reviewed": true,
+      "severity": "P2",
+      "problem": "Three timed debate rounds may drag if the pair dislikes performance.",
+      "recommendation": "OBSERVE; do not force actual timers",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-CLO-003",
+      "vibe": "funny",
+      "intensity": "sweet",
+      "wording": "Invent a short sign-off for tonight using a detail you each enjoyed. Trade the stories behind your choices, combine them into one phrase and try it in two ridiculous voices before saying goodbye.",
+      "reviewed": true,
+      "severity": "P2",
+      "problem": "Ridiculous voices and saying goodbye may feel artificial.",
+      "recommendation": "Targeted review under I02; retain an intentional ending",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-CON-015",
+      "vibe": "romantic",
+      "intensity": "flirty",
+      "wording": "Trade three tiny details that make you feel drawn to your partner: a look, a habit or a way they do something ordinary. Take turns telling the small story behind each one and leave time to hear what they noticed about you.",
+      "reviewed": true,
+      "severity": "P3",
+      "problem": "No material defect observed. Preference boundary: Three attraction details assume comfort giving personal appreciation.",
+      "recommendation": "OBSERVE; marked Flirty and optional participation",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": false
+    },
+    {
+      "id": "DN-PRE-013",
+      "vibe": "romantic",
+      "intensity": "flirty",
+      "wording": "Predict your partner’s favourite kind of anticipation: a playful clue, a direct invitation or a surprise detail. Think of a tasteful example for your guess.",
+      "reviewed": true,
+      "severity": "P3",
+      "problem": "No material defect observed. Preference boundary: Anticipation can sound abstract until examples are supplied.",
+      "recommendation": "OBSERVE; current examples reduce ambiguity",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": false
+    },
+    {
+      "id": "DN-PLY-013",
+      "vibe": "romantic",
+      "intensity": "flirty",
+      "wording": "Build a scene with obvious chemistry and no romantic words. Choose a setting, improvise a short exchange, then change who makes the first move in the scene.",
+      "reviewed": true,
+      "severity": "P1",
+      "problem": "Chemistry acting is a repeated discomfort cluster for P2/P4/P7.",
+      "recommendation": "Recommend targeted paper/content review under I02/I03",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-CHA-012",
+      "vibe": "romantic",
+      "intensity": "flirty",
+      "wording": "Make an everyday phrase sound like an irresistible invitation. Each try “There is a seat here” in two different ways and let your partner choose their favourite.",
+      "reviewed": true,
+      "severity": "P1",
+      "problem": "Irresistible delivery can feel forced, especially adjacent to the scene.",
+      "recommendation": "Recommend targeted review under I03",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-CLO-006",
+      "vibe": "romantic",
+      "intensity": "flirty",
+      "wording": "Choose one small way to end with a little more spark: a warm compliment, a held gaze or an offered hand. Each suggest your preference and choose an ending you both welcome.",
+      "reviewed": true,
+      "severity": "P3",
+      "problem": "No material defect observed. Preference boundary: Held gaze or offered hand needs mutual comfort.",
+      "recommendation": "NO CHANGE: prompt already requires an ending both welcome",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": false
+    },
+    {
+      "id": "DN-CON-004",
+      "vibe": "competitive",
+      "intensity": "sweet",
+      "wording": "Choose one everyday talent you admire in each other. Explain where you would recruit your partner to use it on an imaginary two-person team.",
+      "reviewed": true,
+      "severity": "P3",
+      "problem": "No material defect observed. Preference boundary: Imaginary two-person team is more appreciation than rivalry.",
+      "recommendation": "OBSERVE; useful cooperative opening",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": false
+    },
+    {
+      "id": "DN-PRE-010",
+      "vibe": "competitive",
+      "intensity": "sweet",
+      "wording": "In three rounds, predict which your partner would rather master: cooking or storytelling, fixing things or finding things, planning or improvising. Give a reason for each guess.",
+      "reviewed": true,
+      "severity": "P2",
+      "problem": "Preference pairs are generic; demonstrating skills may suggest props.",
+      "recommendation": "OBSERVE and test comprehension before a wording change",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-PLY-010",
+      "vibe": "competitive",
+      "intensity": "sweet",
+      "wording": "Solve a mystery you invent together: why is there a tiny door behind the sofa? Alternate adding clues, discuss two possible explanations and agree on a final reveal.",
+      "reviewed": true,
+      "severity": "P2",
+      "problem": "An invented mystery has no authored solution or measurable win.",
+      "recommendation": "OBSERVE under I04; do not add scoring",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": true
+    },
+    {
+      "id": "DN-CHA-005",
+      "vibe": "competitive",
+      "intensity": "sweet",
+      "wording": "Build a sound sequence together: one person makes a sound, the other repeats it and adds one. Keep extending it at an easy pace, then try a second sequence with roles reversed.",
+      "reviewed": true,
+      "severity": "P3",
+      "problem": "No material defect observed. Preference boundary: Sound memory is a familiar mechanic and may exclude a quiet preference.",
+      "recommendation": "OBSERVE; natural turn-taking is a strength",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": false
+    },
+    {
+      "id": "DN-CLO-004",
+      "vibe": "competitive",
+      "intensity": "sweet",
+      "wording": "Each offer one tiny, no-cost date you could share at home another time. Pick the idea you are both most curious about and end by inviting each other to it.",
+      "reviewed": true,
+      "severity": "P3",
+      "problem": "No material defect observed. Preference boundary: Future invitation is simple rather than a competitive finale.",
+      "recommendation": "NO CHANGE: closure should soften rivalry, not crown a winner",
+      "layoutDefectObserved": false,
+      "webAppControlDependency": false,
+      "flagged": false
+    }
+  ],
+  "adversarialRound": [
+    {
+      "scenario": "Expected an installed app",
+      "format": "BUNDLE",
+      "evidence": "No installable app is delivered by the reviewed browser materials.",
+      "issue": "I01",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Cannot locate the WebApp after opening the bonus PDF",
+      "format": "DELIVERY",
+      "evidence": "Cover mentions the app but has no access link or handoff.",
+      "issue": "I01",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Treats an A4 PDF as the main phone app",
+      "format": "DELIVERY",
+      "evidence": "Four PDFs are present, but no received-file chooser is part of this review.",
+      "issue": "I08",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Thinks four editions contain different dates",
+      "format": "PRINTABLE",
+      "evidence": "The four editions repeat the same twenty activities.",
+      "issue": "I08",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects all 72 activities as printable cards",
+      "format": "BUNDLE",
+      "evidence": "The app advertises 72; the bonus contains twenty, which must be explicit.",
+      "issue": "I06",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects the browser app to work offline",
+      "format": "DELIVERY",
+      "evidence": "Only the PDF is established as offline; no offline app guarantee was tested.",
+      "issue": "I01",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects account/device sync",
+      "format": "WEBAPP",
+      "evidence": "The reviewed app uses browser-local session storage, not an account.",
+      "issue": "I01",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects an exact fifteen-minute timer",
+      "format": "WEBAPP",
+      "evidence": "The choice is a pacing budget; Setup already says not a countdown.",
+      "issue": "I10",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects Flirty to mean explicit adult material",
+      "format": "WEBAPP",
+      "evidence": "Actual content is tasteful and non-explicit; examples should anchor expectations.",
+      "issue": "I13",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects Sweet to exclude all acting or gestures",
+      "format": "WEBAPP",
+      "evidence": "Sweet still includes sound, miming and imaginary scenes.",
+      "issue": "I02",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects authored puzzles from Competitive",
+      "format": "WEBAPP",
+      "evidence": "PLY-010 asks the couple to invent the mystery and solution.",
+      "issue": "I04",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects never-repeated New Date sessions",
+      "format": "WEBAPP",
+      "evidence": "No cross-session history is required by the current engine.",
+      "issue": "I09",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects printed Cozy to be the same 15-minute configuration",
+      "format": "BUNDLE",
+      "evidence": "The fixed page has no time selector or exact-time promise.",
+      "issue": "I10",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Dislikes the plain ink-saver appearance",
+      "format": "PRINTABLE",
+      "evidence": "Grayscale sacrifices emotional color while keeping readability.",
+      "issue": "I08",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Prints a mismatched paper size and reduces text scale",
+      "format": "PRINTABLE",
+      "evidence": "Two actual paper sizes exist; incorrect print settings are a usage risk, not an observed layout defect.",
+      "issue": "I08",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects an editable or fillable workbook",
+      "format": "PRINTABLE",
+      "evidence": "The reviewed pack is a static activity PDF, not a form or template.",
+      "issue": "I06",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Expects Romantic paper to match Romantic/Sweet in the app",
+      "format": "BUNDLE",
+      "evidence": "The fixed Romantic page contains only Flirty selections.",
+      "issue": "I03",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Finds the chemistry scene and invitation delivery embarrassing",
+      "format": "PRINTABLE",
+      "evidence": "PLY-013 and CHA-012 concentrate overt performance.",
+      "issue": "I03",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Feels familiar preference questions do not justify a premium",
+      "format": "BUNDLE",
+      "evidence": "PRE-009 and PRE-010 may be predictable for long-term couples.",
+      "issue": "I07",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    },
+    {
+      "scenario": "Gives the bundle as a gift without knowing how the recipient accesses it",
+      "format": "DELIVERY",
+      "evidence": "Gift handoff, access duration and support have not been reviewed as an actual purchase route.",
+      "issue": "I01",
+      "status": "PLAUSIBLE HYPOTHESIS, NOT OBSERVED CUSTOMER FAILURE"
+    }
+  ],
+  "refundRisks": [
+    {
+      "risk": "WebApp access confusion",
+      "likelihood": "HIGH",
+      "impact": "HIGH",
+      "issue": "I01",
+      "note": "Would block starting if the delivery handoff is omitted; no current browser outage observed.",
+      "qualification": "Heuristic judgment only; no estimated probability or measured refund rate."
+    },
+    {
+      "risk": "Printable expectation",
+      "likelihood": "MEDIUM",
+      "impact": "HIGH",
+      "issue": "I06",
+      "note": "20 fixed offline activities must not be read as 72 printables.",
+      "qualification": "Heuristic judgment only; no estimated probability or measured refund rate."
+    },
+    {
+      "risk": "Printing expectation",
+      "likelihood": "MEDIUM",
+      "impact": "MEDIUM",
+      "issue": "I08",
+      "note": "Correct paper/settings and static/non-editable format need plain explanation.",
+      "qualification": "Heuristic judgment only; no estimated probability or measured refund rate."
+    },
+    {
+      "risk": "A4 / Letter confusion",
+      "likelihood": "MEDIUM",
+      "impact": "MEDIUM",
+      "issue": "I08",
+      "note": "Wrong choice can reduce type scale; current layouts themselves pass review.",
+      "qualification": "Heuristic judgment only; no estimated probability or measured refund rate."
+    },
+    {
+      "risk": "Color / Ink-Saver confusion",
+      "likelihood": "LOW",
+      "impact": "LOW",
+      "issue": "I08",
+      "note": "Equivalent content, different ink use; both are legible.",
+      "qualification": "Heuristic judgment only; no estimated probability or measured refund rate."
+    },
+    {
+      "risk": "Content mismatch",
+      "likelihood": "MEDIUM",
+      "impact": "HIGH",
+      "issue": "I02",
+      "note": "Performance comfort varies; particularly material for the introverted brief.",
+      "qualification": "Heuristic judgment only; no estimated probability or measured refund rate."
+    },
+    {
+      "risk": "Price/value mismatch",
+      "likelihood": "MEDIUM",
+      "impact": "HIGH",
+      "issue": "I07",
+      "note": "Do not use the synthetic dollar estimates as a recommended price.",
+      "qualification": "Heuristic judgment only; no estimated probability or measured refund rate."
+    },
+    {
+      "risk": "WebApp versus PDF expectation",
+      "likelihood": "HIGH",
+      "impact": "HIGH",
+      "issue": "I01",
+      "note": "Main deliverable and browser nature are not an actual customer handoff yet.",
+      "qualification": "Heuristic judgment only; no estimated probability or measured refund rate."
+    },
+    {
+      "risk": "Replay expectations",
+      "likelihood": "MEDIUM",
+      "impact": "MEDIUM",
+      "issue": "I09",
+      "note": "Finite inventory and fixed PDF routes are different kinds of replay.",
+      "qualification": "Heuristic judgment only; no estimated probability or measured refund rate."
+    }
+  ],
+  "topRisks": [
+    {
+      "id": "I01",
+      "issue": "Delivery/access expectations are not resolved by the current Home and PDF materials",
+      "format": "BUNDLE",
+      "personasReporting": [
+        "P1",
+        "P3",
+        "P7",
+        "P8"
+      ],
+      "frequency": 4,
+      "severity": "P1",
+      "recommendedAction": "Propose a plain browser-access and file-choice handoff before launch; verify the eventual real delivery route.",
+      "threshold": "A,D",
+      "decision": "RECOMMEND CHANGE"
+    },
+    {
+      "id": "I02",
+      "issue": "Performance pressure conflicts with low-pressure use for some couples",
+      "format": "WEBAPP + PRINTABLE",
+      "personasReporting": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P7"
+      ],
+      "frequency": 5,
+      "severity": "P1",
+      "recommendedAction": "Approve a targeted review of miming, sound and voice tasks; test optional quiet ways to participate, not a broad redesign.",
+      "threshold": "A,F",
+      "decision": "RECOMMEND TARGETED REVIEW"
+    },
+    {
+      "id": "I03",
+      "issue": "Fixed Romantic paper is all Flirty and concentrates invitation performances",
+      "format": "PRINTABLE",
+      "personasReporting": [
+        "P2",
+        "P4",
+        "P7"
+      ],
+      "frequency": 3,
+      "severity": "P1",
+      "recommendedAction": "Make the fixed intensity/performative nature explicit in the offer and review low-performance wording alternatives.",
+      "threshold": "A,D,F",
+      "decision": "RECOMMEND CHANGE"
+    },
+    {
+      "id": "I07",
+      "issue": "Paid interactive advantage is not fully concrete for skeptical buyers",
+      "format": "WEBAPP + BUNDLE",
+      "personasReporting": [
+        "P2",
+        "P6",
+        "P7"
+      ],
+      "frequency": 3,
+      "severity": "P1",
+      "recommendedAction": "Plan evidence of the existing five-stage flow, replacement and randomized combinations for the eventual offer; do not redesign Home automatically.",
+      "threshold": "A,D",
+      "decision": "RECOMMEND CHANGE TO VALUE EXPLANATION"
+    },
+    {
+      "id": "I08",
+      "issue": "Four edition files need a simple paper-size/color chooser",
+      "format": "BUNDLE",
+      "personasReporting": [
+        "P3",
+        "P7",
+        "P8"
+      ],
+      "frequency": 3,
+      "severity": "P1",
+      "recommendedAction": "Propose one delivery guide explaining equivalent content, paper size and printer mode; keep all editions.",
+      "threshold": "A,D",
+      "decision": "RECOMMEND CHANGE TO HANDOFF"
+    }
+  ],
+  "topStrengths": [
+    {
+      "strength": "Clear five-stage route and next action once the app/page is reached",
+      "personas": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ]
+    },
+    {
+      "strength": "Readable, consistent printable hierarchy without crowded pages",
+      "personas": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ]
+    },
+    {
+      "strength": "Shared brand despite sensible light-paper/dark-screen adaptation",
+      "personas": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ]
+    },
+    {
+      "strength": "Offline pages can be used without hidden app answers",
+      "personas": [
+        "P1",
+        "P3",
+        "P5",
+        "P6",
+        "P7",
+        "P8"
+      ]
+    },
+    {
+      "strength": "Dynamic queue and replacement provide utility beyond a static PDF",
+      "personas": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P7"
+      ]
+    }
+  ],
+  "decisions": {
+    "colorInkSaver": {
+      "decision": "KEEP BOTH",
+      "reason": "Color adds emotional appeal; ink-saver remains readable and useful to basic-printer users. One source minimizes maintenance. No repeated layout defect justifies removing it."
+    },
+    "paperSizes": {
+      "decision": "KEEP BOTH",
+      "reason": "Both layouts are equivalent and suit different paper standards. Simplify the delivery chooser rather than deleting a size."
+    },
+    "standalone": {
+      "usefulOffline": true,
+      "replacesCoreWebApp": false,
+      "qualification": "P8 personally prefers paper, and P2 sees redundancy; individual substitution does not reproduce the app feature set."
+    },
+    "go": "GO WITH FIXES",
+    "readyForEtsyLaunchAssets": false,
+    "releaseScope": "Product review completed; approve expectation/handoff and targeted copy review before final launch-asset claims. Not a deployment or commercial validation decision.",
+    "p0": [],
+    "productionFilesChanged": false
+  },
+  "pdfVisualScores": {
+    "coverAppeal": 6.6,
+    "pageHierarchy": 8.5,
+    "readability": 8.9,
+    "color": 7.3,
+    "inkSaver": 6.8,
+    "vibeDifferentiation": 6.5,
+    "printability": 8.9,
+    "premiumFeel": 6.6,
+    "note": "Page hierarchy and visual vibe differentiation are separate analyst judgments; other figures are arithmetic persona-score means."
+  },
+  "evidence": {
+    "head": "227ebc22704214034c5d7942109a412ae6173c4e",
+    "appVersion": "2.0.0",
+    "productionItems": 72,
+    "printedActivities": 20,
+    "pdfPages": 24,
+    "sourcePdfHashes": {
+      "output/pdf/Date-Night-Mini-Dates_A4_Color.pdf": "7ba90a0e2e41db72281c32f242516a6821f5c71316ac0901eec689be44a07b17",
+      "output/pdf/Date-Night-Mini-Dates_A4_Ink-Saver.pdf": "0ecaa710a15e75eb3fba60635e19f1157ea837db8a20cbc093b18d5f92d25251",
+      "output/pdf/Date-Night-Mini-Dates_US-Letter_Color.pdf": "18d9564f7914daeddaddf0bdeb9b4a6302d2ac275f7852a2a46302bbc12f2fa9",
+      "output/pdf/Date-Night-Mini-Dates_US-Letter_Ink-Saver.pdf": "cac7049e3f9a3a6098cdec713f040e7bf6e39e8072586f2d33c8aff7124df196"
+    },
+    "browserConsoleWarningsOrErrors": 0,
+    "browserFlows": [
+      {
+        "persona": "P1",
+        "completed": true,
+        "overflow": false
+      },
+      {
+        "persona": "P2",
+        "completed": true,
+        "overflow": false
+      },
+      {
+        "persona": "P3",
+        "completed": true,
+        "overflow": false
+      },
+      {
+        "persona": "P4",
+        "completed": true,
+        "overflow": false
+      },
+      {
+        "persona": "P5",
+        "completed": true,
+        "overflow": false
+      },
+      {
+        "persona": "P6",
+        "completed": true,
+        "overflow": false
+      },
+      {
+        "persona": "P7",
+        "completed": true,
+        "overflow": false
+      },
+      {
+        "persona": "P8",
+        "completed": true,
+        "overflow": false
+      }
+    ],
+    "integrity": {
+      "protectedFilesChecked": 101,
+      "changedFiles": [],
+      "allProductionFilesUnchanged": true
+    }
+  }
+}

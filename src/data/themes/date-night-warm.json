@@ -1,0 +1,18 @@
+{
+  "id": "date-night-warm",
+  "colors": {
+    "background": "#171916",
+    "surface": "#222620",
+    "primary": "#C6D4AE",
+    "secondary": "#D5B69B",
+    "text": "#F5F1E8",
+    "mutedText": "#B8BCAF"
+  },
+  "typography": {
+    "headingFont": "Georgia, Times New Roman, serif",
+    "bodyFont": "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+  },
+  "borderRadius": "24px",
+  "buttonStyle": "solid",
+  "cardStyle": "flat"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "Date-Night-Mini-Dates_A4_Color.pdf",
+    "pages": 6,
+    "widthPoints": 595.2756,
+    "heightPoints": 841.8898,
+    "staleWordingAbsent": true,
+    "currentWordingPresent": true,
+    "inkSaverKOnly": null
+  },
+  {
+    "file": "Date-Night-Mini-Dates_A4_Ink-Saver.pdf",
+    "pages": 6,
+    "widthPoints": 595.2756,
+    "heightPoints": 841.8898,
+    "staleWordingAbsent": true,
+    "currentWordingPresent": true,
+    "inkSaverKOnly": true
+  },
+  {
+    "file": "Date-Night-Mini-Dates_US-Letter_Color.pdf",
+    "pages": 6,
+    "widthPoints": 612.0,
+    "heightPoints": 792.0,
+    "staleWordingAbsent": true,
+    "currentWordingPresent": true,
+    "inkSaverKOnly": null
+  },
+  {
+    "file": "Date-Night-Mini-Dates_US-Letter_Ink-Saver.pdf",
+    "pages": 6,
+    "widthPoints": 612.0,
+    "heightPoints": 792.0,
+    "staleWordingAbsent": true,
+    "currentWordingPresent": true,
+    "inkSaverKOnly": true
+  }
+]

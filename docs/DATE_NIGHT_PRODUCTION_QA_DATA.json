@@ -1,0 +1,1468 @@
+[
+  {
+    "configuration": {
+      "vibe": "cozy",
+      "durationMinutes": 15,
+      "intensityCeiling": "sweet"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 7,
+      "predict": 8,
+      "play": 7,
+      "challenge": 7,
+      "closer": 3
+    },
+    "swapMin": {
+      "connect": 3,
+      "predict": 4,
+      "play": 3,
+      "challenge": 3,
+      "closer": 2
+    },
+    "swapMean": {
+      "connect": 5.1,
+      "predict": 5.5,
+      "play": 3.06,
+      "challenge": 3.74,
+      "closer": 2
+    },
+    "duration": {
+      "min": 15,
+      "max": 15,
+      "mean": 15,
+      "distribution": {
+        "15": 100
+      }
+    },
+    "uniqueQueues": 73,
+    "maxQueueRepetitions": 6,
+    "maxItemFrequency": [
+      "DN-PLY-003",
+      43
+    ],
+    "frequencies": {
+      "DN-CON-003": 39,
+      "DN-PRE-002": 25,
+      "DN-PLY-004": 24,
+      "DN-CHA-003": 28,
+      "DN-CLO-005": 32,
+      "DN-CON-002": 29,
+      "DN-PRE-003": 27,
+      "DN-PLY-003": 43,
+      "DN-CHA-001": 28,
+      "DN-CLO-003": 32,
+      "DN-CON-001": 30,
+      "DN-PRE-004": 21,
+      "DN-CLO-001": 36,
+      "DN-CHA-004": 43,
+      "DN-PLY-001": 31,
+      "DN-PRE-001": 25,
+      "DN-CON-005": 2,
+      "DN-PRE-005": 2,
+      "DN-PLY-010": 2,
+      "DN-CHA-005": 1
+    },
+    "closerFrequency": {
+      "DN-CLO-005": 32,
+      "DN-CLO-003": 32,
+      "DN-CLO-001": 36
+    },
+    "flirtyRecipes": 0,
+    "unselectedEligible": [
+      "DN-CON-007",
+      "DN-CON-009",
+      "DN-CON-010",
+      "DN-PRE-007",
+      "DN-PRE-009",
+      "DN-PRE-010",
+      "DN-PLY-005",
+      "DN-PLY-007",
+      "DN-PLY-009",
+      "DN-CHA-007",
+      "DN-CHA-009",
+      "DN-CHA-010"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "cozy",
+      "durationMinutes": 15,
+      "intensityCeiling": "flirty"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 10,
+      "predict": 11,
+      "play": 10,
+      "challenge": 9,
+      "closer": 5
+    },
+    "swapMin": {
+      "connect": 5,
+      "predict": 7,
+      "play": 6,
+      "challenge": 5,
+      "closer": 4
+    },
+    "swapMean": {
+      "connect": 7.72,
+      "predict": 8.35,
+      "play": 6.51,
+      "challenge": 5.9,
+      "closer": 4
+    },
+    "duration": {
+      "min": 15,
+      "max": 15,
+      "mean": 15,
+      "distribution": {
+        "15": 100
+      }
+    },
+    "uniqueQueues": 98,
+    "maxQueueRepetitions": 2,
+    "maxItemFrequency": [
+      "DN-CON-001",
+      32
+    ],
+    "frequencies": {
+      "DN-CON-011": 19,
+      "DN-PRE-003": 10,
+      "DN-PLY-004": 11,
+      "DN-CHA-001": 18,
+      "DN-CLO-006": 24,
+      "DN-PLY-011": 25,
+      "DN-CHA-004": 18,
+      "DN-CLO-005": 28,
+      "DN-CON-001": 32,
+      "DN-PRE-002": 19,
+      "DN-PLY-014": 13,
+      "DN-CHA-003": 15,
+      "DN-PRE-004": 18,
+      "DN-CLO-001": 16,
+      "DN-PLY-001": 27,
+      "DN-CLO-003": 10,
+      "DN-CON-002": 22,
+      "DN-CHA-014": 15,
+      "DN-PRE-015": 4,
+      "DN-CHA-011": 30,
+      "DN-CLO-008": 22,
+      "DN-PLY-003": 20,
+      "DN-CON-003": 20,
+      "DN-PRE-011": 18,
+      "DN-PRE-001": 18,
+      "DN-CHA-005": 4,
+      "DN-CON-014": 5,
+      "DN-PRE-014": 11,
+      "DN-CON-005": 2,
+      "DN-PRE-005": 2,
+      "DN-PLY-015": 3,
+      "DN-PLY-010": 1
+    },
+    "closerFrequency": {
+      "DN-CLO-006": 24,
+      "DN-CLO-005": 28,
+      "DN-CLO-001": 16,
+      "DN-CLO-003": 10,
+      "DN-CLO-008": 22
+    },
+    "flirtyRecipes": 91,
+    "unselectedEligible": [
+      "DN-CON-007",
+      "DN-CON-009",
+      "DN-CON-010",
+      "DN-CON-015",
+      "DN-PRE-007",
+      "DN-PRE-009",
+      "DN-PRE-010",
+      "DN-PLY-005",
+      "DN-PLY-007",
+      "DN-PLY-009",
+      "DN-CHA-007",
+      "DN-CHA-009",
+      "DN-CHA-010"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "cozy",
+      "durationMinutes": 30,
+      "intensityCeiling": "sweet"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 7,
+      "predict": 8,
+      "play": 7,
+      "challenge": 7,
+      "closer": 3
+    },
+    "swapMin": {
+      "connect": 6,
+      "predict": 7,
+      "play": 6,
+      "challenge": 6,
+      "closer": 2
+    },
+    "swapMean": {
+      "connect": 6,
+      "predict": 7,
+      "play": 6,
+      "challenge": 6,
+      "closer": 2
+    },
+    "duration": {
+      "min": 30,
+      "max": 30,
+      "mean": 30,
+      "distribution": {
+        "30": 100
+      }
+    },
+    "uniqueQueues": 79,
+    "maxQueueRepetitions": 3,
+    "maxItemFrequency": [
+      "DN-CLO-003",
+      38
+    ],
+    "frequencies": {
+      "DN-CON-007": 27,
+      "DN-PRE-005": 19,
+      "DN-PLY-005": 37,
+      "DN-CHA-007": 32,
+      "DN-CLO-003": 38,
+      "DN-CON-005": 20,
+      "DN-PRE-007": 26,
+      "DN-PLY-007": 38,
+      "DN-CHA-010": 37,
+      "DN-CON-009": 27,
+      "DN-PRE-009": 27,
+      "DN-PLY-009": 25,
+      "DN-CHA-009": 31,
+      "DN-CLO-001": 32,
+      "DN-PRE-010": 28,
+      "DN-CLO-005": 30,
+      "DN-CON-010": 26
+    },
+    "closerFrequency": {
+      "DN-CLO-003": 38,
+      "DN-CLO-001": 32,
+      "DN-CLO-005": 30
+    },
+    "flirtyRecipes": 0,
+    "unselectedEligible": [
+      "DN-CON-001",
+      "DN-CON-002",
+      "DN-CON-003",
+      "DN-PRE-001",
+      "DN-PRE-002",
+      "DN-PRE-003",
+      "DN-PRE-004",
+      "DN-PLY-001",
+      "DN-PLY-003",
+      "DN-PLY-004",
+      "DN-PLY-010",
+      "DN-CHA-001",
+      "DN-CHA-003",
+      "DN-CHA-004",
+      "DN-CHA-005"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "cozy",
+      "durationMinutes": 30,
+      "intensityCeiling": "flirty"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 10,
+      "predict": 11,
+      "play": 10,
+      "challenge": 9,
+      "closer": 5
+    },
+    "swapMin": {
+      "connect": 9,
+      "predict": 10,
+      "play": 9,
+      "challenge": 8,
+      "closer": 4
+    },
+    "swapMean": {
+      "connect": 9,
+      "predict": 10,
+      "play": 9,
+      "challenge": 8,
+      "closer": 4
+    },
+    "duration": {
+      "min": 30,
+      "max": 30,
+      "mean": 30,
+      "distribution": {
+        "30": 100
+      }
+    },
+    "uniqueQueues": 90,
+    "maxQueueRepetitions": 4,
+    "maxItemFrequency": [
+      "DN-CHA-007",
+      51
+    ],
+    "frequencies": {
+      "DN-CON-015": 30,
+      "DN-PRE-007": 25,
+      "DN-PLY-009": 29,
+      "DN-CHA-007": 51,
+      "DN-CLO-005": 20,
+      "DN-CON-009": 21,
+      "DN-PLY-005": 35,
+      "DN-CLO-008": 21,
+      "DN-PRE-009": 32,
+      "DN-PLY-007": 36,
+      "DN-CHA-009": 12,
+      "DN-CLO-003": 20,
+      "DN-PRE-015": 7,
+      "DN-CON-010": 22,
+      "DN-PRE-010": 26,
+      "DN-CHA-010": 37,
+      "DN-PRE-005": 10,
+      "DN-CON-014": 5,
+      "DN-CLO-006": 20,
+      "DN-CLO-001": 19,
+      "DN-CON-007": 17,
+      "DN-CON-005": 5
+    },
+    "closerFrequency": {
+      "DN-CLO-005": 20,
+      "DN-CLO-008": 21,
+      "DN-CLO-003": 20,
+      "DN-CLO-006": 20,
+      "DN-CLO-001": 19
+    },
+    "flirtyRecipes": 64,
+    "unselectedEligible": [
+      "DN-CON-001",
+      "DN-CON-002",
+      "DN-CON-003",
+      "DN-CON-011",
+      "DN-PRE-001",
+      "DN-PRE-002",
+      "DN-PRE-003",
+      "DN-PRE-004",
+      "DN-PRE-011",
+      "DN-PRE-014",
+      "DN-PLY-001",
+      "DN-PLY-003",
+      "DN-PLY-004",
+      "DN-PLY-010",
+      "DN-PLY-011",
+      "DN-PLY-014",
+      "DN-PLY-015",
+      "DN-CHA-001",
+      "DN-CHA-003",
+      "DN-CHA-004",
+      "DN-CHA-005",
+      "DN-CHA-011",
+      "DN-CHA-014"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "funny",
+      "durationMinutes": 15,
+      "intensityCeiling": "sweet"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 7,
+      "predict": 6,
+      "play": 7,
+      "challenge": 6,
+      "closer": 2
+    },
+    "swapMin": {
+      "connect": 5,
+      "predict": 2,
+      "play": 3,
+      "challenge": 2,
+      "closer": 1
+    },
+    "swapMean": {
+      "connect": 5.28,
+      "predict": 2.96,
+      "play": 3,
+      "challenge": 2.4,
+      "closer": 1
+    },
+    "duration": {
+      "min": 15,
+      "max": 15,
+      "mean": 15,
+      "distribution": {
+        "15": 100
+      }
+    },
+    "uniqueQueues": 30,
+    "maxQueueRepetitions": 6,
+    "maxItemFrequency": [
+      "DN-PRE-002",
+      68
+    ],
+    "frequencies": {
+      "DN-CON-003": 33,
+      "DN-PRE-003": 32,
+      "DN-PLY-003": 34,
+      "DN-CHA-002": 60,
+      "DN-CLO-002": 46,
+      "DN-CON-002": 39,
+      "DN-PRE-002": 68,
+      "DN-CHA-003": 40,
+      "DN-CLO-003": 54,
+      "DN-PLY-001": 34,
+      "DN-CON-004": 28,
+      "DN-PLY-002": 32
+    },
+    "closerFrequency": {
+      "DN-CLO-002": 46,
+      "DN-CLO-003": 54
+    },
+    "flirtyRecipes": 0,
+    "unselectedEligible": [
+      "DN-CON-006",
+      "DN-CON-008",
+      "DN-CON-009",
+      "DN-CON-010",
+      "DN-PRE-006",
+      "DN-PRE-008",
+      "DN-PRE-009",
+      "DN-PRE-010",
+      "DN-PLY-006",
+      "DN-PLY-008",
+      "DN-PLY-009",
+      "DN-PLY-010",
+      "DN-CHA-006",
+      "DN-CHA-008",
+      "DN-CHA-009",
+      "DN-CHA-010"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "funny",
+      "durationMinutes": 15,
+      "intensityCeiling": "flirty"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 10,
+      "predict": 9,
+      "play": 10,
+      "challenge": 10,
+      "closer": 4
+    },
+    "swapMin": {
+      "connect": 8,
+      "predict": 4,
+      "play": 5,
+      "challenge": 5,
+      "closer": 3
+    },
+    "swapMean": {
+      "connect": 8.14,
+      "predict": 6.04,
+      "play": 5.32,
+      "challenge": 6.1,
+      "closer": 3
+    },
+    "duration": {
+      "min": 15,
+      "max": 15,
+      "mean": 15,
+      "distribution": {
+        "15": 100
+      }
+    },
+    "uniqueQueues": 80,
+    "maxQueueRepetitions": 5,
+    "maxItemFrequency": [
+      "DN-PRE-002",
+      49
+    ],
+    "frequencies": {
+      "DN-CON-003": 25,
+      "DN-PRE-012": 22,
+      "DN-PLY-002": 27,
+      "DN-CHA-003": 18,
+      "DN-CLO-008": 42,
+      "DN-PRE-003": 25,
+      "DN-CON-004": 12,
+      "DN-PRE-002": 49,
+      "DN-PLY-001": 29,
+      "DN-CON-012": 37,
+      "DN-CLO-002": 21,
+      "DN-PRE-014": 4,
+      "DN-PLY-003": 30,
+      "DN-CHA-002": 48,
+      "DN-CHA-012": 31,
+      "DN-CLO-003": 22,
+      "DN-PLY-012": 12,
+      "DN-CLO-007": 15,
+      "DN-CON-002": 24,
+      "DN-CHA-014": 3,
+      "DN-PLY-014": 2,
+      "DN-CON-014": 2
+    },
+    "closerFrequency": {
+      "DN-CLO-008": 42,
+      "DN-CLO-002": 21,
+      "DN-CLO-003": 22,
+      "DN-CLO-007": 15
+    },
+    "flirtyRecipes": 84,
+    "unselectedEligible": [
+      "DN-CON-006",
+      "DN-CON-008",
+      "DN-CON-009",
+      "DN-CON-010",
+      "DN-CON-016",
+      "DN-PRE-006",
+      "DN-PRE-008",
+      "DN-PRE-009",
+      "DN-PRE-010",
+      "DN-PRE-016",
+      "DN-PLY-006",
+      "DN-PLY-008",
+      "DN-PLY-009",
+      "DN-PLY-010",
+      "DN-PLY-016",
+      "DN-CHA-006",
+      "DN-CHA-008",
+      "DN-CHA-009",
+      "DN-CHA-010",
+      "DN-CHA-015",
+      "DN-CHA-016"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "funny",
+      "durationMinutes": 30,
+      "intensityCeiling": "sweet"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 7,
+      "predict": 6,
+      "play": 7,
+      "challenge": 6,
+      "closer": 2
+    },
+    "swapMin": {
+      "connect": 6,
+      "predict": 5,
+      "play": 6,
+      "challenge": 5,
+      "closer": 1
+    },
+    "swapMean": {
+      "connect": 6,
+      "predict": 5,
+      "play": 6,
+      "challenge": 5,
+      "closer": 1
+    },
+    "duration": {
+      "min": 30,
+      "max": 30,
+      "mean": 30,
+      "distribution": {
+        "30": 100
+      }
+    },
+    "uniqueQueues": 73,
+    "maxQueueRepetitions": 3,
+    "maxItemFrequency": [
+      "DN-CLO-003",
+      53
+    ],
+    "frequencies": {
+      "DN-CON-009": 25,
+      "DN-PRE-010": 26,
+      "DN-PLY-006": 40,
+      "DN-CHA-010": 36,
+      "DN-CLO-003": 53,
+      "DN-CON-008": 31,
+      "DN-PLY-010": 10,
+      "DN-CHA-008": 25,
+      "DN-CON-006": 22,
+      "DN-PRE-009": 30,
+      "DN-PLY-009": 26,
+      "DN-CHA-009": 29,
+      "DN-CLO-002": 47,
+      "DN-CON-010": 22,
+      "DN-PRE-006": 22,
+      "DN-PLY-008": 24,
+      "DN-PRE-008": 22,
+      "DN-CHA-006": 10
+    },
+    "closerFrequency": {
+      "DN-CLO-003": 53,
+      "DN-CLO-002": 47
+    },
+    "flirtyRecipes": 0,
+    "unselectedEligible": [
+      "DN-CON-002",
+      "DN-CON-003",
+      "DN-CON-004",
+      "DN-PRE-002",
+      "DN-PRE-003",
+      "DN-PLY-001",
+      "DN-PLY-002",
+      "DN-PLY-003",
+      "DN-CHA-002",
+      "DN-CHA-003"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "funny",
+      "durationMinutes": 30,
+      "intensityCeiling": "flirty"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 10,
+      "predict": 9,
+      "play": 10,
+      "challenge": 10,
+      "closer": 4
+    },
+    "swapMin": {
+      "connect": 9,
+      "predict": 8,
+      "play": 9,
+      "challenge": 9,
+      "closer": 3
+    },
+    "swapMean": {
+      "connect": 9,
+      "predict": 8,
+      "play": 9,
+      "challenge": 9,
+      "closer": 3
+    },
+    "duration": {
+      "min": 30,
+      "max": 30,
+      "mean": 30,
+      "distribution": {
+        "30": 100
+      }
+    },
+    "uniqueQueues": 97,
+    "maxQueueRepetitions": 2,
+    "maxItemFrequency": [
+      "DN-PLY-008",
+      37
+    ],
+    "frequencies": {
+      "DN-CON-006": 15,
+      "DN-PRE-016": 17,
+      "DN-PLY-009": 31,
+      "DN-CHA-008": 24,
+      "DN-CLO-008": 14,
+      "DN-PRE-006": 10,
+      "DN-PLY-008": 37,
+      "DN-CLO-007": 36,
+      "DN-CON-008": 31,
+      "DN-CHA-016": 22,
+      "DN-CLO-003": 29,
+      "DN-PRE-010": 21,
+      "DN-CHA-006": 6,
+      "DN-CLO-002": 21,
+      "DN-PRE-008": 31,
+      "DN-CON-009": 20,
+      "DN-PLY-016": 19,
+      "DN-CON-016": 16,
+      "DN-CON-010": 14,
+      "DN-PLY-006": 11,
+      "DN-CHA-010": 29,
+      "DN-PLY-010": 2,
+      "DN-PRE-009": 15,
+      "DN-PRE-014": 6,
+      "DN-CHA-009": 15,
+      "DN-CON-014": 4,
+      "DN-CHA-015": 4
+    },
+    "closerFrequency": {
+      "DN-CLO-008": 14,
+      "DN-CLO-007": 36,
+      "DN-CLO-003": 29,
+      "DN-CLO-002": 21
+    },
+    "flirtyRecipes": 89,
+    "unselectedEligible": [
+      "DN-CON-002",
+      "DN-CON-003",
+      "DN-CON-004",
+      "DN-CON-012",
+      "DN-PRE-002",
+      "DN-PRE-003",
+      "DN-PRE-012",
+      "DN-PLY-001",
+      "DN-PLY-002",
+      "DN-PLY-003",
+      "DN-PLY-012",
+      "DN-PLY-014",
+      "DN-CHA-002",
+      "DN-CHA-003",
+      "DN-CHA-012",
+      "DN-CHA-014"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "romantic",
+      "durationMinutes": 15,
+      "intensityCeiling": "sweet"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 6,
+      "predict": 6,
+      "play": 6,
+      "challenge": 5,
+      "closer": 3
+    },
+    "swapMin": {
+      "connect": 2,
+      "predict": 3,
+      "play": 2,
+      "challenge": 2,
+      "closer": 2
+    },
+    "swapMean": {
+      "connect": 3.74,
+      "predict": 4.26,
+      "play": 2.23,
+      "challenge": 2.65,
+      "closer": 2
+    },
+    "duration": {
+      "min": 15,
+      "max": 15,
+      "mean": 15,
+      "distribution": {
+        "15": 100
+      }
+    },
+    "uniqueQueues": 55,
+    "maxQueueRepetitions": 3,
+    "maxItemFrequency": [
+      "DN-CHA-001",
+      51
+    ],
+    "frequencies": {
+      "DN-CON-003": 26,
+      "DN-PRE-003": 22,
+      "DN-PLY-004": 20,
+      "DN-CHA-004": 33,
+      "DN-CLO-004": 48,
+      "DN-CON-004": 22,
+      "DN-PRE-004": 23,
+      "DN-PLY-003": 45,
+      "DN-CHA-001": 51,
+      "DN-CLO-005": 28,
+      "DN-CLO-001": 24,
+      "DN-CON-001": 42,
+      "DN-PRE-007": 4,
+      "DN-PLY-001": 34,
+      "DN-PRE-006": 12,
+      "DN-CHA-006": 12,
+      "DN-PRE-001": 37,
+      "DN-CHA-009": 4,
+      "DN-CON-007": 4,
+      "DN-CON-009": 3,
+      "DN-PLY-006": 1,
+      "DN-CON-006": 3,
+      "DN-PRE-009": 2
+    },
+    "closerFrequency": {
+      "DN-CLO-004": 48,
+      "DN-CLO-005": 28,
+      "DN-CLO-001": 24
+    },
+    "flirtyRecipes": 0,
+    "unselectedEligible": [
+      "DN-PLY-007",
+      "DN-PLY-009",
+      "DN-CHA-007"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "romantic",
+      "durationMinutes": 15,
+      "intensityCeiling": "flirty"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 11,
+      "predict": 11,
+      "play": 11,
+      "challenge": 10,
+      "closer": 5
+    },
+    "swapMin": {
+      "connect": 5,
+      "predict": 7,
+      "play": 6,
+      "challenge": 6,
+      "closer": 4
+    },
+    "swapMean": {
+      "connect": 8.9,
+      "predict": 8.65,
+      "play": 6.94,
+      "challenge": 7.03,
+      "closer": 4
+    },
+    "duration": {
+      "min": 15,
+      "max": 15,
+      "mean": 15,
+      "distribution": {
+        "15": 100
+      }
+    },
+    "uniqueQueues": 96,
+    "maxQueueRepetitions": 2,
+    "maxItemFrequency": [
+      "DN-CLO-004",
+      33
+    ],
+    "frequencies": {
+      "DN-CON-001": 22,
+      "DN-PRE-004": 8,
+      "DN-PLY-001": 20,
+      "DN-CHA-013": 11,
+      "DN-CLO-005": 20,
+      "DN-CON-011": 18,
+      "DN-PRE-003": 17,
+      "DN-PLY-013": 8,
+      "DN-CHA-001": 27,
+      "DN-CLO-004": 33,
+      "DN-CON-003": 21,
+      "DN-PRE-001": 23,
+      "DN-CHA-012": 13,
+      "DN-PRE-011": 22,
+      "DN-CLO-001": 9,
+      "DN-CON-012": 13,
+      "DN-PLY-012": 19,
+      "DN-CHA-011": 30,
+      "DN-CLO-007": 15,
+      "DN-PLY-015": 1,
+      "DN-CLO-006": 23,
+      "DN-CON-004": 10,
+      "DN-CHA-004": 13,
+      "DN-CON-013": 13,
+      "DN-PLY-004": 10,
+      "DN-PRE-006": 7,
+      "DN-PLY-011": 24,
+      "DN-PRE-015": 2,
+      "DN-PRE-012": 13,
+      "DN-CHA-016": 2,
+      "DN-PRE-013": 7,
+      "DN-PLY-003": 18,
+      "DN-PRE-009": 1,
+      "DN-CHA-015": 3,
+      "DN-CON-016": 1,
+      "DN-CHA-006": 1,
+      "DN-CON-009": 1,
+      "DN-CON-015": 1
+    },
+    "closerFrequency": {
+      "DN-CLO-005": 20,
+      "DN-CLO-004": 33,
+      "DN-CLO-001": 9,
+      "DN-CLO-007": 15,
+      "DN-CLO-006": 23
+    },
+    "flirtyRecipes": 95,
+    "unselectedEligible": [
+      "DN-CON-006",
+      "DN-CON-007",
+      "DN-PRE-007",
+      "DN-PRE-016",
+      "DN-PLY-006",
+      "DN-PLY-007",
+      "DN-PLY-009",
+      "DN-PLY-016",
+      "DN-CHA-007",
+      "DN-CHA-009"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "romantic",
+      "durationMinutes": 30,
+      "intensityCeiling": "sweet"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 6,
+      "predict": 6,
+      "play": 6,
+      "challenge": 5,
+      "closer": 3
+    },
+    "swapMin": {
+      "connect": 5,
+      "predict": 5,
+      "play": 5,
+      "challenge": 4,
+      "closer": 2
+    },
+    "swapMean": {
+      "connect": 5,
+      "predict": 5,
+      "play": 5,
+      "challenge": 4,
+      "closer": 2
+    },
+    "duration": {
+      "min": 30,
+      "max": 30,
+      "mean": 30,
+      "distribution": {
+        "30": 100
+      }
+    },
+    "uniqueQueues": 31,
+    "maxQueueRepetitions": 7,
+    "maxItemFrequency": [
+      "DN-CHA-007",
+      67
+    ],
+    "frequencies": {
+      "DN-CON-007": 28,
+      "DN-PRE-009": 40,
+      "DN-PLY-007": 39,
+      "DN-CHA-009": 33,
+      "DN-CLO-001": 65,
+      "DN-CHA-007": 67,
+      "DN-CLO-005": 35,
+      "DN-CON-006": 40,
+      "DN-PLY-006": 16,
+      "DN-PRE-006": 16,
+      "DN-CON-009": 32,
+      "DN-PLY-009": 45,
+      "DN-PRE-007": 44
+    },
+    "closerFrequency": {
+      "DN-CLO-001": 65,
+      "DN-CLO-005": 35
+    },
+    "flirtyRecipes": 0,
+    "unselectedEligible": [
+      "DN-CON-001",
+      "DN-CON-003",
+      "DN-CON-004",
+      "DN-PRE-001",
+      "DN-PRE-003",
+      "DN-PRE-004",
+      "DN-PLY-001",
+      "DN-PLY-003",
+      "DN-PLY-004",
+      "DN-CHA-001",
+      "DN-CHA-004",
+      "DN-CHA-006",
+      "DN-CLO-004"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "romantic",
+      "durationMinutes": 30,
+      "intensityCeiling": "flirty"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 11,
+      "predict": 11,
+      "play": 11,
+      "challenge": 10,
+      "closer": 5
+    },
+    "swapMin": {
+      "connect": 10,
+      "predict": 10,
+      "play": 10,
+      "challenge": 9,
+      "closer": 4
+    },
+    "swapMean": {
+      "connect": 10,
+      "predict": 10,
+      "play": 10,
+      "challenge": 9,
+      "closer": 4
+    },
+    "duration": {
+      "min": 30,
+      "max": 30,
+      "mean": 30,
+      "distribution": {
+        "30": 100
+      }
+    },
+    "uniqueQueues": 87,
+    "maxQueueRepetitions": 3,
+    "maxItemFrequency": [
+      "DN-CHA-007",
+      57
+    ],
+    "frequencies": {
+      "DN-CON-006": 17,
+      "DN-PRE-009": 25,
+      "DN-PLY-009": 35,
+      "DN-CHA-007": 57,
+      "DN-CLO-006": 11,
+      "DN-CON-015": 20,
+      "DN-PRE-007": 30,
+      "DN-PLY-007": 41,
+      "DN-CLO-005": 8,
+      "DN-PLY-006": 14,
+      "DN-CLO-007": 42,
+      "DN-CON-007": 18,
+      "DN-CHA-016": 18,
+      "DN-CLO-001": 39,
+      "DN-CON-016": 23,
+      "DN-CHA-009": 25,
+      "DN-CON-009": 22,
+      "DN-PRE-016": 31,
+      "DN-PRE-015": 7,
+      "DN-PLY-016": 10,
+      "DN-PRE-006": 7
+    },
+    "closerFrequency": {
+      "DN-CLO-006": 11,
+      "DN-CLO-005": 8,
+      "DN-CLO-007": 42,
+      "DN-CLO-001": 39
+    },
+    "flirtyRecipes": 90,
+    "unselectedEligible": [
+      "DN-CON-001",
+      "DN-CON-003",
+      "DN-CON-004",
+      "DN-CON-011",
+      "DN-CON-012",
+      "DN-CON-013",
+      "DN-PRE-001",
+      "DN-PRE-003",
+      "DN-PRE-004",
+      "DN-PRE-011",
+      "DN-PRE-012",
+      "DN-PRE-013",
+      "DN-PLY-001",
+      "DN-PLY-003",
+      "DN-PLY-004",
+      "DN-PLY-011",
+      "DN-PLY-012",
+      "DN-PLY-013",
+      "DN-PLY-015",
+      "DN-CHA-001",
+      "DN-CHA-004",
+      "DN-CHA-006",
+      "DN-CHA-011",
+      "DN-CHA-012",
+      "DN-CHA-013",
+      "DN-CHA-015",
+      "DN-CLO-004"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "competitive",
+      "durationMinutes": 15,
+      "intensityCeiling": "sweet"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 5,
+      "predict": 6,
+      "play": 5,
+      "challenge": 6,
+      "closer": 3
+    },
+    "swapMin": {
+      "connect": 3,
+      "predict": 3,
+      "play": 2,
+      "challenge": 3,
+      "closer": 2
+    },
+    "swapMean": {
+      "connect": 3.62,
+      "predict": 3.54,
+      "play": 2.12,
+      "challenge": 3.1,
+      "closer": 2
+    },
+    "duration": {
+      "min": 15,
+      "max": 15,
+      "mean": 15,
+      "distribution": {
+        "15": 100
+      }
+    },
+    "uniqueQueues": 46,
+    "maxQueueRepetitions": 4,
+    "maxItemFrequency": [
+      "DN-PLY-002",
+      54
+    ],
+    "frequencies": {
+      "DN-CON-010": 5,
+      "DN-PRE-002": 35,
+      "DN-PLY-002": 54,
+      "DN-CHA-001": 40,
+      "DN-CLO-004": 53,
+      "DN-CON-005": 24,
+      "DN-PRE-001": 38,
+      "DN-CHA-002": 36,
+      "DN-CLO-005": 25,
+      "DN-CON-002": 38,
+      "DN-PLY-010": 6,
+      "DN-PLY-004": 40,
+      "DN-CHA-004": 19,
+      "DN-CLO-002": 22,
+      "DN-PRE-005": 8,
+      "DN-CON-004": 33,
+      "DN-PRE-004": 19,
+      "DN-CHA-005": 5
+    },
+    "closerFrequency": {
+      "DN-CLO-004": 53,
+      "DN-CLO-005": 25,
+      "DN-CLO-002": 22
+    },
+    "flirtyRecipes": 0,
+    "unselectedEligible": [
+      "DN-CON-008",
+      "DN-PRE-008",
+      "DN-PRE-010",
+      "DN-PLY-005",
+      "DN-PLY-008",
+      "DN-CHA-008",
+      "DN-CHA-010"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "competitive",
+      "durationMinutes": 15,
+      "intensityCeiling": "flirty"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 9,
+      "predict": 10,
+      "play": 9,
+      "challenge": 10,
+      "closer": 4
+    },
+    "swapMin": {
+      "connect": 7,
+      "predict": 6,
+      "play": 5,
+      "challenge": 6,
+      "closer": 3
+    },
+    "swapMean": {
+      "connect": 7.58,
+      "predict": 6.84,
+      "play": 5.95,
+      "challenge": 6.48,
+      "closer": 3
+    },
+    "duration": {
+      "min": 15,
+      "max": 15,
+      "mean": 15,
+      "distribution": {
+        "15": 100
+      }
+    },
+    "uniqueQueues": 80,
+    "maxQueueRepetitions": 5,
+    "maxItemFrequency": [
+      "DN-PLY-002",
+      53
+    ],
+    "frequencies": {
+      "DN-CON-013": 20,
+      "DN-PRE-004": 15,
+      "DN-PLY-002": 53,
+      "DN-CHA-002": 38,
+      "DN-CLO-005": 18,
+      "DN-PRE-001": 35,
+      "DN-CHA-004": 12,
+      "DN-CON-002": 42,
+      "DN-PLY-013": 8,
+      "DN-CHA-001": 38,
+      "DN-CLO-008": 25,
+      "DN-PRE-002": 37,
+      "DN-PLY-010": 4,
+      "DN-CLO-004": 51,
+      "DN-PLY-004": 23,
+      "DN-CON-004": 17,
+      "DN-CHA-014": 6,
+      "DN-CON-014": 4,
+      "DN-PRE-005": 2,
+      "DN-CON-015": 3,
+      "DN-PRE-013": 8,
+      "DN-PRE-014": 3,
+      "DN-PLY-014": 10,
+      "DN-CLO-002": 6,
+      "DN-CON-005": 10,
+      "DN-CON-016": 4,
+      "DN-CHA-013": 3,
+      "DN-CHA-015": 2,
+      "DN-PLY-015": 2,
+      "DN-CHA-005": 1
+    },
+    "closerFrequency": {
+      "DN-CLO-005": 18,
+      "DN-CLO-008": 25,
+      "DN-CLO-004": 51,
+      "DN-CLO-002": 6
+    },
+    "flirtyRecipes": 75,
+    "unselectedEligible": [
+      "DN-CON-008",
+      "DN-CON-010",
+      "DN-PRE-008",
+      "DN-PRE-010",
+      "DN-PRE-015",
+      "DN-PRE-016",
+      "DN-PLY-005",
+      "DN-PLY-008",
+      "DN-PLY-016",
+      "DN-CHA-008",
+      "DN-CHA-010",
+      "DN-CHA-016"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "competitive",
+      "durationMinutes": 30,
+      "intensityCeiling": "sweet"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 5,
+      "predict": 6,
+      "play": 5,
+      "challenge": 6,
+      "closer": 3
+    },
+    "swapMin": {
+      "connect": 4,
+      "predict": 5,
+      "play": 4,
+      "challenge": 5,
+      "closer": 2
+    },
+    "swapMean": {
+      "connect": 4,
+      "predict": 5,
+      "play": 4,
+      "challenge": 5,
+      "closer": 2
+    },
+    "duration": {
+      "min": 30,
+      "max": 30,
+      "mean": 30,
+      "distribution": {
+        "30": 100
+      }
+    },
+    "uniqueQueues": 38,
+    "maxQueueRepetitions": 9,
+    "maxItemFrequency": [
+      "DN-PLY-005",
+      51
+    ],
+    "frequencies": {
+      "DN-CON-005": 17,
+      "DN-PRE-008": 34,
+      "DN-PLY-008": 44,
+      "DN-CHA-008": 49,
+      "DN-CLO-002": 42,
+      "DN-CON-010": 36,
+      "DN-CHA-010": 39,
+      "DN-CLO-005": 36,
+      "DN-CON-008": 47,
+      "DN-PLY-010": 5,
+      "DN-PRE-005": 16,
+      "DN-PLY-005": 51,
+      "DN-PRE-010": 50,
+      "DN-CLO-004": 22,
+      "DN-CHA-005": 12
+    },
+    "closerFrequency": {
+      "DN-CLO-002": 42,
+      "DN-CLO-005": 36,
+      "DN-CLO-004": 22
+    },
+    "flirtyRecipes": 0,
+    "unselectedEligible": [
+      "DN-CON-002",
+      "DN-CON-004",
+      "DN-PRE-001",
+      "DN-PRE-002",
+      "DN-PRE-004",
+      "DN-PLY-002",
+      "DN-PLY-004",
+      "DN-CHA-001",
+      "DN-CHA-002",
+      "DN-CHA-004"
+    ]
+  },
+  {
+    "configuration": {
+      "vibe": "competitive",
+      "durationMinutes": 30,
+      "intensityCeiling": "flirty"
+    },
+    "samples": 100,
+    "failures": 0,
+    "swapFailures": 0,
+    "eligible": {
+      "connect": 9,
+      "predict": 10,
+      "play": 9,
+      "challenge": 10,
+      "closer": 4
+    },
+    "swapMin": {
+      "connect": 8,
+      "predict": 9,
+      "play": 8,
+      "challenge": 9,
+      "closer": 3
+    },
+    "swapMean": {
+      "connect": 8,
+      "predict": 9,
+      "play": 8,
+      "challenge": 9,
+      "closer": 3
+    },
+    "duration": {
+      "min": 30,
+      "max": 30,
+      "mean": 30,
+      "distribution": {
+        "30": 100
+      }
+    },
+    "uniqueQueues": 85,
+    "maxQueueRepetitions": 3,
+    "maxItemFrequency": [
+      "DN-CLO-002",
+      48
+    ],
+    "frequencies": {
+      "DN-CON-016": 18,
+      "DN-PRE-016": 23,
+      "DN-PLY-016": 24,
+      "DN-CHA-010": 46,
+      "DN-CLO-002": 48,
+      "DN-PRE-008": 25,
+      "DN-PLY-005": 39,
+      "DN-CHA-016": 12,
+      "DN-CON-015": 18,
+      "DN-CHA-008": 37,
+      "DN-CLO-008": 26,
+      "DN-CON-008": 41,
+      "DN-PRE-014": 1,
+      "DN-PRE-010": 25,
+      "DN-CLO-005": 20,
+      "DN-CON-010": 16,
+      "DN-PLY-008": 36,
+      "DN-PRE-015": 12,
+      "DN-CON-014": 3,
+      "DN-PRE-005": 14,
+      "DN-CHA-005": 2,
+      "DN-CLO-004": 6,
+      "DN-CON-005": 4,
+      "DN-CHA-015": 3,
+      "DN-PLY-015": 1
+    },
+    "closerFrequency": {
+      "DN-CLO-002": 48,
+      "DN-CLO-008": 26,
+      "DN-CLO-005": 20,
+      "DN-CLO-004": 6
+    },
+    "flirtyRecipes": 86,
+    "unselectedEligible": [
+      "DN-CON-002",
+      "DN-CON-004",
+      "DN-CON-013",
+      "DN-PRE-001",
+      "DN-PRE-002",
+      "DN-PRE-004",
+      "DN-PRE-013",
+      "DN-PLY-002",
+      "DN-PLY-004",
+      "DN-PLY-010",
+      "DN-PLY-013",
+      "DN-PLY-014",
+      "DN-CHA-001",
+      "DN-CHA-002",
+      "DN-CHA-004",
+      "DN-CHA-013",
+      "DN-CHA-014"
+    ]
+  }
+]

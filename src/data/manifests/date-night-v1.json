@@ -1,0 +1,39 @@
+{
+  "id": "date-night",
+  "name": "Date Night",
+  "version": "2.0.0",
+  "themeId": "date-night-warm",
+  "vibes": [
+    "cozy",
+    "funny",
+    "romantic",
+    "competitive"
+  ],
+  "durations": [
+    15,
+    30
+  ],
+  "allowedIntensities": [
+    "sweet",
+    "flirty"
+  ],
+  "categories": [
+    {
+      "id": "connect",
+      "label": "connect"
+    },
+    {
+      "id": "predict",
+      "label": "predict"
+    },
+    {
+      "id": "play",
+      "label": "play"
+    },
+    {
+      "id": "challenge",
+      "label": "challenge"
+    }
+  ],
+  "actions": []
+}
