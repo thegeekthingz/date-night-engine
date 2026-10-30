@@ -14,7 +14,7 @@ DATE NIGHT REPOSITORY: date-night-engine-v1
 DATE NIGHT PATH: C:\Users\italo\AppData\Local\Temp\date-night-engine-v1
 DATE NIGHT REMOTE: NONE
 DATE NIGHT BRANCH: main (new independent history)
-DATE NIGHT BASELINE COMMIT: PENDING_INITIAL_COMMIT
+DATE NIGHT BASELINE COMMIT: ff3aa4b8c5b7a1b97965863f9bf716aa40a1c01f
 PURPOSE: Independent fork for Date Night Engine V1.
 RULE: The original Spill or Sip repository must never receive Date Night implementation changes.
 
@@ -77,3 +77,5 @@ Behavior: source/content/config unchanged, engine tests and build support baseli
 Original verification: before/after HEAD, branch, refs, remotes, index/config hashes, porcelain status and 128 tracked/nonignored untracked file hashes were unchanged. Original HEAD after: 3de5d604445379b0a9b56facae9579c0cd0afad9. No new Date Night files in original. Ignored caches/dependencies/build directories were not exhaustively hashed; all test/build work ran in the new copy with independent dependency links.
 
 Phase 1 only. No Sweet/Flirty, new vibes, queue/composer/schema/content/UI/theme/persistence implementation. Phase 2 requires explicit later instruction.
+
+The exact root baseline commit ID is recorded by a documentation-only follow-up commit to avoid a self-referential commit hash. The date-night-baseline tag identifies that root commit.
