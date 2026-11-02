@@ -1,66 +1,50 @@
-# Date Night - Your WebApp and bonus printable dates
+# Date Night — Your WebApp and bonus printable dates
 
-**Draft customer handoff. Resolve every “TO BE DEFINED BEFORE LAUNCH” field before sending this document to buyers.**
+## Open START HERE first
 
-## Start with the interactive WebApp
+Your purchase is delivered as an **Etsy digital download**: one START HERE PDF and four printable PDF editions. Open **01_START_HERE_Date_Night.pdf** first, then follow its link to your main product, the **interactive browser-based Date Night WebApp**:
 
-Your main product is the **browser-based Date Night WebApp**. Open your access link in your phone, tablet or computer browser. No app-store download is required.
+**START YOUR DATE → https://date-night-game-1.netlify.app**
 
-**Start your date: https://date-night-game-1.netlify.app**
+Access the interactive Date Night experience using the link provided with your purchase.
 
-Access the interactive Date Night experience using the link provided with your purchase. Open it in your browser: no app-store download, installation, account or login is required. The app does not request a customer email.
+Open the link in your browser. No app-store download, installation, account or login is required. The app does not request a customer email. Internet is required to access or reload the WebApp. Offline WebApp mode is not offered.
 
-Progress saves in browser/device-local localStorage (`date-night-engine:v1:session`). Use the same browser and device to return to it. There is no cloud sync. Private browsing, clearing site data or browser restrictions can remove or prevent saves. Internet is required to access the hosted WebApp; offline WebApp support is not claimed. Printed bonus pages work offline.
+## Build your date
 
-Use an internet connection to open or reload the WebApp. Offline WebApp availability is not guaranteed; use the bonus PDFs when you want a dependable offline activity page. No offline WebApp support is promised by this handoff.
+Choose Cozy, Funny, Romantic or Competitive; Quick Date (about 15 minutes) or Full Date (about 30 minutes); then Sweet or Flirty. Build your date and follow Connect → Predict → Play → Challenge → Closer. Go at your own pace: these times are guidance, not a countdown or guaranteed duration.
 
-Once you have the link: open it, choose your Vibe, time and intensity, then build your date. The WebApp creates the complete Connect -> Predict -> Play -> Challenge -> Closer route before you begin.
+The WebApp includes 72 activities, dynamically composed dates, Reveal on eligible activities and same-stage Swap when an eligible replacement is available. Activities may appear again across different sessions. Flirty allows Sweet and Flirty activities; it does not guarantee a Flirty item in every date.
 
-The WebApp includes **72 activities and dynamically composed combinations**, four vibes, 15/30-minute pacing options, Sweet/Flirty, optional Reveal where available and same-stage Swap when a valid replacement is available. It saves progress in the same browser when local storage is available. Clearing browser data or privacy settings can remove a save. Do not assume that progress transfers to another device or browser.
+## Save and return
 
-## The PDFs are your bonus offline companion
+Your current session saves in the browser on the device you are using when browser storage is available. Use the same browser and device to return. There is no automatic device sync or cloud save. Clearing browser data, private browsing or storage restrictions may remove or prevent saved progress.
 
-The printable pack contains **four fixed mini-dates / 20 activities**: Cozy, Funny, Romantic and Competitive. Each has five stages on one date page. Read the prompts and Predict comparison instructions aloud together; no phone is needed once the page is printed.
+## Choose one printable edition
 
-All four PDF editions contain **the same 20 activities**, not four different content packs. They do **not** contain all 72 WebApp items. PDFs are static, not editable templates or fillable workbooks. You can print only the date page you want.
+Your bonus contains **four fixed offline mini-dates / 20 activities**: Cozy, Funny, Romantic and Competitive, each with Connect, Predict, Play, Challenge and Closer. Download the PDF for offline reading or print the date you want; no phone is needed once printed.
 
-## Which PDF should I open?
+| File | Use it for |
+| --- | --- |
+| 02_Date_Night_A4_Color.pdf | A4 paper, full-color printing |
+| 03_Date_Night_A4_Ink_Saver.pdf | A4 paper, reduced ink use |
+| 04_Date_Night_US_Letter_Color.pdf | US Letter paper, full-color printing |
+| 05_Date_Night_US_Letter_Ink_Saver.pdf | US Letter paper, reduced ink use |
 
-**If your printer uses A4 paper:** choose A4 Color or A4 Ink-Saver.
+All four editions contain the **SAME four mini-dates**. You only need the edition matching your paper and printer preference. The PDFs do not contain all 72 WebApp activities and are static, not editable or fillable. Print at Actual Size / 100% on matching paper. No cutting or special supplies are required.
 
-**If your printer uses US Letter paper:** choose US Letter Color or US Letter Ink-Saver.
+Sweet is warm, playful and easygoing; Flirty is a little bolder and non-explicit. The fixed Romantic printable uses Flirty selections; the others use Sweet selections. Some activities invite imagination or performance, so choose what suits you both.
 
-A4 and US Letter are paper sizes, not different games. Check the paper loaded in your printer. Choose Color for the best visual experience; Ink-Saver uses less ink and keeps the same activities on a white background.
+## Help
 
-| Your paper | Color | Ink-Saver |
-|---|---|---|
-| A4 (210 x 297 mm) | Date-Night-Mini-Dates_A4_Color.pdf | Date-Night-Mini-Dates_A4_Ink-Saver.pdf |
-| US Letter (8.5 x 11 in) | Date-Night-Mini-Dates_US-Letter_Color.pdf | Date-Night-Mini-Dates_US-Letter_Ink-Saver.pdf |
+Need help? Send us a message through Etsy and we’ll help you get started.
 
-You only need **one matching edition**, not all four. Print at Actual Size / 100% on the matching paper. No cutting or special supplies are needed. If you want to play on a phone, use the WebApp; the PDFs are page-shaped print files.
+## V1 delivery and access policy (owner reference)
 
-## What to expect from time, replay and Flirty
+- Support: **ETSY MESSAGES**, without response-time guarantees or a separate support email.
+- Delivery: **ETSY DIGITAL DOWNLOAD → START HERE → WebApp link + four printable files**.
+- Access: use the neutral access sentence above; no lifetime, forever, permanent access, perpetual hosting or uptime guarantee is promised.
+- Gift workflow: **NOT OFFERED AS A FEATURE IN V1**. No recipient-specific access, direct-to-recipient delivery, gift account or transfer claim. Generic “Fun for couples” wording is allowed.
+- Customer copy includes only the browser link, not technical hosting details.
 
-15 and 30 minutes are pacing choices, not countdown timers or guaranteed elapsed durations. Go at your own pace. The fixed printable dates do not have the WebApp's time selector.
-
-The WebApp has a finite 72-item library. It dynamically composes dates, so activities may reappear across different dates. The same item is not intentionally repeated within one composed session; Swap also avoids items already queued, displayed or retired in that session. This is not a promise of endless unique sessions or never seeing an activity again.
-
-Sweet is warm, playful and easygoing. Flirty is tasteful, playful, a little bolder and non-explicit. Flirty allows both Sweet and Flirty activities; it does not guarantee a Flirty item in every date. The fixed Romantic printable uses Flirty selections; the other printed dates use Sweet selections. Some activities invite imagination or performance, so choose the date that suits you both.
-
-## Launch details still to define
-
-These are unresolved business/access details, not included promises:
-
-| Detail | Status |
-|---|---|
-| Customer-facing URL | https://date-night-game-1.netlify.app |
-| Exact purchase-to-access delivery steps | TO BE DEFINED BEFORE LAUNCH |
-| Access duration and entitlement | TO BE DEFINED BEFORE LAUNCH |
-| Account/login | Not required |
-| Device sync | No cloud sync; save is browser/device-local |
-| Offline WebApp | NOT CLAIMED |
-| Subscription/payment terms, if any | TO BE DEFINED BEFORE LAUNCH; no subscription claim is made |
-| Hosting availability, continuity or permanence guarantees | TO BE DEFINED BEFORE LAUNCH |
-| Customer support route and gift handoff | TO BE DEFINED BEFORE LAUNCH |
-
-The public WebApp is live at the link above. This draft does not establish lifetime, permanent or guaranteed hosting, or unresolved commercial terms. Customer support route: **TO BE DEFINED BEFORE LAUNCH**.
+Package filenames are the approved delivery architecture. This documentation phase does not generate START HERE PDF, rename existing printable originals or upload customer files. See DATE_NIGHT_CUSTOMER_PACKAGE_MANIFEST.md for assembly requirements before publishing.
