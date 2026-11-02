@@ -6,7 +6,11 @@
 
 Your main product is the **browser-based Date Night WebApp**. Open your access link in your phone, tablet or computer browser. No app-store download is required.
 
-**Your WebApp access link: TO BE DEFINED BEFORE LAUNCH.**
+**Start your date: https://date-night-game-1.netlify.app**
+
+Access the interactive Date Night experience using the link provided with your purchase. Open it in your browser: no app-store download, installation, account or login is required. The app does not request a customer email.
+
+Progress saves in browser/device-local localStorage (`date-night-engine:v1:session`). Use the same browser and device to return to it. There is no cloud sync. Private browsing, clearing site data or browser restrictions can remove or prevent saves. Internet is required to access the hosted WebApp; offline WebApp support is not claimed. Printed bonus pages work offline.
 
 Use an internet connection to open or reload the WebApp. Offline WebApp availability is not guaranteed; use the bonus PDFs when you want a dependable offline activity page. No offline WebApp support is promised by this handoff.
 
@@ -49,13 +53,14 @@ These are unresolved business/access details, not included promises:
 
 | Detail | Status |
 |---|---|
-| Customer-facing URL and exact purchase-to-access steps | TO BE DEFINED BEFORE LAUNCH |
+| Customer-facing URL | https://date-night-game-1.netlify.app |
+| Exact purchase-to-access delivery steps | TO BE DEFINED BEFORE LAUNCH |
 | Access duration and entitlement | TO BE DEFINED BEFORE LAUNCH |
-| Whether any launch account/login is required | TO BE DEFINED BEFORE LAUNCH; no account-based feature is promised here |
-| Any device-sync offer | TO BE DEFINED BEFORE LAUNCH; device sync is not currently implemented or promised |
-| Any offline WebApp support | TO BE DEFINED BEFORE LAUNCH; not guaranteed or promised |
+| Account/login | Not required |
+| Device sync | No cloud sync; save is browser/device-local |
+| Offline WebApp | NOT CLAIMED |
 | Subscription/payment terms, if any | TO BE DEFINED BEFORE LAUNCH; no subscription claim is made |
 | Hosting availability, continuity or permanence guarantees | TO BE DEFINED BEFORE LAUNCH |
 | Customer support route and gift handoff | TO BE DEFINED BEFORE LAUNCH |
 
-Do not send buyers a localhost or private-LAN development address. The app and PDFs are the product; this draft does not establish public hosting or commercial access terms.
+The public WebApp is live at the link above. This draft does not establish lifetime, permanent or guaranteed hosting, or unresolved commercial terms. Customer support route: **TO BE DEFINED BEFORE LAUNCH**.
