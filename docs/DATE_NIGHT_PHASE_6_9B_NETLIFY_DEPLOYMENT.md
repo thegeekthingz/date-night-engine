@@ -1,6 +1,6 @@
 # Phase 6.9B — Existing production deployment QA
 
-Date: 2026-11-02 (Europe/Rome). Status: **PARTIAL — automatic deployment verification pending**. This report records observed evidence, not inferred success.
+Date: 2026-11-02 (Europe/Rome). Status: **PASS**. This report records observed evidence, not inferred success.
 
 ## Deployment identity
 
@@ -14,7 +14,9 @@ Date: 2026-11-02 (Europe/Rome). Status: **PARTIAL — automatic deployment verif
 | Production branch | main |
 | Baseline commit | 44970a85aa592a45f06e70e9e0f359517bfb09a3 |
 | Baseline deploy | 6ae849a5a09f383cf76876fd — READY, production, Vite |
-| Final deployment | Pending documentation-only push and observation |
+| Auto-deploy proof commit | e7a6db9bca3f9d285c3e645b6f3d34bf6c162fe8 |
+| Auto-deploy proof deploy | 6ae84f62aa55b0326e5e3201 — READY, published 2026-11-02 08:53:01 UTC |
+| Final deployment commit | The final documentation commit containing this report; resolve with git log -1 --format=%H -- docs/DATE_NIGHT_PHASE_6_9B_NETLIFY_DEPLOYMENT.md. Its push is checked against the published Netlify commit in the final handoff. A commit cannot contain its own hash. |
 
 Netlify connector confirms baseline commit, READY, production context and no password/SSO. Authenticated dashboard confirms linked repository, production branch main, active builds and public production visibility. No second site, import, rename, manual deploy, account/DRM or product change was performed.
 
@@ -51,7 +53,7 @@ Sanity classification: initial load GOOD; scroll GOOD; Reveal GOOD; Swap GOOD; s
 
 Owner was asked to run the full public-URL flow, Reveal/Swap/completion refresh checks, touch/layout/font/color checks, Wi-Fi/mobile data, app switching and lock/unlock. Owner response: **“tutto ok”**, followed by **“Samsung A55 browser Chrome”**. Physical smartphone QA: PASS, owner-reported, not browser emulation. No reported security warning, overflow, clipping, touch or persistence defect.
 
-Wi-Fi: owner-reported success in the bundled checklist. Mobile-data availability and whether that optional switch was actually performed are not separately confirmed: **NOT TESTED / not independently established**. Background/foreground and lock/unlock: no issue reported in the bundled checklist; exact reload behavior not supplied. Do not claim offline support or extend this evidence to untested tablets/all devices.
+Wi-Fi: owner-reported success in the bundled checklist. Mobile data: **PASS**, owner explicitly confirmed “Sì, funziona anche con dati mobili” with Wi-Fi off. Background/foreground and lock/unlock: no issue reported in the bundled checklist; exact reload behavior not supplied. Do not claim offline support or extend this evidence to untested tablets/all devices.
 
 ## Actual build settings
 
@@ -70,7 +72,7 @@ Wi-Fi: owner-reported success in the bundled checklist. Mobile-data availability
 
 ## GitHub → Netlify automatic deployment
 
-Repository connection and main are verified. Baseline deploy alone does not prove push-triggered deployment. This documentation-only commit will be pushed normally to main without force or manual build trigger. Record observed Git push → detected commit → build → READY here after the test. Product code, dependencies, content, config and printable PDFs remain unchanged.
+PASS: normal Git push advanced main from baseline to e7a6db9bca3f9d285c3e645b6f3d34bf6c162fe8. Without manual trigger, Netlify created deploy 6ae84f62aa55b0326e5e3201 for that commit, attributed to thegeekthingz on GitHub. Dashboard log: build started 2026-11-02 08:52:51 UTC, finished 08:53:00 UTC; connector: READY and published 08:53:01 UTC, production/main, manual_deploy=false. Auto publishing is on. Netlify reported all files already uploaded; JS/CSS asset filenames are identical to baseline. Post-deploy public-URL reload restored the Competitive session, then Connect → Predict, Reveal/refresh and Swap/refresh passed; zero new console/runtime/network errors. Node 24.22.2 and pnpm 10.30.3 confirmed again in auto-deploy log. Product code, dependencies, content, config and printable PDFs remain unchanged. A final documentation-only push records these results; verify its published commit without creating a recursive report-only commit loop.
 
 ## Live access facts
 
@@ -80,7 +82,7 @@ Link sharing risk: **MEDIUM**. Anyone receiving the public URL can open/forward 
 
 ## Safe rollback plan (availability inspection only)
 
-A — Previous published Netlify deploy: availability pending dashboard inspection; no restore executed and no deliberately bad deployment made.
+A — Netlify previous deploy restore: availability VERIFIED. In the existing site Deploys list, open the known-good deploy 6ae849a5a09f383cf76876fd (baseline 44970a8), confirm its Production/main identity and successful state; its detail page exposes an enabled “Publish deploy” button. The owner can use that control to republish the known-good snapshot if needed and verify the public URL. No publish/restore was clicked in this QA. A later main push can replace a restored snapshot, so reconcile Git before resuming changes. Previously published deploy retention is finite (dashboard: 90 days except protected current/latest successful branch deploys); check availability at incident time.
 
 B — Git revert and automatic deploy: from a clean main updated with origin/main, identify the bad commit with git log, run git revert <bad-commit>, review the revert and run typecheck/tests/build/diff checks, then git push origin main. Verify the new deploy is READY and serves the revert commit before retesting production. Never force-push main or reset shared history. This produces a new traceable commit. For a failed unpublished build, the previous production remains live.
 
@@ -88,10 +90,13 @@ B — Git revert and automatic deploy: from a clean main updated with origin/mai
 
 Updated DATE_NIGHT_CUSTOMER_HANDOFF.md with live URL and access facts; created DATE_NIGHT_START_HERE_COPY.md and DATE_NIGHT_LAUNCH_CLAIMS_MATRIX.md. Printable bonus is the existing four PDF editions / four fixed dates / 20 activities, not all 72 app items. No lifetime/forever/permanent, never-repeat, editable-PDF, cloud-sync or offline-WebApp claim.
 
-Unresolved: customer support route **TO BE DEFINED BEFORE LAUNCH**; exact purchase-to-delivery route; access duration/entitlement and hosting/commercial promises; gift handoff if offered. Physical tablet untested. Mobile-data test confirmation remains unavailable. These commercial decisions do not turn a passing technical check into a launch approval.
+Unresolved: customer support route **TO BE DEFINED BEFORE LAUNCH**; exact purchase-to-delivery route; access duration/entitlement and hosting/commercial promises; gift handoff if offered. Physical tablet untested. These commercial decisions do not turn a passing technical check into a launch approval.
 
-Ready for Etsy launch assets: NO until technical auto-deploy verification completes. Ready to publish listing: NO (unresolved owner decisions). No Etsy assets started.
+Ready for Etsy launch assets: YES (technical phase passed; creation requires a separate instruction). Ready to publish listing: NO (unresolved owner decisions). No Etsy assets started.
 
 ## Regression and repository state
 
 PASS: pnpm run typecheck; pnpm test (450 passed, 0 failed/skipped/cancelled); pnpm run build (Vite 8.3.0); git diff --check. Initial sandbox runs blocked subprocess creation with spawn EPERM; authorized runs succeeded. The successful local test run emitted a Vite cache-cleanup EPERM rmdir warning; this was local test tooling, not a live production console warning. Generated asset filenames match production (index-Dxe1fYEz.js / index-CLAXrJ45.css). Date Night began clean at the baseline. Original Social Game Engine already had unrelated local changes; they are outside this task and were not edited. Baseline fingerprint of its tracked diff plus status: 1AB1D2221B9336F76E3EC4F97D5EA6F2F92394348391485FA868144B8F03E566.
+
+
+Final verification policy: commit and push only these four Markdown files; confirm clean main=origin/main, published Netlify commit=HEAD, zero changes outside docs versus baseline, and unchanged Social Game Engine fingerprint. No production behavior was changed. Local browser evidence: docs/screenshots/phase-6-9b/production-swap-restored.png (ignored QA capture, not a customer asset).
